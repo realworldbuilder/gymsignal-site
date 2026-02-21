@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gymsignal — we watch the algorithm so you don't have to</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.">
+    <meta name="keywords" content="fitness, social media, AI, algorithm, trends, fitness creators, content creation">
+    <meta name="author" content="gymsignal">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gymsignal.app/">
+    <meta property="og:title" content="gymsignal — we watch the algorithm so you don't have to">
+    <meta property="og:description" content="AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.">
+    <meta property="og:image" content="https://gymsignal.app/og-image.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gymsignal.app/">
+    <meta property="twitter:title" content="gymsignal — we watch the algorithm so you don't have to">
+    <meta property="twitter:description" content="AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.">
+    <meta property="twitter:image" content="https://gymsignal.app/og-image.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💪</text></svg>">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #111111;
+            --accent-green: #10a37f;
+            --text-primary: #ffffff;
+            --text-secondary: #999999;
+            --grid-color: rgba(255, 255, 255, 0.03);
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Grid background pattern */
+        .grid-bg {
+            background-image: 
+                linear-gradient(var(--grid-color) 1px, transparent 1px),
+                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+            background-size: 50px 50px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, #0d0d0d 100%);
+            position: relative;
+        }
+
+        .hero-content {
+            text-align: center;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 8vw, 6rem);
+            font-weight: 900;
+            letter-spacing: 0.3em;
+            color: var(--accent-green);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+
+        .hero .tagline {
+            font-size: clamp(1.2rem, 3vw, 2rem);
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .hero .subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.3rem);
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            line-height: 1.5;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--accent-green);
+            color: var(--bg-primary);
+        }
+
+        .btn-primary:hover {
+            background: #0d8f6f;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 2px solid var(--text-secondary);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+        }
+
+        /* Section styling */
+        section {
+            padding: 80px 0;
+        }
+
+        section.reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s ease;
+        }
+
+        section.reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        h2 {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        /* Today's Briefing Preview */
+        .briefing {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .briefing h3 {
+            color: var(--accent-green);
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .briefing .insight {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: rgba(16, 163, 127, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-green);
+        }
+
+        .action-items {
+            list-style: none;
+        }
+
+        .action-items li {
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .action-items li::before {
+            content: "→";
+            color: var(--accent-green);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .teaser {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(90deg, transparent, rgba(16, 163, 127, 0.1), transparent);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .teaser::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: linear-gradient(transparent, var(--bg-primary));
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .feature-card {
+            background: var(--bg-secondary);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-green);
+        }
+
+        .feature-card h3 {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        .feature-card .emoji {
+            font-size: 2rem;
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .coming-soon {
+            opacity: 0.6;
+            position: relative;
+        }
+
+        .coming-soon::after {
+            content: 'coming soon';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        /* Social Proof */
+        .social-proof {
+            text-align: center;
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 40px;
+            margin: 50px 0;
+        }
+
+        .social-proof h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-weight: 600;
+            color: var(--accent-green);
+        }
+
+        /* How It Works */
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .step {
+            text-align: center;
+            position: relative;
+        }
+
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 900;
+            margin: 0 auto 20px;
+        }
+
+        .step h4 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--accent-green);
+        }
+
+        .step p {
+            color: var(--text-secondary);
+            max-width: 250px;
+            margin: 0 auto;
+        }
+
+        /* Pricing */
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .pricing-card {
+            background: var(--bg-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-green);
+        }
+
+        .pricing-card.featured {
+            border-color: var(--accent-green);
+            background: linear-gradient(135deg, var(--bg-secondary), rgba(16, 163, 127, 0.05));
+        }
+
+        .pricing-card h4 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: var(--accent-green);
+        }
+
+        .pricing-card .price {
+            font-size: 2.5rem;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 30px;
+        }
+
+        .pricing-card li {
+            padding: 8px 0;
+            color: var(--text-secondary);
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .pricing-card li::before {
+            content: "✓";
+            color: var(--accent-green);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        /* Email Capture */
+        .email-capture {
+            background: linear-gradient(135deg, var(--bg-secondary), rgba(16, 163, 127, 0.1));
+            border-radius: 16px;
+            padding: 60px 40px;
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .email-capture h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: var(--accent-green);
+        }
+
+        .email-capture p {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .email-form {
+            display: flex;
+            gap: 15px;
+            max-width: 500px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .email-input {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px 20px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .email-input:focus {
+            outline: none;
+            border-color: var(--accent-green);
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-green);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                letter-spacing: 0.2em;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .email-form {
+                flex-direction: column;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .hero {
+                padding: 20px 0;
+            }
+            
+            .briefing, .email-capture {
+                padding: 30px 20px;
+            }
+            
+            .feature-card {
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero grid-bg">
+        <div class="container">
+            <div class="hero-content">
+                <h1>GYMSIGNAL</h1>
+                <p class="tagline">we watch the algorithm so you don't have to</p>
+                <p class="subtitle">AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.</p>
+                <div class="cta-buttons">
+                    <a href="#email-signup" class="btn btn-primary">Join the Beta →</a>
+                    <a href="#briefing" class="btn btn-secondary">See Today's Briefing</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Today's Briefing Preview -->
+    <section id="briefing" class="reveal">
+        <div class="container">
+            <h2>today's algo briefing</h2>
+            <div class="briefing">
+                <h3>🔥 hero insight</h3>
+                <div class="insight">
+                    "transformation tuesday" posts are seeing 47% higher engagement velocity when posted between 6-8am EST. the algorithm is heavily favoring progress comparisons with dramatic lighting contrast.
+                </div>
+                <h3>top action items</h3>
+                <ul class="action-items">
+                    <li><strong>trending audio:</strong> "gym flow" by zyzz remixes hitting peak velocity in 18 hours</li>
+                    <li><strong>hook opportunity:</strong> "POV: you finally understand why your progress stalled" format up 340%</li>
+                    <li><strong>hashtag combo:</strong> #TransformationTuesday + #GymTok + #FitnessMotivation optimal through Thursday</li>
+                </ul>
+                <div class="teaser">
+                    <p>get the full briefing in the app →</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section class="reveal">
+        <div class="container">
+            <h2>features that actually move the needle</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3><span class="emoji">🎵</span> trending audio</h3>
+                    <p>catch sounds before they peak. early window alerts so you're never late.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="emoji">🪝</span> AI hook generator</h3>
+                    <p>fitness-specific hooks that stop the scroll. trained on what's working RIGHT NOW.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="emoji">📊</span> algo intelligence</h3>
+                    <p>we track what the algorithm rewards daily. you just execute.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="emoji">🔥</span> trend prediction</h3>
+                    <p>we don't show you what's trending. we show you what's ABOUT to trend.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="emoji">⏰</span> best time to post</h3>
+                    <p>personalized posting windows based on engagement velocity data.</p>
+                </div>
+                <div class="feature-card coming-soon">
+                    <h3><span class="emoji">🤖</span> your AI agent</h3>
+                    <p>a personal social media manager that learns your style and runs your strategy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="reveal">
+        <div class="container">
+            <div class="social-proof">
+                <h3>built for fitness creators who are tired of guessing</h3>
+                <div class="stats">
+                    <span>6 data sources monitored daily</span>
+                    <span>•</span>
+                    <span>10+ trending hooks updated weekly</span>
+                    <span>•</span>
+                    <span>174 fitness accounts tracked</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="reveal">
+        <div class="container">
+            <h2>how it works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>wake up</h4>
+                    <p>check your daily briefing</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>create</h4>
+                    <p>use AI-generated hooks, captions, and hashtag combos</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>post</h4>
+                    <p>hit publish at the optimal time with confidence</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="reveal">
+        <div class="container">
+            <h2>simple pricing</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h4>free</h4>
+                    <div class="price">$0</div>
+                    <ul>
+                        <li>weekly briefing</li>
+                        <li>3 AI generations/day</li>
+                        <li>basic trend alerts</li>
+                    </ul>
+                </div>
+                <div class="pricing-card featured">
+                    <h4>pro</h4>
+                    <div class="price">$4.99<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
+                    <ul>
+                        <li>daily briefing</li>
+                        <li>unlimited AI generations</li>
+                        <li>audio alerts</li>
+                        <li>personalized recommendations</li>
+                    </ul>
+                </div>
+                <div class="pricing-card coming-soon">
+                    <h4>autopilot</h4>
+                    <div class="price">$29.99<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
+                    <ul>
+                        <li>full AI social media manager</li>
+                        <li>automated posting</li>
+                        <li>strategy optimization</li>
+                        <li>performance analytics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Capture -->
+    <section id="email-signup" class="reveal">
+        <div class="container">
+            <div class="email-capture">
+                <h3>join the beta</h3>
+                <p>first 100 creators get pro free for life</p>
+                <form class="email-form" action="mailto:hello@gymsignal.app?subject=Beta%20Access%20Request" method="post" enctype="text/plain">
+                    <input type="email" class="email-input" placeholder="your email" required>
+                    <button type="submit" class="btn btn-primary">Get Early Access</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>built by @mind2muscle.app</div>
+                <div class="footer-links">
+                    <a href="https://instagram.com/mind2muscle.app">instagram</a>
+                    <a href="https://twitter.com/mind2muscle">twitter</a>
+                    <a href="https://github.com/mind2muscle/gymsignal">github</a>
+                </div>
+                <div>© 2026 gymsignal</div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth reveal animation on scroll
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealElementOnScroll = () => {
+            revealElements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.classList.add('visible');
+                }
+            });
+        };
+
+        window.addEventListener('scroll', revealElementOnScroll);
+        
+        // Trigger on load for elements already in view
+        document.addEventListener('DOMContentLoaded', revealElementOnScroll);
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form handling
+        document.querySelector('.email-form').addEventListener('submit', function(e) {
+            const email = this.querySelector('.email-input').value;
+            if (email) {
+                // For now, just use mailto. Later can integrate with proper form service
+                this.setAttribute('action', `mailto:hello@gymsignal.app?subject=Beta Access Request&body=Email: ${email}`);
+            }
+        });
+    </script>
+</body>
+</html>
