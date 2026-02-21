@@ -25,7 +25,8 @@
     <meta property="twitter:image" content="https://gymsignal.app/og-image.png">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💪</text></svg>">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
 
     <style>
         * {
@@ -37,7 +38,7 @@
         :root {
             --bg-primary: #0a0a0a;
             --bg-secondary: #111111;
-            --accent-green: #10a37f;
+            --accent-green: #4CAF50;
             --text-primary: #ffffff;
             --text-secondary: #999999;
             --grid-color: rgba(255, 255, 255, 0.03);
@@ -415,6 +416,11 @@
             left: 0;
         }
 
+        .pricing-card .btn {
+            margin-top: 10px;
+            width: 100%;
+        }
+
         /* Email Capture */
         .email-capture {
             background: linear-gradient(135deg, var(--bg-secondary), rgba(16, 163, 127, 0.1));
@@ -687,7 +693,7 @@
                 <p class="tagline">we watch the algorithm so you don't have to</p>
                 <p class="subtitle">AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.</p>
                 <div class="cta-buttons">
-                    <a href="#email-signup" class="btn btn-primary">Join the Beta →</a>
+                    <a href="#" class="btn btn-primary">Download on App Store</a>
                     <a href="#briefing" class="btn btn-secondary">See Today's Briefing</a>
                 </div>
             </div>
@@ -722,28 +728,36 @@
             <h2>features that actually move the needle</h2>
             <div class="features-grid">
                 <div class="feature-card">
-                    <h3><span class="emoji">🎵</span> trending audio</h3>
-                    <p>catch sounds before they peak. early window alerts so you're never late.</p>
+                    <h3><span class="emoji">📧</span> daily briefings</h3>
+                    <p>wake up to algorithmic intelligence. what's hot, what's not, what to post.</p>
                 </div>
                 <div class="feature-card">
-                    <h3><span class="emoji">🪝</span> AI hook generator</h3>
-                    <p>fitness-specific hooks that stop the scroll. trained on what's working RIGHT NOW.</p>
+                    <h3><span class="emoji">🪝</span> trending hooks</h3>
+                    <p>hooks that stop the scroll. updated weekly based on what's converting.</p>
                 </div>
                 <div class="feature-card">
-                    <h3><span class="emoji">📊</span> algo intelligence</h3>
-                    <p>we track what the algorithm rewards daily. you just execute.</p>
+                    <h3><span class="emoji">🔥</span> hot topics</h3>
+                    <p>catch fitness trends 24-48h before they explode across the platform.</p>
                 </div>
                 <div class="feature-card">
-                    <h3><span class="emoji">🔥</span> trend prediction</h3>
-                    <p>we don't show you what's trending. we show you what's ABOUT to trend.</p>
+                    <h3><span class="emoji">🔄</span> TikTok→IG pipeline</h3>
+                    <p>seamless content adaptation. one video, multiple platforms, maximum reach.</p>
                 </div>
                 <div class="feature-card">
-                    <h3><span class="emoji">⏰</span> best time to post</h3>
-                    <p>personalized posting windows based on engagement velocity data.</p>
+                    <h3><span class="emoji">🤖</span> AI content generation</h3>
+                    <p>captions, hashtags, scripts. all trained on fitness content that actually works.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="emoji">📝</span> format cheat sheet</h3>
+                    <p>templates for every post type. transformation tuesday, workout wednesday, you name it.</p>
+                </div>
+                <div class="feature-card">
+                    <h3><span class="emoji">⏰</span> posting times</h3>
+                    <p>personalized windows when your audience is most likely to engage.</p>
                 </div>
                 <div class="feature-card coming-soon">
-                    <h3><span class="emoji">🤖</span> your AI agent</h3>
-                    <p>a personal social media manager that learns your style and runs your strategy.</p>
+                    <h3><span class="emoji">🚀</span> autopilot mode</h3>
+                    <p>full AI social media manager that learns your style and runs your strategy.</p>
                 </div>
             </div>
         </div>
@@ -799,19 +813,23 @@
                     <div class="price">$0</div>
                     <ul>
                         <li>weekly briefing</li>
-                        <li>3 AI generations/day</li>
                         <li>basic trend alerts</li>
+                        <li>format cheat sheet</li>
                     </ul>
+                    <a href="#" class="btn btn-secondary">Download Free</a>
                 </div>
                 <div class="pricing-card featured">
                     <h4>pro</h4>
                     <div class="price">$4.99<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
                     <ul>
-                        <li>daily briefing</li>
-                        <li>unlimited AI generations</li>
-                        <li>audio alerts</li>
-                        <li>personalized recommendations</li>
+                        <li>daily briefings</li>
+                        <li>AI content creation</li>
+                        <li>full data access</li>
+                        <li>trending hooks</li>
+                        <li>posting time optimization</li>
+                        <li>TikTok→IG pipeline</li>
                     </ul>
+                    <a href="#" class="btn btn-primary">Get Pro</a>
                 </div>
                 <div class="pricing-card coming-soon">
                     <h4>autopilot</h4>
@@ -822,6 +840,7 @@
                         <li>strategy optimization</li>
                         <li>performance analytics</li>
                     </ul>
+                    <div style="text-align: center; color: var(--text-secondary); font-size: 0.9rem; margin-top: 20px;">coming soon</div>
                 </div>
             </div>
         </div>
