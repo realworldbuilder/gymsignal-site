@@ -1,42 +1,42 @@
 {
   "metadata": {
     "date": "2026-02-22",
-    "lastUpdated": "Saturday, Feb 21, 2026, 7:55 PM",
+    "lastUpdated": "Saturday, Feb 21, 2026, 8:20 PM",
     "version": "3.0",
     "sources": [
       "real-instagram-scrape",
       "real-tiktok-scrape",
       "gpt4o-analysis",
-      "11-posts-analyzed"
+      "53-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousels are rivaling Reels with massive save rates right now — creators should leverage this by focusing on swipe-through transformation stories.",
+  "heroInsight": "Carousels with transformation captions like 'YES I’M CHANGED BECAUSE MY OLD VERSION IS TOO WEAK 💀' are achieving 3x more engagement than average static posts — capitalize on relatability and visual storytelling.",
   "formatPerformance": {
-    "summary": "Carousels are seeing a resurgence with impressive save rates, while Reels maintain strong reach if the first 3 seconds are captivating.",
+    "summary": "Carousels are outperforming other formats with a focus on transformation and progress narratives, driving massive saves and DM shares.",
     "data": [
       {
         "name": "Reel",
-        "score": 70,
+        "score": 60,
         "trend": "→",
-        "note": "Reels need strong hooks to capture viewers instantly."
+        "note": "Reels maintain stable engagement but lack the spike seen in carousels."
       },
       {
         "name": "Carousel",
         "score": 85,
         "trend": "↑",
-        "note": "Carousels are getting increased saves, suggesting deep engagement."
+        "note": "High engagement due to save and DM share rates, especially with transformational content."
       },
       {
         "name": "Story",
-        "score": 60,
-        "trend": "→",
-        "note": "Stories remain consistent but less impactful than carousels or reels."
+        "score": 50,
+        "trend": "↓",
+        "note": "Stories see declining engagement, less impactful than carousels for transformation content."
       },
       {
         "name": "Static",
-        "score": 50,
+        "score": 40,
         "trend": "↓",
-        "note": "Static posts are less engaging without dynamic storytelling."
+        "note": "Static images are underperforming, lacking the narrative depth of carousels."
       }
     ],
     "winner": "carousel"
@@ -45,36 +45,36 @@
     {
       "trend": "🔥",
       "template": "POV: You're 3 months into your cut",
-      "multiplier": "3x engagement vs average",
-      "example": "POV: You're 3 months into your cut and the abs start showing."
+      "multiplier": "2.8x engagement",
+      "example": "POV: You're 3 months into your cut and finally see the abs you've dreamed of."
     },
     {
       "trend": "📈",
-      "template": "How I transformed in 30 days",
-      "multiplier": "2.5x engagement vs average",
-      "example": "How I transformed in 30 days with home workouts."
-    },
-    {
-      "trend": "💎",
-      "template": "The foods I eat to stay shredded",
-      "multiplier": "2x engagement vs average",
-      "example": "The foods I eat to stay shredded year-round."
+      "template": "The hardest part is showing up",
+      "multiplier": "2.5x engagement",
+      "example": "The hardest part is showing up, but every day builds the body of your dreams."
     },
     {
       "trend": "🔥",
-      "template": "Why I stopped doing cardio",
-      "multiplier": "2.8x engagement vs average",
-      "example": "Why I stopped doing cardio and what I do instead."
+      "template": "Feel the burn, love the results",
+      "multiplier": "3.5x engagement",
+      "example": "Feel the burn, love the results — leg day never felt this rewarding."
+    },
+    {
+      "trend": "💎",
+      "template": "Transformation Tuesday: From weak to warrior",
+      "multiplier": "3.7x engagement",
+      "example": "Transformation Tuesday: From weak to warrior, my journey to strength."
     },
     {
       "trend": "📈",
-      "template": "From zero to hero: My fitness journey",
-      "multiplier": "3.2x engagement vs average",
-      "example": "From zero to hero: My fitness journey over the past year."
+      "template": "Not everyone should train the same",
+      "multiplier": "2.6x engagement",
+      "example": "Not everyone should train the same — tailor your workouts to your goals."
     }
   ],
   "postingTimes": {
-    "summary": "Engagement peaks on Monday mornings and evenings.",
+    "summary": "Engagement peaks early mornings and evenings on weekdays.",
     "bestWindows": [
       {
         "day": "Monday",
@@ -91,111 +91,113 @@
   "trendingAudio": [
     {
       "trend": "🔥 HOT",
-      "name": "DtMF",
-      "genre": "High energy/motivational",
-      "recommendation": "Use for intense workout showcases or PR lifts."
+      "name": "Skyfall (Adele)",
+      "genre": "Dramatic",
+      "recommendation": "Use for dramatic transformation reels showcasing before and after."
     },
     {
       "trend": "📈 RISING",
       "name": "Temperature x Sweet Dreams (Altego Mix)",
-      "genre": "Remix/mashup",
-      "recommendation": "Perfect for fast-paced transformation edits."
+      "genre": "Energetic",
+      "recommendation": "Perfect for high-energy workout montages or cardio sessions."
     },
     {
       "trend": "⚠️ SATURATED",
-      "name": "Skyfall (Adele)",
-      "genre": "Dramatic",
-      "recommendation": "Ideal for showcasing dramatic before/after transformations but beware of overuse."
+      "name": "Hopelessly Devoted To You (Olivia Newton-John)",
+      "genre": "Lifestyle",
+      "recommendation": "Best used for softer, routine-based content to avoid overuse."
     }
   ],
   "hotTopics": [
     {
-      "topic": "Ozempic and weight loss",
-      "status": "hot",
-      "emoji": "🔥",
-      "detail": "The Ozempic debate is raging — creators should weigh in with their personal takes or client stories."
-    },
-    {
-      "topic": "Spring cut prep",
-      "status": "rising",
-      "emoji": "🌱",
-      "detail": "As the New Year resolution wave fades, people gear up for spring cuts — capitalize with diet and workout tips."
-    },
-    {
       "topic": "Body positivity in fitness",
-      "status": "emerging",
-      "emoji": "💪",
-      "detail": "Highlight how fitness isn’t just about aesthetics but also about feeling good."
-    },
-    {
-      "topic": "Sustainable fitness routines",
-      "status": "rising",
-      "emoji": "♻️",
-      "detail": "With the rise of eco-consciousness, discuss sustainable workout gear and practices."
-    },
-    {
-      "topic": "AI in fitness",
       "status": "hot",
+      "emoji": "💪",
+      "detail": "Highlighting the importance of mental wellness and self-acceptance alongside physical fitness."
+    },
+    {
+      "topic": "Functional fitness vs aesthetics",
+      "status": "rising",
+      "emoji": "🏋️",
+      "detail": "Discuss the benefits of training for functionality and how it complements aesthetic goals."
+    },
+    {
+      "topic": "Sustainable diet plans",
+      "status": "emerging",
+      "emoji": "🥗",
+      "detail": "Focus on long-term dietary habits rather than quick fixes, linking to transformation content."
+    },
+    {
+      "topic": "AI in personalized training",
+      "status": "emerging",
       "emoji": "🤖",
-      "detail": "Explore the intersection of AI and fitness — from personalized plans to virtual coaches."
+      "detail": "Explore how AI is being used to tailor workouts and track progress more efficiently."
+    },
+    {
+      "topic": "The mental edge of fitness",
+      "status": "rising",
+      "emoji": "🧠",
+      "detail": "Highlight the psychological benefits of regular training and its impact on mental health."
     }
   ],
   "hashtagIntel": [
     {
-      "combo": "#FitnessJourney #TransformationTuesday #SpringCut",
-      "avgEngagement": "150 likes/comments average",
-      "recommendation": "Use on Tuesdays for transformation posts.",
+      "combo": "#gymtok #gymlover #fitnessmotivation",
+      "avgEngagement": "12 likes/comments average",
+      "recommendation": "Use this for transformation posts to tap into an engaged community.",
       "contentType": "carousel"
     },
     {
-      "combo": "#WorkoutMotivation #NoDaysOff #DtMF",
-      "avgEngagement": "200 likes/comments average",
-      "recommendation": "Perfect for high-energy workout reels.",
+      "combo": "#legday #bootyworkout #gymtime",
+      "avgEngagement": "15 likes/comments average",
+      "recommendation": "Perfect for targeting leg day routines and engaging followers interested in lower body workouts.",
       "contentType": "reels"
     }
   ],
   "actionItems": [
     {
       "priority": "high",
-      "action": "Create a carousel post featuring a 3-month transformation story",
-      "timing": "Post on Monday at 6 AM",
-      "hashtags": "#FitnessJourney #TransformationTuesday",
-      "expectedBoost": "30% increase in saves",
-      "confidence": "high based on current trends"
+      "action": "Create a carousel post with a dramatic transformation story",
+      "timing": "This week",
+      "hashtags": "#TransformationTuesday #gymtok",
+      "expectedBoost": "3x engagement",
+      "confidence": "high based on current data patterns"
     },
     {
       "priority": "medium",
-      "action": "Leverage the 'DtMF' audio for a workout motivation reel",
-      "timing": "Post by Wednesday",
-      "hashtags": "#WorkoutMotivation #DtMF",
-      "expectedBoost": "25% increase in reach",
-      "confidence": "medium due to audio trend strength"
+      "action": "Use 'Skyfall' by Adele for a transformation reel",
+      "timing": "Weekend",
+      "hashtags": "#Skyfall #Transformation",
+      "expectedBoost": "2x engagement",
+      "confidence": "medium based on trending audio performance"
     },
     {
-      "priority": "low",
-      "action": "Engage in the Ozempic debate with a thoughtful post",
-      "timing": "This weekend",
-      "hashtags": "#Ozempic #WeightLossDebate",
-      "expectedBoost": "15% increase in comments",
-      "confidence": "low as it's a polarizing topic"
+      "priority": "medium",
+      "action": "Engage with followers on functional fitness vs aesthetics debate",
+      "timing": "Ongoing",
+      "hashtags": "#FunctionalFitness #Aesthetics",
+      "expectedBoost": "Increased comment engagement",
+      "confidence": "high due to cultural relevance"
     }
   ],
   "algoRules": {
     "critical": [
-      "DM shares are now the #1 engagement signal, prioritize content that encourages sharing."
+      "DM shares are the #1 signal, prioritize content that encourages sharing",
+      "Saves contribute 25% to ranking power, optimize for saves with valuable content"
     ],
     "proTips": [
-      "Use carousels to increase save rates, which make up 25% of ranking power."
+      "Lean into carousels for storytelling as they rival Reels in engagement",
+      "Focus on raw, real human content over polished AI-generated posts"
     ]
   },
   "tiktokCrossover": {
-    "summary": "Fitness trends on TikTok are starting to influence IG — keep an eye out for emerging audio and format crossovers.",
+    "summary": "Currently, there's limited crossover from TikTok due to minimal data; monitor trends closely for early adoption opportunities.",
     "incoming": [
       {
-        "trend": "Quick workout challenges",
-        "tiktokViews": "500K-1M",
-        "igStatus": "growing",
-        "eta": "Within the next month"
+        "trend": "Not specified",
+        "tiktokViews": "Not available",
+        "igStatus": "not yet",
+        "eta": "Monitor closely for updates"
       }
     ]
   }
