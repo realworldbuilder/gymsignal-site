@@ -1,0 +1,1317 @@
+{
+  "metadata": {
+    "generated": 1771719326149,
+    "date": "2026-02-22",
+    "lastUpdated": "Saturday, Feb 21, 2026, 7:15 PM",
+    "version": "2.0",
+    "sources": [
+      "apify-instagram-scraper",
+      "apify-tiktok-scraper",
+      "real-time-data-pipeline",
+      "authentic-fitness-content",
+      "83-post-analysis"
+    ]
+  },
+  "heroInsight": "video content is dominating — 4288675% better engagement than other formats with real data showing 171551 average engagement",
+  "formatPerformance": {
+    "data": [
+      {
+        "name": "Reel",
+        "score": 100,
+        "trend": "↑",
+        "details": "3 posts analyzed with 171551 avg engagement - top performer!"
+      },
+      {
+        "name": "Carousel",
+        "score": 30,
+        "trend": "→",
+        "details": "No data available in current scrape"
+      },
+      {
+        "name": "Story",
+        "score": 30,
+        "trend": "→",
+        "details": "No data available in current scrape"
+      },
+      {
+        "name": "Static",
+        "score": 10,
+        "trend": "↓",
+        "details": "80 posts analyzed with 4 avg engagement - underperforming"
+      }
+    ],
+    "winner": "reel",
+    "summary": "Reel posts leading with 100% performance score"
+  },
+  "trendingHooks": [
+    {
+      "rank": 1,
+      "template": "Why I stopped [X]",
+      "example": "Why I stopped doing HIIT every day",
+      "multiplier": "4.1x",
+      "trend": "🔥",
+      "status": "hot"
+    },
+    {
+      "rank": 2,
+      "template": "I tried [X] for 30 days",
+      "example": "I tried only compound movements for 30 days",
+      "multiplier": "3.2x",
+      "trend": "🔥",
+      "status": "hot"
+    }
+  ],
+  "postingTimes": {
+    "heatmap": [
+      {
+        "day": 0,
+        "hour": 0,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 1,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 2,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 3,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 4,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 5,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 6,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 7,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 8,
+        "intensity": 45,
+        "optimal": true
+      },
+      {
+        "day": 0,
+        "hour": 9,
+        "intensity": 45,
+        "optimal": true
+      },
+      {
+        "day": 0,
+        "hour": 10,
+        "intensity": 49,
+        "optimal": true
+      },
+      {
+        "day": 0,
+        "hour": 11,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 12,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 13,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 14,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 15,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 16,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 17,
+        "intensity": 37,
+        "optimal": true
+      },
+      {
+        "day": 0,
+        "hour": 18,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 19,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 20,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 21,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 22,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 23,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 0,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 1,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 2,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 3,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 4,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 5,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 6,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 7,
+        "intensity": 42,
+        "optimal": true
+      },
+      {
+        "day": 1,
+        "hour": 8,
+        "intensity": 47,
+        "optimal": true
+      },
+      {
+        "day": 1,
+        "hour": 9,
+        "intensity": 40,
+        "optimal": true
+      },
+      {
+        "day": 1,
+        "hour": 10,
+        "intensity": 43,
+        "optimal": true
+      },
+      {
+        "day": 1,
+        "hour": 11,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 12,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 13,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 14,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 15,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 16,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 17,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 18,
+        "intensity": 37,
+        "optimal": true
+      },
+      {
+        "day": 1,
+        "hour": 19,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 20,
+        "intensity": 40,
+        "optimal": true
+      },
+      {
+        "day": 1,
+        "hour": 21,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 22,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 23,
+        "intensity": 17,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 0,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 1,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 2,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 3,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 4,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 5,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 6,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 7,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 8,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 9,
+        "intensity": 44,
+        "optimal": true
+      },
+      {
+        "day": 2,
+        "hour": 10,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 11,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 12,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 13,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 14,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 15,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 16,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 17,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 18,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 19,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 20,
+        "intensity": 37,
+        "optimal": true
+      },
+      {
+        "day": 2,
+        "hour": 21,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 22,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 23,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 0,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 1,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 2,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 3,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 4,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 5,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 6,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 7,
+        "intensity": 49,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 8,
+        "intensity": 36,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 9,
+        "intensity": 45,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 10,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 11,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 12,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 13,
+        "intensity": 36,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 14,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 15,
+        "intensity": 39,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 16,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 17,
+        "intensity": 39,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 18,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 19,
+        "intensity": 37,
+        "optimal": true
+      },
+      {
+        "day": 3,
+        "hour": 20,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 21,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 22,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 23,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 0,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 1,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 2,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 3,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 4,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 5,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 6,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 7,
+        "intensity": 49,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 8,
+        "intensity": 43,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 9,
+        "intensity": 46,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 10,
+        "intensity": 41,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 11,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 12,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 13,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 14,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 15,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 16,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 17,
+        "intensity": 48,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 18,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 19,
+        "intensity": 45,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 20,
+        "intensity": 39,
+        "optimal": true
+      },
+      {
+        "day": 4,
+        "hour": 21,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 22,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 23,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 0,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 1,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 2,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 3,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 4,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 5,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 6,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 7,
+        "intensity": 44,
+        "optimal": true
+      },
+      {
+        "day": 5,
+        "hour": 8,
+        "intensity": 48,
+        "optimal": true
+      },
+      {
+        "day": 5,
+        "hour": 9,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 5,
+        "hour": 10,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 11,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 12,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 13,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 14,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 15,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 16,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 17,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 18,
+        "intensity": 36,
+        "optimal": true
+      },
+      {
+        "day": 5,
+        "hour": 19,
+        "intensity": 36,
+        "optimal": true
+      },
+      {
+        "day": 5,
+        "hour": 20,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 21,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 22,
+        "intensity": 24,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 23,
+        "intensity": 29,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 0,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 1,
+        "intensity": 24,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 2,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 3,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 4,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 5,
+        "intensity": 22,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 6,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 7,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 8,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 9,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 10,
+        "intensity": 36,
+        "optimal": true
+      },
+      {
+        "day": 6,
+        "hour": 11,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 12,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 13,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 14,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 15,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 16,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 17,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 18,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 6,
+        "hour": 19,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 6,
+        "hour": 20,
+        "intensity": 38,
+        "optimal": true
+      },
+      {
+        "day": 6,
+        "hour": 21,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 22,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 23,
+        "intensity": 27,
+        "optimal": false
+      }
+    ],
+    "bestWindows": [
+      {
+        "day": "Sunday",
+        "hours": [
+          9,
+          10,
+          18,
+          19,
+          20
+        ],
+        "boost": "170%"
+      },
+      {
+        "day": "Saturday",
+        "hours": [
+          8,
+          9,
+          17,
+          18
+        ],
+        "boost": "160%"
+      },
+      {
+        "day": "Thursday",
+        "hours": [
+          7,
+          18,
+          19
+        ],
+        "boost": "150%"
+      }
+    ],
+    "summary": "Peak engagement: Sundays at 6-8pm"
+  },
+  "trendingAudio": [
+    {
+      "name": "original sound",
+      "trend": "🔥",
+      "genre": "confident",
+      "saturation": "medium",
+      "recommendation": "viral potential"
+    }
+  ],
+  "hotTopics": [
+    {
+      "topic": "[object  object]",
+      "status": "hot",
+      "emoji": "🔥",
+      "score": 100,
+      "momentum": "🔥"
+    },
+    {
+      "topic": "classicphysique",
+      "status": "stable",
+      "emoji": "→",
+      "score": 1,
+      "momentum": "→"
+    },
+    {
+      "topic": "treino",
+      "status": "stable",
+      "emoji": "→",
+      "score": 1,
+      "momentum": "→"
+    },
+    {
+      "topic": "gymtok",
+      "status": "rising",
+      "emoji": "📈",
+      "score": 1,
+      "momentum": "↗"
+    },
+    {
+      "topic": "lifestyle",
+      "status": "rising",
+      "emoji": "📈",
+      "score": 1,
+      "momentum": "↗"
+    },
+    {
+      "topic": "gym",
+      "status": "stable",
+      "emoji": "→",
+      "score": 100,
+      "momentum": "→"
+    },
+    {
+      "topic": "fitness",
+      "status": "stable",
+      "emoji": "→",
+      "score": 100,
+      "momentum": "→"
+    },
+    {
+      "topic": "motivation",
+      "status": "stable",
+      "emoji": "→",
+      "score": 100,
+      "momentum": "→"
+    }
+  ],
+  "hashtagIntel": [
+    {
+      "combo": "#[object Object] #fitness #gym #workout",
+      "avgEngagement": "179.4k",
+      "saturation": "high",
+      "recommendation": "oversaturated",
+      "contentType": "general"
+    },
+    {
+      "combo": "#classicphysique #fitness #gym #workout",
+      "avgEngagement": "0.0k",
+      "saturation": "low",
+      "recommendation": "solid baseline",
+      "contentType": "general"
+    },
+    {
+      "combo": "#treino #fitness #gym #workout",
+      "avgEngagement": "0.0k",
+      "saturation": "medium",
+      "recommendation": "solid baseline",
+      "contentType": "general"
+    },
+    {
+      "combo": "#gymtok #fitness #gym #workout",
+      "avgEngagement": "0.0k",
+      "saturation": "high",
+      "recommendation": "oversaturated",
+      "contentType": "general"
+    },
+    {
+      "combo": "#lifestyle #fitness #gym #workout",
+      "avgEngagement": "0.0k",
+      "saturation": "medium",
+      "recommendation": "solid baseline",
+      "contentType": "general"
+    }
+  ],
+  "weeklyTrend": {
+    "data": [
+      {
+        "date": "2026-02-16",
+        "day": "Sun",
+        "engagement": 126,
+        "isWeekend": true
+      },
+      {
+        "date": "2026-02-17",
+        "day": "Mon",
+        "engagement": 95,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-02-18",
+        "day": "Tue",
+        "engagement": 100,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-02-19",
+        "day": "Wed",
+        "engagement": 102,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-02-20",
+        "day": "Thu",
+        "engagement": 92,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-02-21",
+        "day": "Fri",
+        "engagement": 103,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-02-22",
+        "day": "Sat",
+        "engagement": 150,
+        "isWeekend": true
+      }
+    ],
+    "trend": "stable",
+    "summary": "fitness content engagement holding steady with weekend spikes"
+  },
+  "actionItems": [
+    {
+      "priority": "high",
+      "action": "Create more video content to maximize engagement",
+      "timing": "next post",
+      "hashtags": "#fitness #gym #workout",
+      "expectedBoost": "3x engagement",
+      "confidence": "medium"
+    },
+    {
+      "priority": "medium",
+      "action": "Include #[object Object] in your next post",
+      "timing": "this week",
+      "hashtags": "#fitness #gym #workout",
+      "expectedBoost": "2.5x engagement",
+      "confidence": "high"
+    },
+    {
+      "priority": "low",
+      "action": "Consider using this audio for TikTok content",
+      "timing": "this week",
+      "hashtags": "#fitness #gym #workout",
+      "expectedBoost": "2x engagement",
+      "confidence": "high"
+    }
+  ],
+  "algoRules": {
+    "critical": [
+      "first 3 seconds = everything. 60%+ viewers past 3s = algo pushes wider",
+      "DM shares > saves > comments > likes (in order of algo weight)",
+      "CONSISTENCY > format choice in 2026. same days, same windows, same niche identity",
+      "no tiktok/capcut watermarks — auto-disqualified from explore + reels tab",
+      "carousels getting boosted reach again — not just reels anymore",
+      "original content gets 40-60% more distribution than reposts (verified by real data)",
+      "clarity beats creativity: 3-second profile identity test determines follow rate"
+    ],
+    "proTips": [
+      "ask yourself: 'would someone DM this to a friend?' if yes, the algo rewards you",
+      "keep reels 15-30 sec for highest completion rate",
+      "respond to comments in first hour — conversation depth > comment count",
+      "mix hashtag sizes based on real performance data",
+      "posting patterns > posting times. same days, same windows, every week.",
+      "slower targeted growth > fast spike tools. engagement quality matters in 2026"
+    ]
+  },
+  "tiktokCrossover": {
+    "summary": "what starts on tiktok hits IG 1-2 weeks later. here's what's about to cross over.",
+    "incoming": [
+      {
+        "trend": "original sound",
+        "tiktokViews": "300K views",
+        "igStatus": "early",
+        "eta": "happening NOW"
+      }
+    ]
+  }
+}
