@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymSignal — Intelligence Architecture</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: #0a0a0a; color: #fff; padding: 40px 20px; }
+        .container { max-width: 900px; margin: 0 auto; }
+        
+        h1 { font-size: 2rem; margin-bottom: 8px; }
+        .subtitle { color: #666; font-size: 1.1rem; margin-bottom: 60px; }
+        
+        .flow { position: relative; }
+        
+        .layer {
+            position: relative;
+            margin-bottom: 24px;
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 28px 28px;
+            background: #111;
+            transition: border-color 0.3s;
+        }
+        .layer:hover { border-color: rgba(16,163,127,0.4); }
+        
+        .layer-num {
+            position: absolute;
+            top: -14px;
+            left: 24px;
+            background: #10a37f;
+            color: #000;
+            font-weight: 900;
+            font-size: 0.75rem;
+            padding: 4px 12px;
+            border-radius: 20px;
+            letter-spacing: 0.1em;
+        }
+        
+        .layer h2 { font-size: 1.3rem; margin-bottom: 6px; margin-top: 4px; }
+        .layer .desc { color: #999; font-size: 0.95rem; line-height: 1.6; margin-bottom: 16px; }
+        
+        .data-points {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag {
+            background: rgba(255,255,255,0.06);
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            color: #ccc;
+            font-weight: 500;
+        }
+        .tag.highlight { background: rgba(16,163,127,0.12); color: #10a37f; }
+        
+        .connector {
+            display: flex;
+            justify-content: center;
+            padding: 4px 0;
+            color: #333;
+            font-size: 1.5rem;
+        }
+        
+        .output-box {
+            border: 2px solid #10a37f;
+            border-radius: 16px;
+            padding: 32px;
+            background: linear-gradient(135deg, #111, rgba(16,163,127,0.05));
+            margin-top: 24px;
+        }
+        .output-box h2 { color: #10a37f; font-size: 1.4rem; margin-bottom: 16px; }
+        
+        .output-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .output-item {
+            background: rgba(255,255,255,0.04);
+            padding: 16px;
+            border-radius: 10px;
+        }
+        .output-item .emoji { font-size: 1.4rem; margin-bottom: 6px; display: block; }
+        .output-item h4 { font-size: 0.9rem; margin-bottom: 4px; }
+        .output-item p { color: #666; font-size: 0.8rem; }
+        
+        .stats-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin: 50px 0 30px;
+            padding: 30px 0;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+        }
+        .stat-block { text-align: center; }
+        .stat-block .num { font-size: 2rem; font-weight: 900; color: #10a37f; }
+        .stat-block .label { font-size: 0.75rem; color: #555; text-transform: uppercase; letter-spacing: 0.1em; }
+
+        .loop-arrow {
+            text-align: center;
+            padding: 20px;
+            color: #10a37f;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .loop-arrow span { font-size: 2rem; display: block; margin-bottom: 4px; }
+        
+        @media (max-width: 768px) {
+            .layer { padding: 22px 18px; }
+            .output-grid { grid-template-columns: 1fr 1fr; }
+            .stats-row { gap: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>intelligence architecture</h1>
+        <p class="subtitle">how GymSignal builds daily fitness creator intelligence</p>
+
+        <div class="stats-row">
+            <div class="stat-block"><div class="num">1000+</div><div class="label">posts scraped daily</div></div>
+            <div class="stat-block"><div class="num">10</div><div class="label">web sources</div></div>
+            <div class="stat-block"><div class="num">2</div><div class="label">platforms</div></div>
+            <div class="stat-block"><div class="num">5:30am</div><div class="label">fresh daily</div></div>
+        </div>
+
+        <div class="flow">
+            <!-- Layer 5: Feedback Loop (shown first since it feeds into scraping) -->
+            <div class="layer">
+                <div class="layer-num">LAYER 5 · FEEDBACK LOOP</div>
+                <h2>🔄 Smart Target Selection</h2>
+                <p class="desc">Yesterday's intelligence output shapes today's data collection. Hot topics become hashtags. Emerging trends get deeper scraping. The system self-corrects daily.</p>
+                <div class="data-points">
+                    <span class="tag highlight">adaptive hashtags</span>
+                    <span class="tag highlight">seasonal calendar</span>
+                    <span class="tag">topic → hashtag conversion</span>
+                    <span class="tag">low-signal deprioritization</span>
+                </div>
+            </div>
+
+            <div class="connector">↓</div>
+
+            <!-- Layer 1 -->
+            <div class="layer">
+                <div class="layer-num">LAYER 1 · RAW DATA</div>
+                <h2>📊 Multi-Platform Scrape</h2>
+                <p class="desc">Every morning, we scrape hundreds of real posts across Instagram and TikTok. Not estimated data — actual captions, engagement numbers, audio metadata, timestamps.</p>
+                <div class="data-points">
+                    <span class="tag highlight">600+ Instagram posts</span>
+                    <span class="tag highlight">400+ TikTok posts</span>
+                    <span class="tag">12 IG hashtags</span>
+                    <span class="tag">8 TikTok hashtags</span>
+                    <span class="tag">likes · comments · shares · saves · views</span>
+                    <span class="tag">captions · audio · timestamps</span>
+                </div>
+            </div>
+
+            <div class="connector">↓</div>
+
+            <!-- Layer 2 -->
+            <div class="layer">
+                <div class="layer-num">LAYER 2 · WEB INTELLIGENCE</div>
+                <h2>🌐 Trend Source Network</h2>
+                <p class="desc">Simultaneously, we scrape 10 trend-tracking sources — trending audio lists with specific song names, Reddit creator communities, algorithm update trackers, and trend velocity data.</p>
+                <div class="data-points">
+                    <span class="tag">trending audio lists</span>
+                    <span class="tag">Reddit r/instagrammarketing</span>
+                    <span class="tag">Reddit r/fitness</span>
+                    <span class="tag">algorithm announcements</span>
+                    <span class="tag">trend velocity curves</span>
+                    <span class="tag highlight">10 sources in parallel</span>
+                </div>
+            </div>
+
+            <div class="connector">↓</div>
+
+            <!-- Layer 3 -->
+            <div class="layer">
+                <div class="layer-num">LAYER 3 · HISTORICAL PATTERNS</div>
+                <h2>📈 Trend Velocity Engine</h2>
+                <p class="desc">Every report is archived. We compare today against the last 3-30 days to detect acceleration, saturation, and seasonal patterns. "This hook was 2.1x last week, now 3.4x — ride it."</p>
+                <div class="data-points">
+                    <span class="tag highlight">trend acceleration</span>
+                    <span class="tag highlight">saturation detection</span>
+                    <span class="tag">seasonal patterns</span>
+                    <span class="tag">decay curves</span>
+                    <span class="tag">engagement baselines</span>
+                </div>
+            </div>
+
+            <div class="connector">↓</div>
+
+            <!-- Layer 4 -->
+            <div class="layer">
+                <div class="layer-num">LAYER 4 · CROSS-PLATFORM</div>
+                <h2>📲 TikTok → Instagram Arbitrage</h2>
+                <p class="desc">Trends hit TikTok 1-2 weeks before Instagram. We detect content with millions of TikTok views that has fewer than 1000 Instagram posts. That's a first-mover window.</p>
+                <div class="data-points">
+                    <span class="tag highlight">first mover alerts</span>
+                    <span class="tag">migration detection</span>
+                    <span class="tag">7-14 day early warning</span>
+                    <span class="tag">audio crossover tracking</span>
+                </div>
+            </div>
+
+            <div class="connector">↓</div>
+
+            <!-- AI Engine -->
+            <div class="layer" style="border-color: rgba(16,163,127,0.3);">
+                <div class="layer-num">AI ENGINE · GPT-4o</div>
+                <h2>🧠 Fitness-Native Analysis</h2>
+                <p class="desc">Everything converges into a fitness-native AI model. Not generic social media advice — an engine that understands gym culture, seasonal patterns (bulk → cut → summer body), hook psychology, and 2026 algorithm mechanics.</p>
+                <div class="data-points">
+                    <span class="tag highlight">1000+ posts</span>
+                    <span class="tag highlight">10 web sources</span>
+                    <span class="tag highlight">3+ days history</span>
+                    <span class="tag">2026 algo rules</span>
+                    <span class="tag">fitness season context</span>
+                    <span class="tag">cross-platform signals</span>
+                </div>
+            </div>
+
+            <div class="connector">↓</div>
+
+            <!-- Output -->
+            <div class="output-box">
+                <h2>📱 Daily Intelligence Briefing</h2>
+                <div class="output-grid">
+                    <div class="output-item">
+                        <span class="emoji">🧠</span>
+                        <h4>Hero Insight</h4>
+                        <p>The boldest, most actionable finding of the day</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">🎣</span>
+                        <h4>Trending Hooks</h4>
+                        <p>Templates with real engagement multipliers</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">🎵</span>
+                        <h4>Audio Intel</h4>
+                        <p>Specific songs trending for fitness right now</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">🔥</span>
+                        <h4>Hot Topics</h4>
+                        <p>Cultural moments with timing windows</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">📲</span>
+                        <h4>Crossover Alerts</h4>
+                        <p>TikTok trends about to hit Instagram</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">⚡</span>
+                        <h4>Algo Rules</h4>
+                        <p>Current algorithm signals that matter</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">#️⃣</span>
+                        <h4>Hashtag Combos</h4>
+                        <p>Tested combinations with engagement data</p>
+                    </div>
+                    <div class="output-item">
+                        <span class="emoji">✅</span>
+                        <h4>Action Items</h4>
+                        <p>Exactly what to post, when, and why</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="loop-arrow">
+                <span>↩</span>
+                feeds back into tomorrow's target selection
+            </div>
+        </div>
+    </div>
+</body>
+</html>
