@@ -1,7 +1,7 @@
 {
   "metadata": {
     "date": "2026-02-22",
-    "lastUpdated": "Sunday, Feb 22, 2026, 11:13 AM",
+    "lastUpdated": "Sunday, Feb 22, 2026, 11:31 AM",
     "version": "3.0",
     "sources": [
       "real-instagram-scrape",
@@ -10,33 +10,33 @@
       "803-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousels dominate with 2.5x more engagement than static posts — swipe-through fashion hauls are the 2026 engagement hack you can't ignore.",
+  "heroInsight": "Carousels featuring brand collaborations are dominating with an engagement score of 9625, as seen with @alexis_xol's Von Dutch x Darc Sport post — leverage brand partnerships for massive reach.",
   "formatPerformance": {
-    "summary": "Carousels are crushing it with 74 avg likes vs. 24 for static; they're the current engagement kings due to their multi-image storytelling potential.",
+    "summary": "Carousel posts are outperforming static images significantly, driven by higher engagement through swipe interaction and brand collaborations.",
     "data": [
       {
         "name": "Reel",
         "score": 70,
         "trend": "→",
-        "note": "Steady performance, but carousels are outpacing in engagement."
+        "note": "Maintaining average engagement but less aggressive push from algorithm compared to carousels"
       },
       {
         "name": "Carousel",
-        "score": 90,
+        "score": 95,
         "trend": "↑",
-        "note": "2.5x more engagement than static, perfect for storytelling."
+        "note": "High engagement through swipe-through interaction and brand partnerships"
       },
       {
         "name": "Story",
         "score": 60,
         "trend": "→",
-        "note": "Consistent engagement, but less impactful than carousels."
+        "note": "Steady engagement but overshadowed by carousels in current trends"
       },
       {
         "name": "Static",
-        "score": 30,
+        "score": 40,
         "trend": "↓",
-        "note": "Lagging behind with lower engagement numbers."
+        "note": "Lower engagement compared to carousels and reels"
       }
     ],
     "winner": "carousel"
@@ -45,33 +45,55 @@
     {
       "trend": "🔥",
       "template": "Day [N] of [challenge]",
-      "multiplier": "4.1x engagement vs average",
-      "example": "Day 52/66 #gymshark66 — feeling stronger every day 💪🔥",
-      "whyItWorks": "Creates a sense of progression and community engagement."
+      "multiplier": "4.98x engagement vs average",
+      "example": "Day 52/66 #gymshark66",
+      "whyItWorks": "Builds anticipation and community engagement through consistent updates."
+    },
+    {
+      "trend": "🔥",
+      "template": "Why I stopped [X]",
+      "multiplier": "4.1x engagement",
+      "example": "Why I stopped tracking macros and started living",
+      "whyItWorks": "Creates intrigue and invites discussion by challenging norms."
     },
     {
       "trend": "📈",
       "template": "POV: You're [scenario]",
-      "multiplier": "2.8x engagement vs average",
-      "example": "POV: You're three sets deep and the gym music hits just right 🎶🦾",
-      "whyItWorks": "Relatable narratives that drive comments and shares."
+      "multiplier": "2.8x engagement",
+      "example": "POV: You're hitting your last set and the gym crush walks by",
+      "whyItWorks": "Relatable and engaging, sparking personal connections and comments."
+    },
+    {
+      "trend": "🔥",
+      "template": "I tried [X] for 30 days",
+      "multiplier": "3.2x engagement",
+      "example": "I tried the CBum's workout routine for 30 days",
+      "whyItWorks": "Encourages curiosity about results and personal transformation."
     },
     {
       "trend": "💎",
-      "template": "Why I stopped [X]",
-      "multiplier": "3.2x engagement vs average",
-      "example": "Why I stopped chasing numbers and started focusing on form 🏋️‍♂️",
-      "whyItWorks": "Curiosity gap + personal insight = high engagement."
+      "template": "How I achieved [X]",
+      "multiplier": "3.0x engagement",
+      "example": "How I achieved my first 500lb deadlift",
+      "whyItWorks": "Aspirational content that inspires and educates followers."
+    },
+    {
+      "trend": "🔥",
+      "template": "My [routine] revealed",
+      "multiplier": "3.5x engagement",
+      "example": "My ultimate cutting season nutrition plan revealed",
+      "whyItWorks": "Offers a glimpse into personal strategies, drawing in viewers interested in similar goals."
     }
   ],
   "postingTimes": {
-    "summary": "Mid-afternoon posts see the highest engagement, with a notable peak at 2 PM.",
+    "summary": "Afternoon and early evening slots are prime for engagement, with significant boosts observed in specific weekday windows.",
     "bestWindows": [
       {
         "day": "Monday",
         "hours": [
-          14,
-          15,
+          6,
+          7,
+          17,
           18
         ],
         "boost": "+20% engagement"
@@ -79,139 +101,234 @@
       {
         "day": "Tuesday",
         "hours": [
-          14,
-          15,
-          19
+          6,
+          7,
+          12,
+          18
         ],
         "boost": "+18% engagement"
       },
       {
         "day": "Wednesday",
         "hours": [
-          14,
-          15,
+          6,
+          7,
+          17,
           18
         ],
-        "boost": "+20% engagement"
+        "boost": "+15% engagement"
       },
       {
         "day": "Thursday",
         "hours": [
-          14,
-          15,
-          19
+          6,
+          7,
+          12,
+          18
         ],
-        "boost": "+18% engagement"
+        "boost": "+17% engagement"
       },
       {
         "day": "Friday",
         "hours": [
-          14,
-          15,
+          6,
+          7,
+          17,
           18
         ],
-        "boost": "+20% engagement"
+        "boost": "+22% engagement"
       },
       {
         "day": "Saturday",
         "hours": [
-          12,
-          14,
-          15
+          8,
+          9,
+          11,
+          12
         ],
-        "boost": "+15% engagement"
+        "boost": "+14% engagement"
       },
       {
         "day": "Sunday",
         "hours": [
-          12,
-          14,
+          8,
+          9,
+          17,
           18
         ],
-        "boost": "+15% engagement"
+        "boost": "+16% engagement"
       }
     ]
   },
   "trendingAudio": [
     {
       "trend": "🔥 HOT",
-      "name": "original sound — Soryan Smith",
-      "genre": "Motivational Speech",
-      "recommendation": "Perfect for transformation reveals — the spoken word syncs with visual changes.",
-      "howToFind": "Search 'original sound — Soryan Smith' in IG audio library",
+      "name": "Blow — Kesha",
+      "genre": "Hype Pop",
+      "recommendation": "Perfect for transformation reveals and high-energy workout clips.",
+      "howToFind": "Search 'Blow Kesha' in IG audio library",
       "bestFor": "transformation reveals / PR clips"
     },
     {
       "trend": "📈 RISING",
-      "name": "LUNA BALA (Slowed)",
+      "name": "Work Out (Talkbox) — Adam Tahere",
+      "genre": "Funk",
+      "recommendation": "Use for gym vlogs and lifestyle content to add a funky vibe.",
+      "howToFind": "Search 'Work Out Adam Tahere' in IG audio library",
+      "bestFor": "gym vlogs / lifestyle shots"
+    },
+    {
+      "trend": "🔥 HOT",
+      "name": "FaSHioN — CORTIS",
+      "genre": "Electronic",
+      "recommendation": "Ideal for showcasing gym fits and brand hauls.",
+      "howToFind": "Search 'FaSHioN CORTIS' in IG audio library",
+      "bestFor": "fit checks / brand hauls"
+    },
+    {
+      "trend": "⚠️ SATURATED",
+      "name": "Threat — Z",
       "genre": "Dramatic",
-      "recommendation": "Use for intense workout sessions — syncs with heavy lifts.",
-      "howToFind": "Search 'LUNA BALA' in IG audio library",
-      "bestFor": "heavy lifts / dramatic gym vlogs"
+      "recommendation": "Best used for dramatic workout montages.",
+      "howToFind": "Search 'Threat Z' in IG audio library",
+      "bestFor": "workout montages / intense training"
     }
   ],
   "hotTopics": [
     {
-      "topic": "cutting season",
+      "topic": "Cutting Season",
       "status": "hot",
-      "emoji": "🔥",
-      "detail": "Transitioning into spring, everyone’s gearing up for cutting.",
-      "angle": "Focus on mental strategies for staying consistent — less explored.",
-      "exampleCaption": "Cutting season is here! Here's how I stay mentally sharp and motivated through the tough sessions. 💪🧠"
+      "emoji": "✂️",
+      "detail": "Currently trending as many lifters transition from winter bulk to spring cuts.",
+      "angle": "Focus on sustainable cutting strategies that avoid burnout — most content is about rapid cuts.",
+      "exampleCaption": "Why my cutting season is all about sustainability and sanity ✂️"
     },
     {
-      "topic": "ozempic in bodybuilding",
+      "topic": "Brand Collaborations",
       "status": "rising",
-      "emoji": "📈",
-      "detail": "The debate over Ozempic's role in physique enhancement is heating up.",
-      "angle": "Discuss the ethical implications and personal choices athletes face.",
-      "exampleCaption": "Ozempic: Game-changer or shortcut? My take on its place in bodybuilding. 🤔💊"
+      "emoji": "🤝",
+      "detail": "High engagement seen with posts featuring brand collabs, like @alexis_xol's post.",
+      "angle": "Highlight less-known brands in niche markets for fresh content.",
+      "exampleCaption": "Teaming up with [brand] to bring you something new 🔥"
+    },
+    {
+      "topic": "Natty vs Enhanced",
+      "status": "emerging",
+      "emoji": "💉",
+      "detail": "Ongoing debate with new angles emerging as more athletes discuss transparency.",
+      "angle": "Personal stories of natural vs enhanced experiences — less about the debate, more about individual journeys.",
+      "exampleCaption": "My personal journey: why I chose to stay natural in bodybuilding 💪"
+    },
+    {
+      "topic": "Gym Fashion Trends",
+      "status": "hot",
+      "emoji": "👗",
+      "detail": "Gym fashion posts are driving engagement as new collections drop.",
+      "angle": "Focus on the functionality and comfort of outfits, not just aesthetics.",
+      "exampleCaption": "Why comfort is the new cool in gym fashion 👗"
+    },
+    {
+      "topic": "Training Splits",
+      "status": "rising",
+      "emoji": "🔄",
+      "detail": "With the new year, many are re-evaluating their training methods.",
+      "angle": "Hybrid training splits combining strength and hypertrophy for best of both worlds.",
+      "exampleCaption": "Why my new training split focuses on hybrid gains 🔄"
+    },
+    {
+      "topic": "Energy Drink Reviews",
+      "status": "emerging",
+      "emoji": "⚡️",
+      "detail": "Lifters increasingly sharing their energy drink preferences and reviews.",
+      "angle": "Comparing energy drinks based on ingredients and effects — beyond just taste.",
+      "exampleCaption": "Why [energy drink] is my go-to pre-workout boost ⚡️"
     }
   ],
   "hashtagIntel": [
     {
-      "combo": "#vondutch #darcsport #gymfitcheck",
-      "avgEngagement": "3490 likes/comments average",
-      "recommendation": "Use this combo for posts featuring new gym apparel drops.",
+      "combo": "#vondutch #darcsport #darc",
+      "avgEngagement": "3490 average",
+      "recommendation": "Use for carousel posts featuring brand collaborations to maximize reach.",
       "contentType": "carousel"
+    },
+    {
+      "combo": "#mrolympia #classicphysique #bodybuilding",
+      "avgEngagement": "1960 average",
+      "recommendation": "Incorporate in posts about competitive bodybuilding to tap into the community.",
+      "contentType": "carousel"
+    },
+    {
+      "combo": "#aesthetics #gymfitcheck #fitnessmodel",
+      "avgEngagement": "1190 average",
+      "recommendation": "Ideal for posts showcasing physique transformations and gym outfits.",
+      "contentType": "carousel"
+    },
+    {
+      "combo": "#gymmotivation #gymgirls #gymootd",
+      "avgEngagement": "90 average",
+      "recommendation": "Use in motivational content and gym selfies to reach a wider audience.",
+      "contentType": "static"
     }
   ],
   "actionItems": [
     {
       "priority": "high",
-      "action": "Post a carousel featuring your latest gym outfit with a transformation story.",
-      "timing": "Monday 2 PM",
-      "hashtags": "#vondutch #darcsport #gymfitcheck",
-      "expectedBoost": "Carousels are seeing 2.5x engagement, especially with fashion content.",
+      "action": "Create a carousel post featuring a brand collaboration with trending hashtags.",
+      "timing": "Post on Monday at 14:00 for maximum reach",
+      "hashtags": "#vondutch #darcsport #darc",
+      "expectedBoost": "High engagement due to current trend of brand collaborations",
       "confidence": "high"
     },
     {
       "priority": "medium",
-      "action": "Use 'original sound — Soryan Smith' for a motivational transformation reel.",
-      "timing": "Wednesday 3 PM",
-      "hashtags": "#transformation #fitnessmotivation",
-      "expectedBoost": "Motivational audio aligns with high-performing transformation content.",
+      "action": "Post a reel about your cutting season strategy using 'Blow — Kesha'",
+      "timing": "Post on Wednesday at 17:00",
+      "hashtags": "#cuttingseason #fitnessjourney #transformation",
+      "expectedBoost": "Good engagement from relatable seasonal content and popular audio",
       "confidence": "medium"
+    },
+    {
+      "priority": "medium",
+      "action": "Share a TikTok-style video about your favorite energy drink using 'Work Out (Talkbox) — Adam Tahere'",
+      "timing": "Post on Thursday at 12:00",
+      "hashtags": "#energydrink #preworkout #gymmotivation",
+      "expectedBoost": "Engages both gym enthusiasts and energy drink fans with a rising audio trend",
+      "confidence": "medium"
+    },
+    {
+      "priority": "low",
+      "action": "Post a static image update on your training split using 'FaSHioN — CORTIS' for background music",
+      "timing": "Post on Saturday at 11:00",
+      "hashtags": "#trainingsplit #hybridtraining #gymroutine",
+      "expectedBoost": "Captures attention of users revisiting their training strategies",
+      "confidence": "low"
     }
   ],
   "algoRules": {
     "critical": [
-      "DM shares are the top engagement signal — focus on shareable content.",
-      "Carousels are currently outperforming Reels in engagement."
+      "DM shares (sends per reach) now #1 signal — 3-5x more valuable than likes",
+      "First 3 seconds retention = everything for Reels reach",
+      "Originality score: 10+ reposts in 30 days = shadowbanned from recommendations"
     ],
     "proTips": [
-      "Experiment with posting at 2 PM for peak engagement.",
-      "Leverage unique angles on trending topics to stand out."
+      "Focus on creating content that encourages shares via DM to boost reach.",
+      "Ensure first 3 seconds of Reels are captivating to maximize viewer retention."
     ]
   },
   "tiktokCrossover": {
-    "summary": "Emerging trends on TikTok are set to hit IG soon.",
+    "summary": "Current TikTok trends are creating opportunities for Instagram crossover, particularly in audio and transformation content.",
     "incoming": [
       {
-        "trend": "Motivational Speech Clips",
-        "tiktokViews": "15-20M",
+        "trend": "Weight loss transformations",
+        "tiktokViews": "50M range",
+        "igStatus": "growing",
+        "eta": "Next 2-3 weeks"
+      },
+      {
+        "trend": "Energy drink reviews",
+        "tiktokViews": "20M range",
         "igStatus": "early",
-        "eta": "1-2 weeks"
+        "eta": "Next month"
       }
     ]
   }
