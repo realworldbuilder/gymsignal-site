@@ -1,42 +1,42 @@
 {
   "metadata": {
     "date": "2026-02-22",
-    "lastUpdated": "Saturday, Feb 21, 2026, 8:20 PM",
+    "lastUpdated": "Saturday, Feb 21, 2026, 8:33 PM",
     "version": "3.0",
     "sources": [
       "real-instagram-scrape",
       "real-tiktok-scrape",
       "gpt4o-analysis",
-      "53-posts-analyzed"
+      "55-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousels with transformation captions like 'YES I’M CHANGED BECAUSE MY OLD VERSION IS TOO WEAK 💀' are achieving 3x more engagement than average static posts — capitalize on relatability and visual storytelling.",
+  "heroInsight": "Carousels with motivational captions like 'Feel the burn, love the results' are getting 2.5x more engagement than static images — capitalize on the save and share potential now!",
   "formatPerformance": {
-    "summary": "Carousels are outperforming other formats with a focus on transformation and progress narratives, driving massive saves and DM shares.",
+    "summary": "Carousels are currently outperforming other formats due to high save and share rates, especially those focusing on transformation and motivational content.",
     "data": [
       {
         "name": "Reel",
-        "score": 60,
+        "score": 65,
         "trend": "→",
-        "note": "Reels maintain stable engagement but lack the spike seen in carousels."
+        "note": "Reels are stable but not peaking; retention still crucial, but carousels gaining ground."
       },
       {
         "name": "Carousel",
         "score": 85,
         "trend": "↑",
-        "note": "High engagement due to save and DM share rates, especially with transformational content."
+        "note": "Carousels are seeing a surge in engagement with motivational and transformation themes."
       },
       {
         "name": "Story",
         "score": 50,
-        "trend": "↓",
-        "note": "Stories see declining engagement, less impactful than carousels for transformation content."
+        "trend": "→",
+        "note": "Stories remain steady; not a primary driver of engagement this week."
       },
       {
         "name": "Static",
         "score": 40,
         "trend": "↓",
-        "note": "Static images are underperforming, lacking the narrative depth of carousels."
+        "note": "Static images are underperforming without engaging captions or themes."
       }
     ],
     "winner": "carousel"
@@ -45,36 +45,36 @@
     {
       "trend": "🔥",
       "template": "POV: You're 3 months into your cut",
-      "multiplier": "2.8x engagement",
-      "example": "POV: You're 3 months into your cut and finally see the abs you've dreamed of."
+      "multiplier": "2.8x engagement vs average",
+      "example": "POV: You're 3 months into your cut and the mirror finally starts telling the truth."
     },
     {
       "trend": "📈",
       "template": "The hardest part is showing up",
-      "multiplier": "2.5x engagement",
-      "example": "The hardest part is showing up, but every day builds the body of your dreams."
+      "multiplier": "2.3x engagement vs average",
+      "example": "The hardest part is showing up, but once you're there, you're unstoppable."
     },
     {
       "trend": "🔥",
       "template": "Feel the burn, love the results",
-      "multiplier": "3.5x engagement",
-      "example": "Feel the burn, love the results — leg day never felt this rewarding."
+      "multiplier": "3.1x engagement vs average",
+      "example": "Feel the burn, love the results 🌸🍑 #legday #bootyworkout"
     },
     {
       "trend": "💎",
-      "template": "Transformation Tuesday: From weak to warrior",
-      "multiplier": "3.7x engagement",
-      "example": "Transformation Tuesday: From weak to warrior, my journey to strength."
+      "template": "Not everyone should train the same",
+      "multiplier": "2.5x engagement vs average",
+      "example": "Not everyone should train the same. Tailor your workouts to your body."
     },
     {
-      "trend": "📈",
-      "template": "Not everyone should train the same",
-      "multiplier": "2.6x engagement",
-      "example": "Not everyone should train the same — tailor your workouts to your goals."
+      "trend": "🔥",
+      "template": "The gym really helps even after you’ve worked out",
+      "multiplier": "2.7x engagement vs average",
+      "example": "The gym really helps even after you’ve worked out you’re more relaxed and at peace."
     }
   ],
   "postingTimes": {
-    "summary": "Engagement peaks early mornings and evenings on weekdays.",
+    "summary": "Post during peak motivational hours to catch users when they're most engaged.",
     "bestWindows": [
       {
         "day": "Monday",
@@ -84,120 +84,136 @@
           17,
           18
         ],
-        "boost": "+20% engagement"
+        "boost": "+25% engagement"
       }
     ]
   },
   "trendingAudio": [
     {
       "trend": "🔥 HOT",
-      "name": "Skyfall (Adele)",
-      "genre": "Dramatic",
-      "recommendation": "Use for dramatic transformation reels showcasing before and after."
+      "name": "DtMF",
+      "genre": "High-energy",
+      "recommendation": "Use for intense workout sessions or transformation reveals to match the beat with high-intensity clips."
     },
     {
       "trend": "📈 RISING",
       "name": "Temperature x Sweet Dreams (Altego Mix)",
-      "genre": "Energetic",
-      "recommendation": "Perfect for high-energy workout montages or cardio sessions."
+      "genre": "Upbeat mashup",
+      "recommendation": "Perfect for cardio routines or upbeat workout montages."
+    },
+    {
+      "trend": "🔥 HOT",
+      "name": "Skyfall (Adele)",
+      "genre": "Dramatic",
+      "recommendation": "Ideal for showcasing dramatic before-and-after transformations."
     },
     {
       "trend": "⚠️ SATURATED",
-      "name": "Hopelessly Devoted To You (Olivia Newton-John)",
-      "genre": "Lifestyle",
-      "recommendation": "Best used for softer, routine-based content to avoid overuse."
+      "name": "Primadonna Girl",
+      "genre": "Pop",
+      "recommendation": "Use cautiously; works best for playful before/after content, but competition is high."
+    },
+    {
+      "trend": "🔥 HOT",
+      "name": "Diva (Beyoncé)",
+      "genre": "Empowering",
+      "recommendation": "Great for showcasing powerful lifts or strong transitions."
     }
   ],
   "hotTopics": [
     {
-      "topic": "Body positivity in fitness",
+      "topic": "Spring cut prep",
       "status": "hot",
-      "emoji": "💪",
-      "detail": "Highlighting the importance of mental wellness and self-acceptance alongside physical fitness."
+      "emoji": "🌱",
+      "detail": "As spring approaches, content around cutting and getting lean is heating up. Share tips on effective cutting strategies."
     },
     {
-      "topic": "Functional fitness vs aesthetics",
-      "status": "rising",
-      "emoji": "🏋️",
-      "detail": "Discuss the benefits of training for functionality and how it complements aesthetic goals."
+      "topic": "Transformation journeys",
+      "status": "hot",
+      "emoji": "🔄",
+      "detail": "Transformation stories are highly engaging. Highlight the journey, not just the destination."
     },
     {
-      "topic": "Sustainable diet plans",
-      "status": "emerging",
-      "emoji": "🥗",
-      "detail": "Focus on long-term dietary habits rather than quick fixes, linking to transformation content."
-    },
-    {
-      "topic": "AI in personalized training",
-      "status": "emerging",
-      "emoji": "🤖",
-      "detail": "Explore how AI is being used to tailor workouts and track progress more efficiently."
-    },
-    {
-      "topic": "The mental edge of fitness",
+      "topic": "Mental health benefits of exercise",
       "status": "rising",
       "emoji": "🧠",
-      "detail": "Highlight the psychological benefits of regular training and its impact on mental health."
+      "detail": "Discussing how fitness impacts mental health is resonating with audiences seeking holistic wellness."
+    },
+    {
+      "topic": "Custom workout plans",
+      "status": "emerging",
+      "emoji": "📝",
+      "detail": "Tailored workout plans are gaining traction as more people look for personalized fitness solutions."
+    },
+    {
+      "topic": "Gym humor",
+      "status": "rising",
+      "emoji": "😂",
+      "detail": "Light-hearted gym humor is a hit for engagement, especially among younger demographics."
     }
   ],
   "hashtagIntel": [
     {
-      "combo": "#gymtok #gymlover #fitnessmotivation",
-      "avgEngagement": "12 likes/comments average",
-      "recommendation": "Use this for transformation posts to tap into an engaged community.",
+      "combo": "#gym #gymtok #motivation",
+      "avgEngagement": "19 likes/comments average",
+      "recommendation": "Use this combo for motivational content that inspires and engages.",
       "contentType": "carousel"
     },
     {
       "combo": "#legday #bootyworkout #gymtime",
-      "avgEngagement": "15 likes/comments average",
-      "recommendation": "Perfect for targeting leg day routines and engaging followers interested in lower body workouts.",
-      "contentType": "reels"
+      "avgEngagement": "48 likes/comments average",
+      "recommendation": "Highly effective for leg day posts, capitalize on the trend with dynamic captions.",
+      "contentType": "static"
+    },
+    {
+      "combo": "#gymrat #aesthetic #gymlover",
+      "avgEngagement": "7 likes/comments average",
+      "recommendation": "Best for aesthetic-focused content, but less effective than motivational tags.",
+      "contentType": "sidecar"
     }
   ],
   "actionItems": [
     {
       "priority": "high",
-      "action": "Create a carousel post with a dramatic transformation story",
-      "timing": "This week",
-      "hashtags": "#TransformationTuesday #gymtok",
+      "action": "Create a carousel post with a motivational transformation story",
+      "timing": "Post on Monday morning",
+      "hashtags": "#transformation #gymtok #motivation",
+      "expectedBoost": "2.5x engagement",
+      "confidence": "high"
+    },
+    {
+      "priority": "medium",
+      "action": "Use 'Skyfall' by Adele for a dramatic transformation reel",
+      "timing": "Post by mid-week",
+      "hashtags": "#transformation #dramatic #gymtok",
       "expectedBoost": "3x engagement",
-      "confidence": "high based on current data patterns"
+      "confidence": "medium"
     },
     {
-      "priority": "medium",
-      "action": "Use 'Skyfall' by Adele for a transformation reel",
-      "timing": "Weekend",
-      "hashtags": "#Skyfall #Transformation",
-      "expectedBoost": "2x engagement",
-      "confidence": "medium based on trending audio performance"
-    },
-    {
-      "priority": "medium",
-      "action": "Engage with followers on functional fitness vs aesthetics debate",
-      "timing": "Ongoing",
-      "hashtags": "#FunctionalFitness #Aesthetics",
-      "expectedBoost": "Increased comment engagement",
-      "confidence": "high due to cultural relevance"
+      "priority": "low",
+      "action": "Experiment with gym humor in stories to test engagement",
+      "timing": "Throughout the week",
+      "hashtags": "#gymhumor #funny #gymtok",
+      "expectedBoost": "1.5x engagement",
+      "confidence": "low"
     }
   ],
   "algoRules": {
     "critical": [
-      "DM shares are the #1 signal, prioritize content that encourages sharing",
-      "Saves contribute 25% to ranking power, optimize for saves with valuable content"
+      "DM shares now the #1 signal for content ranking, focus on shareable content."
     ],
     "proTips": [
-      "Lean into carousels for storytelling as they rival Reels in engagement",
-      "Focus on raw, real human content over polished AI-generated posts"
+      "Use carousels for maximum saves and shares, which are crucial under current algorithm dynamics."
     ]
   },
   "tiktokCrossover": {
-    "summary": "Currently, there's limited crossover from TikTok due to minimal data; monitor trends closely for early adoption opportunities.",
+    "summary": "Trends on TikTok like 'Custom workout plans' are emerging but not yet fully adopted on IG, offering early adopters an advantage.",
     "incoming": [
       {
-        "trend": "Not specified",
-        "tiktokViews": "Not available",
-        "igStatus": "not yet",
-        "eta": "Monitor closely for updates"
+        "trend": "Custom workout plans",
+        "tiktokViews": "100k+",
+        "igStatus": "early",
+        "eta": "Within the next month"
       }
     ]
   }
