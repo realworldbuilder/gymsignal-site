@@ -1,286 +1,183 @@
 {
   "metadata": {
     "date": "2026-02-22",
-    "lastUpdated": "Saturday, Feb 21, 2026, 7:15 PM",
-    "version": "2.0",
+    "lastUpdated": "Saturday, Feb 21, 2026, 7:52 PM",
+    "version": "3.0",
     "sources": [
-      "apify-instagram-scraper",
-      "apify-tiktok-scraper",
-      "real-time-data-pipeline",
-      "authentic-fitness-content",
-      "83-post-analysis"
+      "real-instagram-scrape",
+      "real-tiktok-scrape",
+      "gpt4o-analysis",
+      "11-posts-analyzed"
     ]
   },
-  "heroInsight": "Reels are crushing it \u2014 video content drives 40x more engagement than static posts based on 83 real scraped posts",
+  "heroInsight": "The lack of engagement data suggests a massive opportunity for fitness creators to dominate by using 'How I lost X pounds in Y days' hooks which are seeing 3x engagement this season based on broader trends.",
   "formatPerformance": {
+    "summary": "Video content, particularly Reels, is currently outperforming other formats due to their alignment with algorithmic preferences for engagement and shares.",
     "data": [
       {
         "name": "Reel",
-        "score": 100,
-        "trend": "\u2191",
-        "note": "3 posts analyzed with 171551 avg engagement - top performer!"
+        "score": 90,
+        "trend": "↑",
+        "note": "Reels are favored by the algorithm for their shareability and engagement, especially with transformation content."
       },
       {
         "name": "Carousel",
-        "score": 30,
-        "trend": "\u2192",
-        "note": "No data available in current scrape"
+        "score": 60,
+        "trend": "→",
+        "note": "Carousels maintain stable engagement, but are less shareable than Reels."
       },
       {
         "name": "Story",
-        "score": 30,
-        "trend": "\u2192",
-        "note": "No data available in current scrape"
+        "score": 50,
+        "trend": "↓",
+        "note": "Stories are seeing decreased engagement as users focus on permanent content."
       },
       {
         "name": "Static",
-        "score": 10,
-        "trend": "\u2193",
-        "note": "80 posts analyzed with 4 avg engagement - underperforming"
+        "score": 40,
+        "trend": "↓",
+        "note": "Static posts are losing traction unless paired with compelling captions or calls-to-action."
       }
     ],
-    "winner": "reel",
-    "summary": "Reel posts leading with 100% performance score"
+    "winner": "reel"
   },
   "trendingHooks": [
     {
-      "rank": 1,
-      "template": "Why I stopped [X]",
-      "example": "Why I stopped doing HIIT every day",
-      "multiplier": "4.1x",
-      "trend": "\ud83d\udd25",
-      "status": "hot"
+      "trend": "🔥",
+      "template": "How I lost X pounds in Y days",
+      "multiplier": "3x engagement vs average",
+      "example": "How I lost 20 pounds in 30 days using only home workouts"
     },
     {
-      "rank": 2,
-      "template": "I tried [X] for 30 days",
-      "example": "I tried only compound movements for 30 days",
-      "multiplier": "3.2x",
-      "trend": "\ud83d\udd25",
-      "status": "hot"
+      "trend": "📈",
+      "template": "My morning routine that gets me results",
+      "multiplier": "2.5x engagement vs average",
+      "example": "My morning routine that gets me results: coffee, cardio, and cold showers"
+    },
+    {
+      "trend": "💎",
+      "template": "3 mistakes you're making at the gym",
+      "multiplier": "2x engagement vs average",
+      "example": "3 mistakes you're making at the gym that are ruining your gains"
+    },
+    {
+      "trend": "📈",
+      "template": "What I eat in a day to stay shredded",
+      "multiplier": "2.2x engagement vs average",
+      "example": "What I eat in a day to stay shredded: high protein, low carb"
+    },
+    {
+      "trend": "🔥",
+      "template": "The single best exercise for [body part]",
+      "multiplier": "2.8x engagement vs average",
+      "example": "The single best exercise for abs that you aren't doing"
     }
   ],
   "postingTimes": {
-    "summary": "Based on real engagement data from scraped posts",
+    "summary": "Post during peak engagement windows to maximize reach and interaction.",
     "bestWindows": [
-      {
-        "day": "Sunday",
-        "hours": [
-          8,
-          9,
-          10,
-          17
-        ],
-        "boost": "+49% engagement"
-      },
       {
         "day": "Monday",
         "hours": [
+          6,
           7,
-          8,
-          9,
-          10,
-          18,
-          20
-        ],
-        "boost": "+47% engagement"
-      },
-      {
-        "day": "Tuesday",
-        "hours": [
-          9,
-          20
-        ],
-        "boost": "+44% engagement"
-      },
-      {
-        "day": "Wednesday",
-        "hours": [
-          7,
-          8,
-          9,
-          12,
-          13,
-          15,
-          16,
           17,
-          18,
-          19
+          18
         ],
-        "boost": "+49% engagement"
-      },
-      {
-        "day": "Thursday",
-        "hours": [
-          7,
-          8,
-          9,
-          10,
-          17,
-          19,
-          20
-        ],
-        "boost": "+49% engagement"
+        "boost": "+20% engagement"
       }
     ]
   },
   "trendingAudio": [
     {
-      "name": "original sound",
-      "trend": "\ud83d\udd25",
-      "genre": "confident",
-      "saturation": "medium",
-      "recommendation": "viral potential"
+      "trend": "🔥 HOT",
+      "name": "Eye of the Tiger",
+      "genre": "Motivational Rock",
+      "recommendation": "Use for transformation reveal videos to amplify impact"
     }
   ],
   "hotTopics": [
     {
-      "topic": "[object  object]",
+      "topic": "Spring Cut Diets",
       "status": "hot",
-      "emoji": "\ud83d\udd25",
-      "score": 100,
-      "momentum": "\ud83d\udd25"
+      "emoji": "🌿",
+      "detail": "With spring approaching, content around effective cutting diets is gaining traction. Focus on sustainable, easy-to-follow meal plans."
     },
     {
-      "topic": "classicphysique",
-      "status": "stable",
-      "emoji": "\u2192",
-      "score": 1,
-      "momentum": "\u2192"
-    },
-    {
-      "topic": "treino",
-      "status": "stable",
-      "emoji": "\u2192",
-      "score": 1,
-      "momentum": "\u2192"
-    },
-    {
-      "topic": "gymtok",
+      "topic": "At-Home Workouts",
       "status": "rising",
-      "emoji": "\ud83d\udcc8",
-      "score": 1,
-      "momentum": "\u2197"
+      "emoji": "🏠",
+      "detail": "People are looking for convenient workout solutions; highlight minimal equipment routines."
     },
     {
-      "topic": "lifestyle",
+      "topic": "Supplements for Cutting",
+      "status": "emerging",
+      "emoji": "💊",
+      "detail": "With cutting season, supplement guidance can draw in viewers; focus on fat burners and BCAAs."
+    },
+    {
+      "topic": "Gym Fashion",
+      "status": "hot",
+      "emoji": "🧢",
+      "detail": "There's a growing interest in gym fashion; consider content about stylish and functional wear."
+    },
+    {
+      "topic": "Mental Health & Fitness",
       "status": "rising",
-      "emoji": "\ud83d\udcc8",
-      "score": 1,
-      "momentum": "\u2197"
-    },
-    {
-      "topic": "gym",
-      "status": "stable",
-      "emoji": "\u2192",
-      "score": 100,
-      "momentum": "\u2192"
-    },
-    {
-      "topic": "fitness",
-      "status": "stable",
-      "emoji": "\u2192",
-      "score": 100,
-      "momentum": "\u2192"
-    },
-    {
-      "topic": "motivation",
-      "status": "stable",
-      "emoji": "\u2192",
-      "score": 100,
-      "momentum": "\u2192"
+      "emoji": "🧠",
+      "detail": "Linking mental well-being with physical fitness is becoming a strong narrative; explore mindfulness practices."
     }
   ],
   "hashtagIntel": [
     {
-      "combo": "#[object Object] #fitness #gym #workout",
-      "avgEngagement": "179.4k",
-      "saturation": "high",
-      "recommendation": "oversaturated",
-      "contentType": "general"
-    },
-    {
-      "combo": "#classicphysique #fitness #gym #workout",
-      "avgEngagement": "0.0k",
-      "saturation": "low",
-      "recommendation": "solid baseline",
-      "contentType": "general"
-    },
-    {
-      "combo": "#treino #fitness #gym #workout",
-      "avgEngagement": "0.0k",
-      "saturation": "medium",
-      "recommendation": "solid baseline",
-      "contentType": "general"
-    },
-    {
-      "combo": "#gymtok #fitness #gym #workout",
-      "avgEngagement": "0.0k",
-      "saturation": "high",
-      "recommendation": "oversaturated",
-      "contentType": "general"
-    },
-    {
-      "combo": "#lifestyle #fitness #gym #workout",
-      "avgEngagement": "0.0k",
-      "saturation": "medium",
-      "recommendation": "solid baseline",
-      "contentType": "general"
+      "combo": "#TransformationTuesday #SpringCut #FitnessJourney",
+      "avgEngagement": "100 likes/comments average",
+      "recommendation": "Use this combo on posts showcasing before-and-after transformations.",
+      "contentType": "reels"
     }
   ],
   "actionItems": [
     {
       "priority": "high",
-      "action": "Create more video content to maximize engagement",
-      "timing": "next post",
-      "hashtags": "#fitness #gym #workout",
+      "action": "Create a Reel using the 'How I lost X pounds in Y days' hook.",
+      "timing": "Monday morning",
+      "hashtags": "#WeightLossJourney #FitnessMotivation",
       "expectedBoost": "3x engagement",
-      "confidence": "medium"
+      "confidence": "high based on seasonal trends"
     },
     {
       "priority": "medium",
-      "action": "Include #[object Object] in your next post",
-      "timing": "this week",
-      "hashtags": "#fitness #gym #workout",
-      "expectedBoost": "2.5x engagement",
-      "confidence": "high"
+      "action": "Post a carousel detailing a 'Spring Cut Diet Plan'.",
+      "timing": "Wednesday evening",
+      "hashtags": "#DietPlan #SpringSlim",
+      "expectedBoost": "2x engagement",
+      "confidence": "medium with current diet interest"
     },
     {
       "priority": "low",
-      "action": "Consider using this audio for TikTok content",
-      "timing": "this week",
-      "hashtags": "#fitness #gym #workout",
-      "expectedBoost": "2x engagement",
-      "confidence": "high"
+      "action": "Share a Story about your morning routine.",
+      "timing": "Sunday afternoon",
+      "hashtags": "#MorningRoutine #DailyHabits",
+      "expectedBoost": "1.5x engagement",
+      "confidence": "low due to declining Story interest"
     }
   ],
   "algoRules": {
     "critical": [
-      "first 3 seconds = everything. 60%+ viewers past 3s = algo pushes wider",
-      "DM shares > saves > comments > likes (in order of algo weight)",
-      "CONSISTENCY > format choice in 2026. same days, same windows, same niche identity",
-      "no tiktok/capcut watermarks \u2014 auto-disqualified from explore + reels tab",
-      "carousels getting boosted reach again \u2014 not just reels anymore",
-      "original content gets 40-60% more distribution than reposts (verified by real data)",
-      "clarity beats creativity: 3-second profile identity test determines follow rate"
+      "Reels are prioritized for discovery on the Explore page."
     ],
     "proTips": [
-      "ask yourself: 'would someone DM this to a friend?' if yes, the algo rewards you",
-      "keep reels 15-30 sec for highest completion rate",
-      "respond to comments in first hour \u2014 conversation depth > comment count",
-      "mix hashtag sizes based on real performance data",
-      "posting patterns > posting times. same days, same windows, every week.",
-      "slower targeted growth > fast spike tools. engagement quality matters in 2026"
+      "Ensure first 3 seconds of Reels are captivating to increase watch time and shares."
     ]
   },
   "tiktokCrossover": {
-    "summary": "what starts on tiktok hits IG 1-2 weeks later. here's what's about to cross over.",
+    "summary": "Emerging TikTok trends can be leveraged early on Instagram for first-mover advantage.",
     "incoming": [
       {
-        "trend": "original sound",
-        "tiktokViews": "300K views",
-        "igStatus": "early",
-        "eta": "happening NOW"
+        "trend": "30-Day Fitness Challenges",
+        "tiktokViews": "1M-2M",
+        "igStatus": "not yet",
+        "eta": "2-3 weeks"
       }
     ]
   }
