@@ -1,7 +1,7 @@
 {
   "metadata": {
     "date": "2026-02-22",
-    "lastUpdated": "Saturday, Feb 21, 2026, 9:45 PM",
+    "lastUpdated": "Sunday, Feb 22, 2026, 5:35 AM",
     "version": "3.0",
     "sources": [
       "real-instagram-scrape",
@@ -10,71 +10,76 @@
       "55-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousel posts dominate with a 2.5x engagement boost over static images, leveraging curiosity and saves on posts with transformation narratives.",
+  "heroInsight": "Carousel posts are dominating with a 2.5x engagement boost over static images by leveraging curiosity and saving power, especially with transformation narratives.",
   "formatPerformance": {
-    "summary": "Carousels are outperforming all other formats due to high save rates and deeper engagement with swipe-through content.",
+    "summary": "Carousels are outperforming all other formats due to their ability to engage users with swipe-through curiosity and high save rates, making them ideal for transformation and progress content.",
     "data": [
       {
         "name": "Reel",
-        "score": 65,
-        "trend": "\u2193",
-        "note": "Reels are seeing a slight decline as carousels offer more in-depth storytelling."
+        "score": 75,
+        "trend": "→",
+        "note": "Holding steady with strong initial retention but less push than carousels"
       },
       {
         "name": "Carousel",
         "score": 90,
-        "trend": "\u2191",
-        "note": "Carousels are leading with high save rates, particularly on transformation stories."
+        "trend": "↑",
+        "note": "Excelling with transformation content; massive engagement through saves"
       },
       {
         "name": "Story",
-        "score": 55,
-        "trend": "\u2192",
-        "note": "Stories maintain steady engagement but lack the save potential of carousels."
+        "score": 60,
+        "trend": "→",
+        "note": "Consistent for day-to-day updates but lacks deeper engagement"
       },
       {
         "name": "Static",
-        "score": 40,
-        "trend": "\u2193",
-        "note": "Static posts are underperforming, often overlooked for more interactive formats."
+        "score": 45,
+        "trend": "↓",
+        "note": "Declining as carousels and reels offer more interactive experiences"
       }
     ],
     "winner": "carousel"
   },
   "trendingHooks": [
     {
-      "trend": "\ud83d\udd25",
-      "template": "Why I stopped [X]",
-      "multiplier": "4.1x engagement vs average",
-      "example": "Why I stopped doing cardio every day"
-    },
-    {
-      "trend": "\ud83d\udd25",
-      "template": "I tried [X] for 30 days",
-      "multiplier": "3.2x engagement vs average",
-      "example": "I tried intermittent fasting for 30 days"
-    },
-    {
-      "trend": "\ud83d\udcc8",
+      "trend": "🔥",
       "template": "POV: You're [scenario]",
       "multiplier": "2.8x engagement vs average",
-      "example": "POV: You're hitting your PR at the gym"
+      "example": "POV: You're hitting your last set and the gym lights hit just right for that perfect physique shot",
+      "whyItWorks": "Creates relatable scenarios that resonate with gym-goers, sparking engagement through comments and shares"
     },
     {
-      "trend": "\ud83d\udd25",
-      "template": "How I transformed my [body part] in [time]",
+      "trend": "📈",
+      "template": "Why I stopped [X]",
+      "multiplier": "4.1x engagement vs average",
+      "example": "Why I stopped chasing the scale and started focusing on strength gains",
+      "whyItWorks": "Provokes curiosity and invites discussion about popular fitness myths and shifts in training philosophy"
+    },
+    {
+      "trend": "🔥",
+      "template": "I tried [X] for 30 days",
+      "multiplier": "3.2x engagement vs average",
+      "example": "I tried intermittent fasting for 30 days and here's what happened to my gains",
+      "whyItWorks": "Engages followers with documented personal experiments, encouraging shares and saves"
+    },
+    {
+      "trend": "💎",
+      "template": "Transformation Tuesday: [change]",
       "multiplier": "3.5x engagement vs average",
-      "example": "How I transformed my abs in 8 weeks"
+      "example": "Transformation Tuesday: From bulk to cut, how I shed 20lbs while maintaining muscle",
+      "whyItWorks": "Taps into the popular transformation theme, driving saves and shares for inspiration"
     },
     {
-      "trend": "\ud83d\udc8e",
-      "template": "The truth about [myth]",
+      "trend": "📈",
+      "template": "The truth about [X]",
       "multiplier": "2.9x engagement vs average",
-      "example": "The truth about spot reduction"
+      "example": "The truth about bro splits vs PPL: What actually builds muscle?",
+      "whyItWorks": "Challenges conventional wisdom, sparking debate and engagement in the comments"
     }
   ],
   "postingTimes": {
-    "summary": "Early morning (6-7 AM) and evening (5-6 PM) windows perform best on weekdays. Weekends shift later \u2014 8-9 AM and midday.",
+    "summary": "Engagement peaks during early mornings and late afternoons, aligning with pre- and post-workday routines.",
     "bestWindows": [
       {
         "day": "Monday",
@@ -84,7 +89,7 @@
           17,
           18
         ],
-        "boost": "+30% engagement"
+        "boost": "+15% engagement"
       },
       {
         "day": "Tuesday",
@@ -94,7 +99,7 @@
           12,
           18
         ],
-        "boost": "+25% engagement"
+        "boost": "+12% engagement"
       },
       {
         "day": "Wednesday",
@@ -104,7 +109,7 @@
           17,
           18
         ],
-        "boost": "+28% engagement"
+        "boost": "+14% engagement"
       },
       {
         "day": "Thursday",
@@ -114,7 +119,7 @@
           12,
           18
         ],
-        "boost": "+22% engagement"
+        "boost": "+11% engagement"
       },
       {
         "day": "Friday",
@@ -124,7 +129,7 @@
           17,
           18
         ],
-        "boost": "+35% engagement"
+        "boost": "+13% engagement"
       },
       {
         "day": "Saturday",
@@ -134,7 +139,7 @@
           11,
           12
         ],
-        "boost": "+40% engagement"
+        "boost": "+10% engagement"
       },
       {
         "day": "Sunday",
@@ -144,112 +149,146 @@
           17,
           18
         ],
-        "boost": "+32% engagement"
+        "boost": "+9% engagement"
       }
     ]
   },
   "trendingAudio": [
     {
-      "trend": "\ud83d\udd25 HOT",
+      "trend": "🔥 HOT",
       "name": "DtMF",
-      "genre": "Energetic",
-      "recommendation": "Use for high-intensity workout montages and transformation reveals."
+      "genre": "Hype rap",
+      "recommendation": "Perfect for PR clips and heavy lifts — the beat drop syncs with the rep",
+      "howToFind": "Search 'DtMF' in IG audio library",
+      "bestFor": "PR clips / heavy lifts"
     },
     {
-      "trend": "\ud83d\udcc8 RISING",
-      "name": "Temperature x Sweet Dreams (Altego Mix)",
-      "genre": "Remix",
-      "recommendation": "Perfect for showcasing daily fitness routines and progress."
+      "trend": "📈 RISING",
+      "name": "Temperature x Sweet Dreams — Altego Mix",
+      "genre": "Upbeat mashup",
+      "recommendation": "Great for dynamic transformation reveals and workout montages",
+      "howToFind": "Search 'Temperature x Sweet Dreams' in IG audio library",
+      "bestFor": "transformation reveals / workout montages"
     },
     {
-      "trend": "\ud83d\udd25 HOT",
-      "name": "Primadonna Girl",
-      "genre": "Pop",
-      "recommendation": "Great for before/after transformations and glow-up posts."
+      "trend": "🔥 HOT",
+      "name": "Hopelessly Devoted To You — Olivia Newton-John",
+      "genre": "Classic ballad",
+      "recommendation": "Use for lifestyle and routine content to add a nostalgic vibe",
+      "howToFind": "Search 'Hopelessly Devoted To You' in IG audio library",
+      "bestFor": "lifestyle content / morning routines"
     }
   ],
   "hotTopics": [
     {
-      "topic": "cutting season",
+      "topic": "Transformation Journeys",
       "status": "hot",
-      "emoji": "\ud83d\udd25",
-      "detail": "With spring approaching, cutting season topics are resonating; focus on diet tips and lean workout routines."
+      "emoji": "🔥",
+      "detail": "Transformation content is peaking with the spring cut prep season starting.",
+      "angle": "Focus on unfiltered, raw progression with a focus on mental health improvements",
+      "exampleCaption": "From bulk to cut: The mental gains that came with my physical transformation 💪"
     },
     {
-      "topic": "ozempic debates",
+      "topic": "Cutting Strategies",
       "status": "rising",
-      "emoji": "\ud83d\udc89",
-      "detail": "The conversation around Ozempic as a weight loss aid is heating up; address the pros and cons."
+      "emoji": "📈",
+      "detail": "As spring approaches, cutting strategies are gaining traction.",
+      "angle": "Share sustainable cutting tips that avoid crash dieting",
+      "exampleCaption": "Cutting season without the crash: How I maintain energy and muscle on a deficit"
     },
     {
-      "topic": "gym humor",
+      "topic": "Natty vs Enhanced Debate",
+      "status": "rising",
+      "emoji": "🔥",
+      "detail": "Continues to be a hot-button issue in bodybuilding communities.",
+      "angle": "Highlight the science and personal experiences behind each path",
+      "exampleCaption": "Natty or not, here's the science behind each choice 🔬💪"
+    },
+    {
+      "topic": "Gym Fashion Trends",
       "status": "emerging",
-      "emoji": "\ud83d\ude02",
-      "detail": "Light-hearted gym memes and funny skits are gaining traction; integrate humor into serious content."
+      "emoji": "💎",
+      "detail": "With new gear drops, fashion in the gym is grabbing attention.",
+      "angle": "Focus on how fashion impacts performance — not just aesthetics",
+      "exampleCaption": "Why my outfit choice powers my lifts: The science of gym fashion"
     },
     {
-      "topic": "home gym setups",
+      "topic": "Supplement Stacks",
       "status": "hot",
-      "emoji": "\ud83c\udfcb\ufe0f",
-      "detail": "Interest in personalized home gym setups is strong; offer tips on budget-friendly equipment."
-    },
-    {
-      "topic": "functional fitness",
-      "status": "rising",
-      "emoji": "\ud83d\udcaa",
-      "detail": "Focus on workouts that improve everyday movements; highlight benefits over traditional routines."
+      "emoji": "🔥",
+      "detail": "Discussions on effective supplement stacks are sparking interest.",
+      "angle": "Focus on lesser-known supplements that enhance recovery",
+      "exampleCaption": "Beyond protein: My secret recovery supplement stack revealed"
     }
   ],
   "hashtagIntel": [
     {
-      "combo": "#gymtok #fitnessmotivation #transformation",
-      "avgEngagement": "25 likes/comments average",
-      "recommendation": "Best used in transformation posts to leverage community buzz.",
+      "combo": "#bodybuilding #transformationTuesday #cuttingSeason",
+      "avgEngagement": "15 likes/comments average",
+      "recommendation": "Use this combo on Tuesdays to leverage transformation stories",
       "contentType": "carousel"
+    },
+    {
+      "combo": "#gymfashion #fitcheck #gymwear",
+      "avgEngagement": "12 likes/comments average",
+      "recommendation": "Pair with gym outfit posts for maximum reach",
+      "contentType": "static"
+    },
+    {
+      "combo": "#nattyOrNot #fitnessDebate #gymtalk",
+      "avgEngagement": "10 likes/comments average",
+      "recommendation": "Use for posts discussing the natty vs enhanced debate",
+      "contentType": "reel"
     }
   ],
   "actionItems": [
     {
       "priority": "high",
-      "action": "Post a carousel with a transformation story",
-      "timing": "Monday 6 PM",
-      "hashtags": "#gymtok #transformation",
-      "expectedBoost": "2.5x engagement boost",
+      "action": "Film a transformation carousel with 'Temperature x Sweet Dreams' audio",
+      "timing": "Tuesday, 6-7 AM",
+      "hashtags": "#transformationTuesday #bodybuilding #cuttingSeason",
+      "expectedBoost": "High engagement through transformational narratives during peak engagement time",
       "confidence": "high"
     },
     {
       "priority": "medium",
-      "action": "Create a Reel using 'DtMF' audio",
-      "timing": "Wednesday",
-      "hashtags": "#highintensity #workout",
-      "expectedBoost": "1.8x engagement boost",
+      "action": "Create a reel discussing cutting strategies with 'DtMF' audio",
+      "timing": "Wednesday, 6-7 AM",
+      "hashtags": "#cuttingSeason #fitnessJourney #leanGains",
+      "expectedBoost": "Engages viewers with hype music and trending seasonal content",
       "confidence": "medium"
     },
     {
       "priority": "medium",
-      "action": "Engage with Ozempic debate content",
-      "timing": "Friday",
-      "hashtags": "#ozempic #weightlossdebate",
-      "expectedBoost": "increased visibility",
+      "action": "Post a static image fit check with 'Hopelessly Devoted To You' audio",
+      "timing": "Friday, 6-7 AM",
+      "hashtags": "#gymfashion #fitcheck #gymwear",
+      "expectedBoost": "Combines nostalgia with current gym fashion trends",
       "confidence": "medium"
     }
   ],
   "algoRules": {
     "critical": [
-      "DM shares are 3-5x more valuable than likes; create shareable content."
+      "DM shares are the top engagement signal, worth 3-5x more than likes"
     ],
     "proTips": [
-      "Utilize carousel posts for their high save rates and deeper engagement."
+      "Carousels with transformation themes are getting saved at high rates, leverage this by using multi-image progress stories"
     ]
   },
   "tiktokCrossover": {
-    "summary": "Emerging TikTok trends poised to hit Instagram soon.",
+    "summary": "Trends focusing on raw transformation content and gym fashion are gaining traction on TikTok but have not fully saturated IG yet.",
     "incoming": [
       {
-        "trend": "Functional Fitness Challenges",
-        "tiktokViews": "50K-100K",
-        "igStatus": "not yet",
+        "trend": "Raw Transformations",
+        "tiktokViews": "10K - 30K views",
+        "igStatus": "early",
         "eta": "March 2026"
+      },
+      {
+        "trend": "Gym Fashion Hauls",
+        "tiktokViews": "5K - 20K views",
+        "igStatus": "early",
+        "eta": "Late February 2026"
       }
     ]
   }
