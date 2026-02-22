@@ -3,919 +3,525 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gymsignal — we watch the algorithm so you don't have to</title>
+    <title>GymSignal — fitness algorithm intelligence</title>
     
-    <!-- Meta Tags -->
-    <meta name="description" content="AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.">
-    <meta name="keywords" content="fitness, social media, AI, algorithm, trends, fitness creators, content creation">
-    <meta name="author" content="gymsignal">
+    <meta name="description" content="We watch the Instagram and TikTok algorithms so you don't have to. Daily intelligence briefings for fitness creators — trending hooks, viral audio, hot topics, and more.">
+    <meta name="keywords" content="fitness, gym, instagram, algorithm, trending, reels, tiktok, hooks, creator, social media">
     
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gymsignal.app/">
-    <meta property="og:title" content="gymsignal — we watch the algorithm so you don't have to">
-    <meta property="og:description" content="AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.">
+    <meta property="og:title" content="GymSignal — fitness algorithm intelligence">
+    <meta property="og:description" content="We watch the algorithm so you don't have to. Daily intelligence for fitness creators.">
     <meta property="og:image" content="https://gymsignal.app/icon.png">
     
-    <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://gymsignal.app/">
-    <meta property="twitter:title" content="gymsignal — we watch the algorithm so you don't have to">
-    <meta property="twitter:description" content="AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.">
+    <meta property="twitter:title" content="GymSignal — fitness algorithm intelligence">
+    <meta property="twitter:description" content="We watch the algorithm so you don't have to. Daily intelligence for fitness creators.">
     <meta property="twitter:image" content="https://gymsignal.app/icon.png">
     
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png">
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
         :root {
-            --bg-primary: #0a0a0a;
-            --bg-secondary: #111111;
-            --accent-green: #4CAF50;
-            --text-primary: #ffffff;
-            --text-secondary: #999999;
-            --grid-color: rgba(255, 255, 255, 0.03);
+            --bg: #0a0a0a;
+            --bg2: #111111;
+            --bg3: #1a1a1a;
+            --accent: #10a37f;
+            --accent2: #0d8f6f;
+            --text: #ffffff;
+            --text2: #999999;
+            --text3: #666666;
+            --hot: #ff4444;
+            --rising: #ff8800;
         }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
+            background: var(--bg);
+            color: var(--text);
+            -webkit-font-smoothing: antialiased;
         }
 
-        /* Smooth scroll */
-        html {
-            scroll-behavior: smooth;
-        }
-
-        /* Grid background pattern */
-        .grid-bg {
-            background-image: 
-                linear-gradient(var(--grid-color) 1px, transparent 1px),
-                linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
-            background-size: 50px 50px;
-        }
-
-        /* Container */
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-
-        /* Hero Section */
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Hero */
         .hero {
             min-height: 100vh;
             display: flex;
             align-items: center;
-            background: linear-gradient(135deg, var(--bg-primary) 0%, #0d0d0d 100%);
-            position: relative;
-        }
-
-        .hero-content {
-            text-align: center;
-            z-index: 2;
-        }
-
-        .hero h1 {
-            font-size: clamp(3rem, 8vw, 6rem);
-            font-weight: 900;
-            letter-spacing: 0.3em;
-            color: var(--accent-green);
-            margin-bottom: 1rem;
-            text-transform: uppercase;
-        }
-
-        .hero .tagline {
-            font-size: clamp(1.2rem, 3vw, 2rem);
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: var(--text-primary);
-        }
-
-        .hero .subtitle {
-            font-size: clamp(1rem, 2.5vw, 1.3rem);
-            color: var(--text-secondary);
-            max-width: 600px;
-            margin: 0 auto 3rem;
-            line-height: 1.5;
-        }
-
-        .cta-buttons {
-            display: flex;
-            gap: 20px;
             justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
-            padding: 15px 30px;
-            border: none;
-            border-radius: 8px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        .btn-primary {
-            background: var(--accent-green);
-            color: var(--bg-primary);
-        }
-
-        .btn-primary:hover {
-            background: #0d8f6f;
-            transform: translateY(-2px);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            color: var(--text-primary);
-            border: 2px solid var(--text-secondary);
-        }
-
-        .btn-secondary:hover {
-            border-color: var(--accent-green);
-            color: var(--accent-green);
-        }
-
-        /* Section styling */
-        section {
-            padding: 80px 0;
-        }
-
-        section.reveal {
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 0.8s ease;
-        }
-
-        section.reveal.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        h2 {
-            font-size: clamp(2rem, 5vw, 3rem);
-            font-weight: 800;
             text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        /* Today's Briefing Preview */
-        .briefing {
-            background: var(--bg-secondary);
-            border-radius: 16px;
-            padding: 40px;
-            margin-bottom: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        .briefing h3 {
-            color: var(--accent-green);
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .briefing .insight {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            padding: 20px;
-            background: rgba(16, 163, 127, 0.1);
-            border-radius: 8px;
-            border-left: 4px solid var(--accent-green);
-        }
-
-        .action-items {
-            list-style: none;
-        }
-
-        .action-items li {
-            padding: 15px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            position: relative;
-            padding-left: 30px;
-        }
-
-        .action-items li::before {
-            content: "→";
-            color: var(--accent-green);
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-        }
-
-        .teaser {
-            text-align: center;
-            margin-top: 30px;
-            padding: 20px;
-            background: linear-gradient(90deg, transparent, rgba(16, 163, 127, 0.1), transparent);
             position: relative;
             overflow: hidden;
         }
-
-        .teaser::after {
+        
+        .hero::before {
             content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(16, 163, 127, 0.06) 0%, transparent 50%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+
+        .hero-content { position: relative; z-index: 2; }
+        
+        .app-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 28px;
+            margin-bottom: 2rem;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 7vw, 5rem);
+            font-weight: 900;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 0.8rem;
+            background: linear-gradient(135deg, var(--text), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+            color: var(--text2);
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .subtitle {
+            font-size: clamp(0.95rem, 2vw, 1.15rem);
+            color: var(--text3);
+            max-width: 550px;
+            margin: 0 auto 2.5rem;
+            line-height: 1.6;
+        }
+
+        .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        
+        .btn {
+            padding: 14px 28px;
+            border: none;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        
+        .btn-primary { background: var(--accent); color: #000; }
+        .btn-primary:hover { background: var(--accent2); transform: translateY(-2px); }
+        .btn-ghost { background: transparent; color: var(--text); border: 1.5px solid var(--text3); }
+        .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+
+        /* Live Briefing */
+        .live-section { padding: 80px 0; }
+        
+        .section-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+        
+        h2 {
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            font-weight: 800;
+            margin-bottom: 2.5rem;
+        }
+
+        .briefing-card {
+            background: var(--bg2);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 20px;
+        }
+        
+        .briefing-card h3 {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--text3);
+            margin-bottom: 12px;
+        }
+
+        .hero-insight {
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.5;
+            color: var(--text);
+        }
+
+        .hooks-grid { display: grid; gap: 12px; margin-top: 12px; }
+        
+        .hook-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 16px;
+            background: var(--bg3);
+            border-radius: 10px;
+        }
+        
+        .hook-emoji { font-size: 1.2rem; }
+        .hook-template { font-weight: 600; flex: 1; }
+        .hook-multiplier { color: var(--accent); font-weight: 700; font-size: 0.9rem; }
+
+        .audio-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 16px;
+            background: var(--bg3);
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        
+        .audio-badge {
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 3px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        
+        .badge-hot { background: rgba(255,68,68,0.15); color: var(--hot); }
+        .badge-rising { background: rgba(255,136,0,0.15); color: var(--rising); }
+        
+        .audio-name { font-weight: 600; }
+        .audio-rec { color: var(--text2); font-size: 0.85rem; }
+
+        .blur-overlay {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .blur-overlay::after {
+            content: 'get the full briefing in the app →';
             position: absolute;
             bottom: 0;
             left: 0;
             right: 0;
-            height: 50px;
-            background: linear-gradient(transparent, var(--bg-primary));
+            height: 120px;
+            background: linear-gradient(transparent, var(--bg));
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding-bottom: 16px;
+            color: var(--accent);
+            font-weight: 600;
+            font-size: 0.95rem;
         }
 
-        /* Features Grid */
+        /* Features */
         .features-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin-top: 40px;
+            gap: 16px;
         }
-
-        .feature-card {
-            background: var(--bg-secondary);
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            transition: all 0.3s ease;
+        
+        .feature {
+            background: var(--bg2);
+            border: 1px solid rgba(255,255,255,0.06);
+            border-radius: 14px;
+            padding: 28px 24px;
+            transition: border-color 0.2s;
         }
+        
+        .feature:hover { border-color: rgba(16,163,127,0.3); }
+        .feature .emoji { font-size: 1.8rem; margin-bottom: 12px; display: block; }
+        .feature h3 { font-size: 1.1rem; margin-bottom: 8px; }
+        .feature p { color: var(--text2); font-size: 0.9rem; line-height: 1.5; }
 
-        .feature-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-green);
-        }
-
-        .feature-card h3 {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            color: var(--text-primary);
-        }
-
-        .feature-card .emoji {
-            font-size: 2rem;
-        }
-
-        .feature-card p {
-            color: var(--text-secondary);
-            line-height: 1.6;
-        }
-
-        .coming-soon {
-            opacity: 0.6;
-            position: relative;
-        }
-
-        .coming-soon::after {
-            content: 'coming soon';
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: var(--accent-green);
-            color: var(--bg-primary);
-            padding: 5px 10px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: 600;
-        }
-
-        /* Social Proof */
-        .social-proof {
-            text-align: center;
-            background: var(--bg-secondary);
-            border-radius: 16px;
-            padding: 40px;
-            margin: 50px 0;
-        }
-
-        .social-proof h3 {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            color: var(--text-secondary);
-        }
-
-        .stats {
+        /* Stats */
+        .stats-bar {
             display: flex;
             justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-            font-weight: 600;
-            color: var(--accent-green);
-        }
-
-        /* How It Works */
-        .steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 40px;
-            margin-top: 50px;
+            flex-wrap: wrap;
+            padding: 40px 0;
+            border-top: 1px solid rgba(255,255,255,0.06);
+            border-bottom: 1px solid rgba(255,255,255,0.06);
+            margin: 60px 0;
         }
-
-        .step {
-            text-align: center;
-            position: relative;
-        }
-
-        .step-number {
-            width: 60px;
-            height: 60px;
-            background: var(--accent-green);
-            color: var(--bg-primary);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            font-weight: 900;
-            margin: 0 auto 20px;
-        }
-
-        .step h4 {
-            font-size: 1.5rem;
-            margin-bottom: 15px;
-            color: var(--accent-green);
-        }
-
-        .step p {
-            color: var(--text-secondary);
-            max-width: 250px;
-            margin: 0 auto;
-        }
+        
+        .stat { text-align: center; }
+        .stat-num { font-size: 2rem; font-weight: 900; color: var(--accent); }
+        .stat-label { font-size: 0.8rem; color: var(--text3); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px; }
 
         /* Pricing */
         .pricing-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 50px;
-        }
-
-        .pricing-card {
-            background: var(--bg-secondary);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            padding: 40px 30px;
-            text-align: center;
-            position: relative;
-            transition: all 0.3s ease;
-        }
-
-        .pricing-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-green);
-        }
-
-        .pricing-card.featured {
-            border-color: var(--accent-green);
-            background: linear-gradient(135deg, var(--bg-secondary), rgba(16, 163, 127, 0.05));
-        }
-
-        .pricing-card h4 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            color: var(--accent-green);
-        }
-
-        .pricing-card .price {
-            font-size: 2.5rem;
-            font-weight: 900;
-            margin-bottom: 20px;
-        }
-
-        .pricing-card ul {
-            list-style: none;
-            text-align: left;
-            margin-bottom: 30px;
-        }
-
-        .pricing-card li {
-            padding: 8px 0;
-            color: var(--text-secondary);
-            position: relative;
-            padding-left: 25px;
-        }
-
-        .pricing-card li::before {
-            content: "✓";
-            color: var(--accent-green);
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-        }
-
-        .pricing-card .btn {
-            margin-top: 10px;
-            width: 100%;
-        }
-
-        /* Email Capture */
-        .email-capture {
-            background: linear-gradient(135deg, var(--bg-secondary), rgba(16, 163, 127, 0.1));
-            border-radius: 16px;
-            padding: 60px 40px;
-            text-align: center;
-            margin: 50px 0;
-        }
-
-        .email-capture h3 {
-            font-size: 2rem;
-            margin-bottom: 15px;
-            color: var(--accent-green);
-        }
-
-        .email-capture p {
-            font-size: 1.2rem;
-            color: var(--text-secondary);
-            margin-bottom: 30px;
-        }
-
-        .email-form {
-            display: flex;
-            gap: 15px;
-            max-width: 500px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 700px;
             margin: 0 auto;
-            flex-wrap: wrap;
-            justify-content: center;
         }
-
-        .email-input {
-            flex: 1;
-            min-width: 250px;
-            padding: 15px 20px;
-            border: 2px solid rgba(255, 255, 255, 0.2);
-            border-radius: 8px;
-            background: var(--bg-primary);
-            color: var(--text-primary);
-            font-size: 1rem;
+        
+        .price-card {
+            background: var(--bg2);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 36px 28px;
+            text-align: center;
         }
-
-        .email-input:focus {
-            outline: none;
-            border-color: var(--accent-green);
+        
+        .price-card.featured {
+            border-color: var(--accent);
+            background: linear-gradient(135deg, var(--bg2), rgba(16,163,127,0.05));
         }
+        
+        .price-card h4 { font-size: 1.3rem; margin-bottom: 8px; }
+        .price-card .price { font-size: 2.5rem; font-weight: 900; margin-bottom: 20px; }
+        .price-card .price span { font-size: 1rem; color: var(--text3); }
+        .price-card ul { list-style: none; text-align: left; margin-bottom: 24px; }
+        .price-card li { padding: 8px 0; color: var(--text2); padding-left: 22px; position: relative; font-size: 0.9rem; }
+        .price-card li::before { content: "✓"; color: var(--accent); font-weight: bold; position: absolute; left: 0; }
+        .price-card .btn { width: 100%; }
 
         /* Footer */
         footer {
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255,255,255,0.06);
             padding: 40px 0;
             text-align: center;
-            color: var(--text-secondary);
         }
-
-        .footer-content {
+        
+        .footer-inner {
             display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .footer-links {
-            display: flex;
-            gap: 30px;
-            flex-wrap: wrap;
-        }
-
-        .footer-links a {
-            color: var(--text-secondary);
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        .footer-links a:hover {
-            color: var(--accent-green);
-        }
-
-        /* Mobile First — phones are the primary device */
-        @media (max-width: 768px) {
-            .hero h1 {
-                letter-spacing: 0.15em;
-                font-size: clamp(2.5rem, 12vw, 4rem);
-            }
-            
-            .hero .tagline {
-                font-size: 1.1rem;
-            }
-            
-            .hero .subtitle {
-                font-size: 0.95rem;
-                margin-bottom: 2rem;
-                padding: 0 10px;
-            }
-            
-            .features-grid {
-                grid-template-columns: 1fr;
-                gap: 15px;
-            }
-            
-            .feature-card {
-                padding: 24px 20px;
-            }
-            
-            .feature-card h3 {
-                font-size: 1.1rem;
-                gap: 10px;
-            }
-            
-            .feature-card .emoji {
-                font-size: 1.6rem;
-            }
-            
-            .feature-card p {
-                font-size: 0.95rem;
-            }
-            
-            .cta-buttons {
-                flex-direction: column;
-                align-items: stretch;
-                padding: 0 20px;
-                gap: 12px;
-            }
-            
-            .btn {
-                width: 100%;
-                padding: 18px 30px;
-                font-size: 1.05rem;
-                text-align: center;
-                -webkit-tap-highlight-color: transparent;
-            }
-            
-            .stats {
-                flex-direction: column;
-                gap: 12px;
-                font-size: 0.9rem;
-            }
-            
-            .stats span:nth-child(even) {
-                display: none;
-            }
-            
-            .email-form {
-                flex-direction: column;
-                gap: 12px;
-            }
-            
-            .email-input {
-                min-width: unset;
-                width: 100%;
-                padding: 18px 20px;
-                font-size: 16px; /* prevents iOS zoom on focus */
-            }
-            
-            .footer-content {
-                flex-direction: column;
-                text-align: center;
-                gap: 15px;
-            }
-            
-            .footer-links {
-                gap: 20px;
-            }
-            
-            section {
-                padding: 50px 0;
-            }
-            
-            h2 {
-                font-size: 1.8rem;
-                margin-bottom: 2rem;
-            }
-            
-            .briefing {
-                padding: 25px 18px;
-                border-radius: 12px;
-            }
-            
-            .briefing h3 {
-                font-size: 1.2rem;
-            }
-            
-            .briefing .insight {
-                font-size: 1rem;
-                padding: 16px;
-            }
-            
-            .action-items li {
-                padding: 12px 0 12px 25px;
-                font-size: 0.95rem;
-            }
-            
-            .steps {
-                gap: 30px;
-            }
-            
-            .step-number {
-                width: 50px;
-                height: 50px;
-                font-size: 1.3rem;
-            }
-            
-            .step h4 {
-                font-size: 1.3rem;
-            }
-            
-            .pricing-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .pricing-card {
-                padding: 30px 25px;
-            }
-            
-            .pricing-card .price {
-                font-size: 2rem;
-            }
-            
-            .email-capture {
-                padding: 40px 20px;
-                border-radius: 12px;
-            }
-            
-            .email-capture h3 {
-                font-size: 1.5rem;
-            }
-            
-            .email-capture p {
-                font-size: 1rem;
-            }
-            
-            .social-proof {
-                padding: 30px 20px;
-            }
-        }
-
-        @media (max-width: 380px) {
-            .container {
-                padding: 0 12px;
-            }
-            
-            .hero h1 {
-                font-size: 2.2rem;
-                letter-spacing: 0.1em;
-            }
-            
-            .feature-card {
-                padding: 20px 16px;
-            }
+            gap: 16px;
+            color: var(--text3);
+            font-size: 0.85rem;
         }
         
-        /* Touch-friendly: make all interactive elements at least 44px tall (Apple HIG) */
-        @media (hover: none) {
-            .btn, .email-input, .footer-links a {
-                min-height: 44px;
-                display: inline-flex;
-                align-items: center;
-                justify-content: center;
-            }
+        .footer-links { display: flex; gap: 24px; }
+        .footer-links a { color: var(--text3); text-decoration: none; }
+        .footer-links a:hover { color: var(--accent); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { letter-spacing: 0.1em; }
+            .app-icon { width: 90px; height: 90px; border-radius: 22px; }
+            .cta-buttons { flex-direction: column; align-items: stretch; padding: 0 20px; gap: 12px; }
+            .btn { width: 100%; text-align: center; padding: 16px; }
+            .stats-bar { gap: 24px; }
+            .features-grid { grid-template-columns: 1fr; }
+            .pricing-grid { grid-template-columns: 1fr; }
+            .footer-inner { flex-direction: column; text-align: center; }
+            .briefing-card { padding: 24px 18px; }
         }
+        
+        @media (hover: none) {
+            .btn, .footer-links a { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+        }
+        
+        .reveal { opacity: 0; transform: translateY(20px); transition: all 0.6s ease; }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
-    <section class="hero grid-bg">
+    <section class="hero">
         <div class="container">
             <div class="hero-content">
+                <img src="icon.png" alt="GymSignal" class="app-icon">
                 <h1>GYMSIGNAL</h1>
                 <p class="tagline">we watch the algorithm so you don't have to</p>
-                <p class="subtitle">AI-powered trend intelligence for fitness creators. know what to post, when to post it, and why.</p>
+                <p class="subtitle">daily intelligence briefings for fitness creators. real data from 650+ posts across Instagram and TikTok, analyzed by AI every morning.</p>
                 <div class="cta-buttons">
-                    <a href="#" class="btn btn-primary">Download on App Store</a>
-                    <a href="#briefing" class="btn btn-secondary">See Today's Briefing</a>
+                    <a href="#" class="btn btn-primary">Download Free on App Store</a>
+                    <a href="#briefing" class="btn btn-ghost">See Today's Briefing ↓</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Today's Briefing Preview -->
-    <section id="briefing" class="reveal">
+    <div class="container">
+        <div class="stats-bar">
+            <div class="stat"><div class="stat-num">650+</div><div class="stat-label">posts analyzed daily</div></div>
+            <div class="stat"><div class="stat-num">13</div><div class="stat-label">hashtags tracked</div></div>
+            <div class="stat"><div class="stat-num">2</div><div class="stat-label">platforms</div></div>
+            <div class="stat"><div class="stat-num">5:30am</div><div class="stat-label">fresh intel daily</div></div>
+        </div>
+    </div>
+
+    <section id="briefing" class="live-section reveal">
         <div class="container">
-            <h2>today's algo briefing</h2>
-            <div class="briefing">
-                <h3>🔥 hero insight</h3>
-                <div class="insight">
-                    "transformation tuesday" posts are seeing 47% higher engagement velocity when posted between 6-8am EST. the algorithm is heavily favoring progress comparisons with dramatic lighting contrast.
-                </div>
-                <h3>top action items</h3>
-                <ul class="action-items">
-                    <li><strong>trending audio:</strong> "gym flow" by zyzz remixes hitting peak velocity in 18 hours</li>
-                    <li><strong>hook opportunity:</strong> "POV: you finally understand why your progress stalled" format up 340%</li>
-                    <li><strong>hashtag combo:</strong> #TransformationTuesday + #GymTok + #FitnessMotivation optimal through Thursday</li>
-                </ul>
-                <div class="teaser">
-                    <p>get the full briefing in the app →</p>
-                </div>
+            <div class="section-label">live data · updated daily</div>
+            <h2>today's intelligence briefing</h2>
+            
+            <div class="briefing-card">
+                <h3>🧠 hero insight</h3>
+                <div class="hero-insight" id="live-hero">loading today's insight...</div>
+            </div>
+            
+            <div class="briefing-card">
+                <h3>🎣 trending hooks</h3>
+                <div class="hooks-grid" id="live-hooks"></div>
+            </div>
+            
+            <div class="briefing-card blur-overlay">
+                <h3>🎵 trending audio</h3>
+                <div id="live-audio"></div>
             </div>
         </div>
     </section>
 
-    <!-- Features Grid -->
-    <section class="reveal">
+    <section class="live-section reveal">
         <div class="container">
-            <h2>features that actually move the needle</h2>
+            <div class="section-label">built for fitness creators</div>
+            <h2>everything you need to grow</h2>
             <div class="features-grid">
-                <div class="feature-card">
-                    <h3><span class="emoji">📧</span> daily briefings</h3>
-                    <p>wake up to algorithmic intelligence. what's hot, what's not, what to post.</p>
+                <div class="feature">
+                    <span class="emoji">📊</span>
+                    <h3>daily briefings</h3>
+                    <p>wake up to algorithmic intelligence. what's hot, what's not, what to post today.</p>
                 </div>
-                <div class="feature-card">
-                    <h3><span class="emoji">🪝</span> trending hooks</h3>
-                    <p>hooks that stop the scroll. updated weekly based on what's converting.</p>
+                <div class="feature">
+                    <span class="emoji">🎣</span>
+                    <h3>trending hooks</h3>
+                    <p>hooks with real engagement multipliers from scraped data. not guesses — math.</p>
                 </div>
-                <div class="feature-card">
-                    <h3><span class="emoji">🔥</span> hot topics</h3>
-                    <p>catch fitness trends 24-48h before they explode across the platform.</p>
+                <div class="feature">
+                    <span class="emoji">🎵</span>
+                    <h3>audio intel</h3>
+                    <p>specific songs trending for fitness reels right now. use before they're saturated.</p>
                 </div>
-                <div class="feature-card">
-                    <h3><span class="emoji">🔄</span> TikTok→IG pipeline</h3>
-                    <p>seamless content adaptation. one video, multiple platforms, maximum reach.</p>
+                <div class="feature">
+                    <span class="emoji">🔥</span>
+                    <h3>hot topics</h3>
+                    <p>cultural moments and debates to ride. ozempic, spring cuts, gym humor — timed.</p>
                 </div>
-                <div class="feature-card">
-                    <h3><span class="emoji">🤖</span> AI content generation</h3>
-                    <p>captions, hashtags, scripts. all trained on fitness content that actually works.</p>
+                <div class="feature">
+                    <span class="emoji">📲</span>
+                    <h3>TikTok → IG crossover</h3>
+                    <p>catch trends migrating from TikTok 1-2 weeks before they hit Instagram.</p>
                 </div>
-                <div class="feature-card">
-                    <h3><span class="emoji">📝</span> format cheat sheet</h3>
-                    <p>templates for every post type. transformation tuesday, workout wednesday, you name it.</p>
-                </div>
-                <div class="feature-card">
-                    <h3><span class="emoji">⏰</span> posting times</h3>
-                    <p>personalized windows when your audience is most likely to engage.</p>
-                </div>
-                <div class="feature-card coming-soon">
-                    <h3><span class="emoji">🚀</span> autopilot mode</h3>
-                    <p>full AI social media manager that learns your style and runs your strategy.</p>
+                <div class="feature">
+                    <span class="emoji">⚡</span>
+                    <h3>algo rules</h3>
+                    <p>DM shares 3-5x more valuable than likes. saves = 25% of ranking. we track the rules.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Social Proof -->
-    <section class="reveal">
+    <section class="live-section reveal">
         <div class="container">
-            <div class="social-proof">
-                <h3>built for fitness creators who are tired of guessing</h3>
-                <div class="stats">
-                    <span>6 data sources monitored daily</span>
-                    <span>•</span>
-                    <span>10+ trending hooks updated weekly</span>
-                    <span>•</span>
-                    <span>174 fitness accounts tracked</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- How It Works -->
-    <section class="reveal">
-        <div class="container">
-            <h2>how it works</h2>
-            <div class="steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h4>wake up</h4>
-                    <p>check your daily briefing</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h4>create</h4>
-                    <p>use AI-generated hooks, captions, and hashtag combos</p>
-                </div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h4>post</h4>
-                    <p>hit publish at the optimal time with confidence</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing -->
-    <section class="reveal">
-        <div class="container">
-            <h2>simple pricing</h2>
+            <div class="section-label">simple pricing</div>
+            <h2>start free. upgrade when you're ready.</h2>
             <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h4>free</h4>
+                <div class="price-card">
+                    <h4>Free</h4>
                     <div class="price">$0</div>
                     <ul>
                         <li>weekly briefing</li>
                         <li>basic trend alerts</li>
                         <li>format cheat sheet</li>
                     </ul>
-                    <a href="#" class="btn btn-secondary">Download Free</a>
+                    <a href="#" class="btn btn-ghost">Download Free</a>
                 </div>
-                <div class="pricing-card featured">
-                    <h4>pro</h4>
-                    <div class="price">$4.99<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
+                <div class="price-card featured">
+                    <h4>Pro</h4>
+                    <div class="price">$4.99<span>/mo</span></div>
                     <ul>
                         <li>daily briefings</li>
-                        <li>AI content creation</li>
-                        <li>full data access</li>
-                        <li>trending hooks</li>
-                        <li>posting time optimization</li>
-                        <li>TikTok→IG pipeline</li>
+                        <li>trending hooks + multipliers</li>
+                        <li>audio recommendations</li>
+                        <li>hot topics + timing</li>
+                        <li>TikTok crossover alerts</li>
+                        <li>hashtag combos</li>
+                        <li>action items</li>
                     </ul>
                     <a href="#" class="btn btn-primary">Get Pro</a>
                 </div>
-                <div class="pricing-card coming-soon">
-                    <h4>autopilot</h4>
-                    <div class="price">$29.99<span style="font-size: 1rem; color: var(--text-secondary);">/mo</span></div>
-                    <ul>
-                        <li>full AI social media manager</li>
-                        <li>automated posting</li>
-                        <li>strategy optimization</li>
-                        <li>performance analytics</li>
-                    </ul>
-                    <div style="text-align: center; color: var(--text-secondary); font-size: 0.9rem; margin-top: 20px;">coming soon</div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Email Capture -->
-    <section id="email-signup" class="reveal">
-        <div class="container">
-            <div class="email-capture">
-                <h3>join the beta</h3>
-                <p>first 100 creators get pro free for life</p>
-                <form class="email-form" action="mailto:hello@gymsignal.app?subject=Beta%20Access%20Request" method="post" enctype="text/plain">
-                    <input type="email" class="email-input" placeholder="your email" required>
-                    <button type="submit" class="btn btn-primary">Get Early Access</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <div>built by @mind2muscle.app</div>
+            <div class="footer-inner">
+                <div>© 2026 GymSignal</div>
                 <div class="footer-links">
-                    <a href="https://instagram.com/mind2muscle.app">instagram</a>
-                    <a href="https://twitter.com/mind2muscle">twitter</a>
-                    <a href="https://github.com/mind2muscle/gymsignal">github</a>
+                    <a href="privacy.html">privacy</a>
+                    <a href="support.html">support</a>
                 </div>
-                <div>© 2026 gymsignal</div>
             </div>
         </div>
     </footer>
 
     <script>
-        // Smooth reveal animation on scroll
-        const revealElements = document.querySelectorAll('.reveal');
-        const revealElementOnScroll = () => {
-            revealElements.forEach(element => {
-                const elementTop = element.getBoundingClientRect().top;
-                const elementVisible = 150;
-                
-                if (elementTop < window.innerHeight - elementVisible) {
-                    element.classList.add('visible');
-                }
-            });
-        };
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const onScroll = () => reveals.forEach(el => {
+            if (el.getBoundingClientRect().top < window.innerHeight - 100) el.classList.add('visible');
+        });
+        window.addEventListener('scroll', onScroll);
+        document.addEventListener('DOMContentLoaded', onScroll);
 
-        window.addEventListener('scroll', revealElementOnScroll);
-        
-        // Trigger on load for elements already in view
-        document.addEventListener('DOMContentLoaded', revealElementOnScroll);
-
-        // Smooth scroll for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
                 e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+                document.querySelector(a.getAttribute('href'))?.scrollIntoView({ behavior: 'smooth' });
             });
         });
 
-        // Form handling
-        document.querySelector('.email-form').addEventListener('submit', function(e) {
-            const email = this.querySelector('.email-input').value;
-            if (email) {
-                // For now, just use mailto. Later can integrate with proper form service
-                this.setAttribute('action', `mailto:hello@gymsignal.app?subject=Beta Access Request&body=Email: ${email}`);
-            }
-        });
+        // Load live data from API
+        fetch('/data/daily-report.json')
+            .then(r => r.json())
+            .then(data => {
+                // Hero insight
+                document.getElementById('live-hero').textContent = data.heroInsight;
+                
+                // Hooks
+                const hooksEl = document.getElementById('live-hooks');
+                (data.trendingHooks || []).slice(0, 4).forEach(h => {
+                    hooksEl.innerHTML += `
+                        <div class="hook-item">
+                            <span class="hook-emoji">${h.trend}</span>
+                            <span class="hook-template">${h.template}</span>
+                            <span class="hook-multiplier">${h.multiplier}</span>
+                        </div>`;
+                });
+                
+                // Audio
+                const audioEl = document.getElementById('live-audio');
+                (data.trendingAudio || []).slice(0, 3).forEach(a => {
+                    const isHot = a.trend.includes('HOT');
+                    audioEl.innerHTML += `
+                        <div class="audio-item">
+                            <span class="audio-badge ${isHot ? 'badge-hot' : 'badge-rising'}">${isHot ? 'HOT' : 'RISING'}</span>
+                            <div>
+                                <div class="audio-name">${a.name}</div>
+                                <div class="audio-rec">${a.recommendation}</div>
+                            </div>
+                        </div>`;
+                });
+            })
+            .catch(() => {
+                document.getElementById('live-hero').textContent = 'carousels with transformation captions are getting 2.5x more engagement than static — the algorithm rewards saves and shares above all else right now.';
+            });
     </script>
 </body>
 </html>
