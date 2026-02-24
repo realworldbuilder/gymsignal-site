@@ -10,32 +10,32 @@
       "956-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousels dominate with a 63% share, achieving 2.25x the average engagement of static posts — a clear winner for swipe-through storytelling.",
+  "heroInsight": "Carousels dominate with a 63% share, achieving 2.25x the average engagement of static posts \u2014 a clear winner for swipe-through storytelling.",
   "formatPerformance": {
     "summary": "Carousels are outperforming all other formats in engagement, making them the most effective choice for creators seeking high interaction rates.",
     "data": [
       {
         "name": "Reel",
         "score": 75,
-        "trend": "→",
+        "trend": "\u2192",
         "note": "Reels maintain relevance but are not seeing the same aggressive push as carousels."
       },
       {
         "name": "Carousel",
         "score": 90,
-        "trend": "↑",
+        "trend": "\u2191",
         "note": "Carousels capture a massive 63% of content and are driving exceptional save rates."
       },
       {
         "name": "Story",
         "score": 60,
-        "trend": "→",
+        "trend": "\u2192",
         "note": "Stories remain critical for engagement but lack the data capture from hashtag scrapers."
       },
       {
         "name": "Static",
         "score": 40,
-        "trend": "↓",
+        "trend": "\u2193",
         "note": "Static posts are falling behind, receiving less than half the engagement of carousels."
       }
     ],
@@ -43,42 +43,42 @@
   },
   "trendingHooks": [
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "I stopped [X] and here's what happened",
       "multiplier": "4.1x engagement vs average",
       "example": "I stopped taking pre-workout and here's what happened",
       "whyItWorks": "Creates curiosity gap + controversy = comments"
     },
     {
-      "trend": "📈",
+      "trend": "\ud83d\udcc8",
       "template": "POV: You're [scenario]",
       "multiplier": "2.8x engagement vs average",
       "example": "POV: You're on your last set and someone asks if you're done yet",
       "whyItWorks": "Relatable gym scenarios drive shares and comments"
     },
     {
-      "trend": "📈",
+      "trend": "\ud83d\udcc8",
       "template": "I tried [X] for 30 days",
       "multiplier": "3.2x engagement vs average",
       "example": "I tried intermittent fasting for 30 days",
       "whyItWorks": "Fosters intrigue and encourages save for future reference"
     },
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "Why I stopped [X]",
       "multiplier": "4.1x engagement vs average",
       "example": "Why I stopped doing cardio",
       "whyItWorks": "Challenges conventional wisdom, sparking debate"
     },
     {
-      "trend": "💎",
+      "trend": "\ud83d\udc8e",
       "template": "What [X] taught me about lifting",
       "multiplier": "2.5x engagement vs average",
       "example": "What yoga taught me about lifting",
       "whyItWorks": "Unique insights create value and drive engagement"
     },
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "Here's why [X] doesn't work",
       "multiplier": "3.0x engagement vs average",
       "example": "Here's why bro splits don't work",
@@ -162,32 +162,32 @@
   },
   "trendingAudio": [
     {
-      "trend": "🔥 HOT",
-      "name": "Debussy \"Clair de Lune\" Piano Solo — harryfaoki",
+      "trend": "\ud83d\udd25 HOT",
+      "name": "Debussy \"Clair de Lune\" Piano Solo \u2014 harryfaoki",
       "genre": "Classical",
       "recommendation": "Perfect for transformation reveals with a dramatic touch",
       "howToFind": "Search 'Clair de Lune' in IG audio library",
       "bestFor": "transformation reveals"
     },
     {
-      "trend": "📈 RISING",
-      "name": "Monkeys Spinning Monkeys — Kevin MacLeod & Kevin The Monkey",
+      "trend": "\ud83d\udcc8 RISING",
+      "name": "Monkeys Spinning Monkeys \u2014 Kevin MacLeod & Kevin The Monkey",
       "genre": "Quirky",
       "recommendation": "Use for lighthearted gym content and funny moments",
       "howToFind": "Search 'Monkeys Spinning Monkeys' in IG audio library",
       "bestFor": "gym vlogs"
     },
     {
-      "trend": "⚠️ SATURATED",
-      "name": "Body — Don Toliver",
+      "trend": "\u26a0\ufe0f SATURATED",
+      "name": "Body \u2014 Don Toliver",
       "genre": "Hip Hop",
       "recommendation": "Pair with intense workout clips but beware oversaturation",
       "howToFind": "Search 'Body Don Toliver' in IG audio library",
       "bestFor": "PR clips"
     },
     {
-      "trend": "📈 RISING",
-      "name": "Greenpoint — Elijah Fox",
+      "trend": "\ud83d\udcc8 RISING",
+      "name": "Greenpoint \u2014 Elijah Fox",
       "genre": "Lo-fi",
       "recommendation": "Ideal for chill, reflective gym moments",
       "howToFind": "Search 'Greenpoint Elijah Fox' in IG audio library",
@@ -198,7 +198,7 @@
     {
       "topic": "cutting season",
       "status": "hot",
-      "emoji": "🔥",
+      "emoji": "\ud83d\udd25",
       "detail": "With spring approaching, transformations are trending.",
       "angle": "Focus on mental health benefits during cutting.",
       "exampleCaption": "Why my mental health improved during cutting season"
@@ -206,7 +206,7 @@
     {
       "topic": "ozempic debates",
       "status": "rising",
-      "emoji": "💊",
+      "emoji": "\ud83d\udc8a",
       "detail": "Discussions on weight loss drugs are peaking.",
       "angle": "Explore the ethical implications and personal stories.",
       "exampleCaption": "Is Ozempic the shortcut to weight loss or a trap?"
@@ -214,7 +214,7 @@
     {
       "topic": "Darc Sport x Von Dutch collab",
       "status": "hot",
-      "emoji": "🖤",
+      "emoji": "\ud83d\udda4",
       "detail": "The latest drop is generating massive engagement.",
       "angle": "Highlight how the collaboration reflects gym culture.",
       "exampleCaption": "Why the Darc Sport x Von Dutch drop is a game changer"
@@ -222,7 +222,7 @@
     {
       "topic": "bulk vs cut debates",
       "status": "emerging",
-      "emoji": "⚖️",
+      "emoji": "\u2696\ufe0f",
       "detail": "The age-old debate is resurfacing with new angles.",
       "angle": "Analyze the psychological impact of each phase.",
       "exampleCaption": "The mental game: bulking vs cutting"
@@ -230,7 +230,7 @@
     {
       "topic": "YoungLA's rising influence",
       "status": "rising",
-      "emoji": "📈",
+      "emoji": "\ud83d\udcc8",
       "detail": "YoungLA's presence is expanding rapidly.",
       "angle": "Investigate their innovative marketing strategies.",
       "exampleCaption": "How YoungLA is redefining gym wear"
@@ -238,7 +238,7 @@
     {
       "topic": "intermittent fasting",
       "status": "rising",
-      "emoji": "⏳",
+      "emoji": "\u23f3",
       "detail": "Interest in fasting strategies is growing.",
       "angle": "Focus on personal experiences and results.",
       "exampleCaption": "What 30 days of intermittent fasting taught me"
@@ -284,14 +284,6 @@
       "detail": "CBum's influence is expanding with a notable mention.",
       "evidence": "1 mention, avg 76 engagement, top post by @prince_fitness08_",
       "actionable": "Align content with CBum's brand for potential viral reach."
-    },
-    {
-      "brand": "prime",
-      "tier": "supplements",
-      "signal": "controversy",
-      "detail": "Prime is facing scrutiny and discussions online.",
-      "evidence": "2 mentions, avg 8 engagement, top post by @timpersonall",
-      "actionable": "Address the controversy in your content for potential engagement boost."
     }
   ],
   "hashtagIntel": [
@@ -396,7 +388,7 @@
       "platform": "instagram-reel",
       "title": "Transformation Reveal",
       "hook": "I stopped taking pre-workout and here's what happened...",
-      "audio": "Debussy \"Clair de Lune\" Piano Solo — harryfaoki",
+      "audio": "Debussy \"Clair de Lune\" Piano Solo \u2014 harryfaoki",
       "format": "15-30 seconds, dramatic visual",
       "why": "High engagement from curiosity-driven hooks and trending audio",
       "hashtags": [
@@ -460,7 +452,7 @@
       "id": "3838561370313851443",
       "platform": "instagram",
       "username": "annettevasquezzz",
-      "caption": "@darcsport x Von Dutch is live!! 🖤 code “ANNETTE”\n\n@shedarcsport #DARCSPORT #SHEDARCSPORT #NFGU #SSDD",
+      "caption": "@darcsport x Von Dutch is live!! \ud83d\udda4 code \u201cANNETTE\u201d\n\n@shedarcsport #DARCSPORT #SHEDARCSPORT #NFGU #SSDD",
       "likes": 1771,
       "comments": 20,
       "shares": 0,
@@ -480,7 +472,7 @@
       "id": "3838357272787837655",
       "platform": "instagram",
       "username": "gainsbygoose",
-      "caption": "screw 2016 I’m trying to go back to 2006\n\n@darcsport X @vondutch drop is tonight 9pm EST\ncode goose 🪿 \n\n#darcsport #shedarcsport #nfgu",
+      "caption": "screw 2016 I\u2019m trying to go back to 2006\n\n@darcsport X @vondutch drop is tonight 9pm EST\ncode goose \ud83e\udebf \n\n#darcsport #shedarcsport #nfgu",
       "likes": 1610,
       "comments": 29,
       "shares": 0,
@@ -500,7 +492,7 @@
       "id": "3838280048000795429",
       "platform": "instagram",
       "username": "pumpedwithperi",
-      "caption": "On the run 🏎️🏖️\n\n@darcsport @shedarcsport Code 𝐏𝐄𝐑𝐈\n\n#outdoorgirl #atv #downanddirty #mexico #motorsport #fitgirl #darcsport #explorepage✨",
+      "caption": "On the run \ud83c\udfce\ufe0f\ud83c\udfd6\ufe0f\n\n@darcsport @shedarcsport Code \ud835\udc0f\ud835\udc04\ud835\udc11\ud835\udc08\n\n#outdoorgirl #atv #downanddirty #mexico #motorsport #fitgirl #darcsport #explorepage\u2728",
       "likes": 1364,
       "comments": 33,
       "shares": 0,
@@ -520,7 +512,7 @@
       "id": "3838482695940859361",
       "platform": "instagram",
       "username": "_aarguelless",
-      "caption": "Domingo de siluetas y voluntad de hierro. 🔥\nDicen que el éxito se construye mientras otros duermen, pero honestamente, se construye mejor con un buen bombeo y mentalidad de campeón. Estar bien por fu",
+      "caption": "Domingo de siluetas y voluntad de hierro. \ud83d\udd25\nDicen que el \u00e9xito se construye mientras otros duermen, pero honestamente, se construye mejor con un buen bombeo y mentalidad de campe\u00f3n. Estar bien por fu",
       "likes": 1623,
       "comments": 32,
       "shares": 0,
@@ -560,7 +552,7 @@
       "id": "7608364046936591647",
       "platform": "tiktok",
       "username": "talkden69",
-      "caption": "It’s never this serious i’m crying 😭😭😭😭😭😭 #fyp #gymtok #cringe #xyzbca ",
+      "caption": "It\u2019s never this serious i\u2019m crying \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d #fyp #gymtok #cringe #xyzbca ",
       "likes": 832700,
       "comments": 3394,
       "shares": 155200,
@@ -580,7 +572,7 @@
       "id": "7607698216095616269",
       "platform": "tiktok",
       "username": "matheogoose",
-      "caption": "ive never seen something so corny but tuff at the same time 💀💀 @abdul-Rafay  \n#gymtok#gym#youcanasktheflowers#edit#matheogoose ",
+      "caption": "ive never seen something so corny but tuff at the same time \ud83d\udc80\ud83d\udc80 @abdul-Rafay  \n#gymtok#gym#youcanasktheflowers#edit#matheogoose ",
       "likes": 568300,
       "comments": 1532,
       "shares": 63300,
@@ -600,7 +592,7 @@
       "id": "3838638729528125671",
       "platform": "instagram",
       "username": "ddfi.t",
-      "caption": "@darcsport x @vondutch \n\nAlways moving and grooving ❤️‍🔥🐺\n_______________\n@darcsport x @shedarcsport || DARIA \n\n.\n.\n. \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#gym #fitness #DARCSPORT, #SHEDARCSPORT, #NFGU",
+      "caption": "@darcsport x @vondutch \n\nAlways moving and grooving \u2764\ufe0f\u200d\ud83d\udd25\ud83d\udc3a\n_______________\n@darcsport x @shedarcsport || DARIA \n\n.\n.\n. \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#gym #fitness #DARCSPORT, #SHEDARCSPORT, #NFGU",
       "likes": 914,
       "comments": 19,
       "shares": 0,
@@ -620,7 +612,7 @@
       "id": "3838598692178338673",
       "platform": "instagram",
       "username": "miny_miranda",
-      "caption": "@darcsport x @vondutch The most iconic duo of all time💘\nNo one does it better than the Darc Girls.🖤\nDrop is live!!!! Code: MINY✨\n#y2k #y2kinspo #darcsport #vondutch",
+      "caption": "@darcsport x @vondutch The most iconic duo of all time\ud83d\udc98\nNo one does it better than the Darc Girls.\ud83d\udda4\nDrop is live!!!! Code: MINY\u2728\n#y2k #y2kinspo #darcsport #vondutch",
       "likes": 517,
       "comments": 37,
       "shares": 0,
@@ -640,7 +632,7 @@
       "id": "3838277821512313503",
       "platform": "instagram",
       "username": "angelaborges",
-      "caption": "DARC SPORT X VON DUTCH 🐺\nCollection Drops today at 6pm pst \nCollection is Limited and WILL go fast! \n\n@darcsport @shedarcsport\nCode: 🏷️ANGELA10\n\nDARC SPORT X VON DUTCH 🐺\nA coleção será lançada ho",
+      "caption": "DARC SPORT X VON DUTCH \ud83d\udc3a\nCollection Drops today at 6pm pst \nCollection is Limited and WILL go fast! \n\n@darcsport @shedarcsport\nCode: \ud83c\udff7\ufe0fANGELA10\n\nDARC SPORT X VON DUTCH \ud83d\udc3a\nA cole\u00e7\u00e3o sera\u0301 lanc\u0327ada ho",
       "likes": 501,
       "comments": 38,
       "shares": 0,
@@ -680,7 +672,7 @@
       "id": "3838533222607706777",
       "platform": "instagram",
       "username": "rodrigue.z.lifts",
-      "caption": "VON DUTCH x DARC SPORT \n\nThe collection drops tonight!!! 6PST | 8CST | 9EST\n\nThe @darcsport design team went HAM on this drop 🤌 a ton of new y2K styles, bikinis, and COLOR 😏🐺 \n\nIf you have any ques",
+      "caption": "VON DUTCH x DARC SPORT \n\nThe collection drops tonight!!! 6PST | 8CST | 9EST\n\nThe @darcsport design team went HAM on this drop \ud83e\udd0c a ton of new y2K styles, bikinis, and COLOR \ud83d\ude0f\ud83d\udc3a \n\nIf you have any ques",
       "likes": 282,
       "comments": 11,
       "shares": 0,
@@ -700,7 +692,7 @@
       "id": "3838802509440017817",
       "platform": "instagram",
       "username": "fitdrgarbyal",
-      "caption": "🩺MBBS Doctor, State Level Powerlifter 🥈\n\n1st state powerlifting in @powerliftingindia_pi @uttarakhand_powerlifting_asso \n\nPerformance was a little better than last meet. Went 8/9 on attempts.\nI will",
+      "caption": "\ud83e\ude7aMBBS Doctor, State Level Powerlifter \ud83e\udd48\n\n1st state powerlifting in @powerliftingindia_pi @uttarakhand_powerlifting_asso \n\nPerformance was a little better than last meet. Went 8/9 on attempts.\nI will",
       "likes": 278,
       "comments": 23,
       "shares": 0,
@@ -720,7 +712,7 @@
       "id": "3838717242595223201",
       "platform": "instagram",
       "username": "yaneli.galvan",
-      "caption": "Extraño el sabor de tu boca 🧸\n@gymshark \n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n#gymmotıvatıon #gymshark #gymlife #fypageシ゚ #explorepage✨",
+      "caption": "Extra\u00f1o el sabor de tu boca \ud83e\uddf8\n@gymshark \n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n-\n#gymmot\u0131vat\u0131on #gymshark #gymlife #fypage\u30b7\u309a #explorepage\u2728",
       "likes": 206,
       "comments": 13,
       "shares": 0,
@@ -740,7 +732,7 @@
       "id": "3838320695956919253",
       "platform": "instagram",
       "username": "jesssantosfit",
-      "caption": "Gym fits of the week 😌❤️ @dfyne.official \n\n.\n\n#gymfit #gymgirl #dfyne #fyp",
+      "caption": "Gym fits of the week \ud83d\ude0c\u2764\ufe0f @dfyne.official \n\n.\n\n#gymfit #gymgirl #dfyne #fyp",
       "likes": 111,
       "comments": 42,
       "shares": 0,
@@ -760,7 +752,7 @@
       "id": "3838289601987672414",
       "platform": "instagram",
       "username": "jasjofit",
-      "caption": "your sign to get up and train legs 🍗\n\nTHE PRE ⛽️🍒✨\n\n@esncom.uk CODE JAS 🌟 \n✨ salty peanut goat bar \n✨ crank pre-workout \n\nTHE FIT 🤎\n\n@dfyne.official 🧸\n✨defy long sleeve + impact shorts \n\nTHE WORK",
+      "caption": "your sign to get up and train legs \ud83c\udf57\n\nTHE PRE \u26fd\ufe0f\ud83c\udf52\u2728\n\n@esncom.uk CODE JAS \ud83c\udf1f \n\u2728 salty peanut goat bar \n\u2728 crank pre-workout \n\nTHE FIT \ud83e\udd0e\n\n@dfyne.official \ud83e\uddf8\n\u2728defy long sleeve + impact shorts \n\nTHE WORK",
       "likes": 99,
       "comments": 55,
       "shares": 0,
@@ -780,7 +772,7 @@
       "id": "3838351026252854419",
       "platform": "instagram",
       "username": "_fitnesswitholivia_",
-      "caption": "Pilates princess vibes in @dfyne.official origin 🍇🧘‍♀️✨\n\nFilling up my cup 🙂‍↔️ @stanley_europe #StanleyCommunity \n\n#pilates #pilatesoutfit #dfyne #pilatesgirl",
+      "caption": "Pilates princess vibes in @dfyne.official origin \ud83c\udf47\ud83e\uddd8\u200d\u2640\ufe0f\u2728\n\nFilling up my cup \ud83d\ude42\u200d\u2194\ufe0f @stanley_europe #StanleyCommunity \n\n#pilates #pilatesoutfit #dfyne #pilatesgirl",
       "likes": 98,
       "comments": 50,
       "shares": 0,
@@ -800,7 +792,7 @@
       "id": "3838316642019361383",
       "platform": "instagram",
       "username": "imaniifitness",
-      "caption": "up close of my recent @dfyne.official fits 🍒🫐🤎🎀\n-\n-\n-\n-\n-\n#dfyne #gymfit #gymoutfit #gymgirl #fyp",
+      "caption": "up close of my recent @dfyne.official fits \ud83c\udf52\ud83e\uded0\ud83e\udd0e\ud83c\udf80\n-\n-\n-\n-\n-\n#dfyne #gymfit #gymoutfit #gymgirl #fyp",
       "likes": 84,
       "comments": 67,
       "shares": 0,
