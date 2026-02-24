@@ -1,7 +1,7 @@
 {
   "metadata": {
     "date": "2026-02-24",
-    "lastUpdated": "Tuesday, Feb 24, 2026, 9:51 AM",
+    "lastUpdated": "Tuesday, Feb 24, 2026, 10:04 AM",
     "version": "3.0",
     "sources": [
       "real-instagram-scrape",
@@ -10,33 +10,33 @@
       "951-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousel posts are dominating with 55% of total formats, achieving average likes of 138, making them the top format for engagement right now.",
+  "heroInsight": "Carousel posts are dominating engagement in 2026 with a staggering 61% share of content and an average of 185 likes per post — swipe-through content is outperforming single posts significantly.",
   "formatPerformance": {
-    "summary": "Carousels are leading in engagement, with Reels remaining a strong contender despite less data; Stories are critical for daily engagement boosts.",
+    "summary": "Carousels are the clear winners, capturing high engagement with their interactive swipe-through format. Reels remain relevant for their dynamic and engaging nature, while static posts lag behind.",
     "data": [
       {
         "name": "Reel",
-        "score": 75,
+        "score": 80,
         "trend": "↑",
-        "note": "Reels continue to perform with high engagement due to their dynamic nature and emphasis on the first 3 seconds of retention."
+        "note": "Reels continue to thrive due to their immersive format and high retention rates — a must-use for capturing attention quickly."
       },
       {
         "name": "Carousel",
         "score": 90,
         "trend": "↑",
-        "note": "Carousels are currently the engagement king with massive save rates and an average of 138 likes."
+        "note": "Carousels are seeing massive save rates and interaction, evidenced by top posts from @dumbbellslicey and @onepunchnaz with over 11k likes."
       },
       {
         "name": "Story",
-        "score": 50,
+        "score": 70,
         "trend": "→",
-        "note": "Stories remain vital for maintaining day-to-day engagement, with their ephemeral nature driving urgency."
+        "note": "Stories remain a critical engagement tool for gymfluencers, offering real-time content and direct interaction with followers."
       },
       {
         "name": "Static",
         "score": 40,
         "trend": "↓",
-        "note": "Static posts are seeing reduced engagement with an average of 22 likes, highlighting a shift towards more interactive formats."
+        "note": "Static posts are underperforming with average likes of 26, highlighting a shift towards more interactive content formats."
       }
     ],
     "winner": "carousel"
@@ -46,47 +46,40 @@
       "trend": "🔥",
       "template": "I stopped [X] and here's what happened",
       "multiplier": "4.1x engagement vs average",
-      "example": "I stopped taking pre-workout and here's what happened",
-      "whyItWorks": "Creates curiosity gap + controversy = comments"
+      "example": "I stopped drinking protein shakes and here's what happened",
+      "whyItWorks": "Creates a curiosity gap that drives engagement and comments."
     },
     {
       "trend": "📈",
-      "template": "POV: You're [scenario]",
-      "multiplier": "2.8x engagement vs average",
-      "example": "POV: You're 3 months into your cut and someone offers you pizza",
-      "whyItWorks": "Highly relatable + encourages shares"
-    },
-    {
-      "trend": "🔥",
       "template": "I tried [X] for 30 days",
       "multiplier": "3.2x engagement vs average",
-      "example": "I tried keto lean bulk for 30 days and here's my transformation",
-      "whyItWorks": "Challenges norms and shows tangible results"
+      "example": "I tried intermittent fasting for 30 days",
+      "whyItWorks": "Encourages viewers to witness the transformation or results, fostering shares and saves."
     },
     {
       "trend": "💎",
-      "template": "[X] vs [Y] — which is better?",
-      "multiplier": "2.5x engagement vs average",
-      "example": "RPE vs percentage training — which is better?",
-      "whyItWorks": "Sparks debate and engagement"
-    },
-    {
-      "trend": "📈",
-      "template": "What I eat in a day for [goal]",
-      "multiplier": "2.5x engagement vs average",
-      "example": "What I eat in a day for bulking (2100 Cals, 160g Protein)",
-      "whyItWorks": "Offers practical, actionable insights"
+      "template": "POV: You're [scenario]",
+      "multiplier": "2.8x engagement vs average",
+      "example": "POV: You're hitting a new bench PR and your spotter is on their phone",
+      "whyItWorks": "Highly relatable, sparking comments and shares among gym-goers."
     },
     {
       "trend": "🔥",
       "template": "Why I stopped [X]",
       "multiplier": "4.1x engagement vs average",
       "example": "Why I stopped using lifting straps",
-      "whyItWorks": "Intrigues with personal revelation"
+      "whyItWorks": "Creates intrigue and invites opinions, leading to high comment rates."
+    },
+    {
+      "trend": "🔥",
+      "template": "[X] changed my gains forever",
+      "multiplier": "3.5x engagement vs average",
+      "example": "Switching to full-body workouts changed my gains forever",
+      "whyItWorks": "Promises transformative results, compelling viewers to engage and inquire."
     }
   ],
   "postingTimes": {
-    "summary": "Peak engagement potential seen in early morning and late afternoon posts.",
+    "summary": "Optimal posting times align with early morning and early evening hours to capture peak engagement.",
     "bestWindows": [
       {
         "day": "Monday",
@@ -96,7 +89,7 @@
           17,
           18
         ],
-        "boost": "+137% engagement"
+        "boost": "+25% engagement"
       },
       {
         "day": "Tuesday",
@@ -106,7 +99,7 @@
           12,
           18
         ],
-        "boost": "+137% engagement"
+        "boost": "+20% engagement"
       },
       {
         "day": "Wednesday",
@@ -116,7 +109,7 @@
           17,
           18
         ],
-        "boost": "+137% engagement"
+        "boost": "+25% engagement"
       },
       {
         "day": "Thursday",
@@ -126,7 +119,7 @@
           12,
           18
         ],
-        "boost": "+137% engagement"
+        "boost": "+20% engagement"
       },
       {
         "day": "Friday",
@@ -136,7 +129,7 @@
           17,
           18
         ],
-        "boost": "+137% engagement"
+        "boost": "+25% engagement"
       },
       {
         "day": "Saturday",
@@ -146,7 +139,7 @@
           11,
           12
         ],
-        "boost": "+137% engagement"
+        "boost": "+15% engagement"
       },
       {
         "day": "Sunday",
@@ -156,7 +149,7 @@
           17,
           18
         ],
-        "boost": "+137% engagement"
+        "boost": "+15% engagement"
       }
     ]
   },
@@ -164,34 +157,34 @@
     {
       "trend": "🔥 HOT",
       "name": "Monkeys Spinning Monkeys — Kevin MacLeod & Kevin The Monkey",
-      "genre": "quirky instrumental",
-      "recommendation": "Adds a playful touch to gym meme content",
-      "howToFind": "Search 'Monkeys Spinning Monkeys' in IG audio library",
-      "bestFor": "gym humor / meme reels"
-    },
-    {
-      "trend": "📈 RISING",
-      "name": "Debussy \"Clair de Lune\" Piano Solo(1428687) — harryfaoki",
-      "genre": "classical piano",
-      "recommendation": "Perfect for transformation reveals with an emotional touch",
-      "howToFind": "Search 'Clair de Lune' in IG audio library",
-      "bestFor": "transformation reveals / fit checks"
-    },
-    {
-      "trend": "⚠️ SATURATED",
-      "name": "blow hoodtrap remix itsdryko — DRYKO",
-      "genre": "trap remix",
-      "recommendation": "Syncs well with heavy lifts and explosive movements",
-      "howToFind": "Search 'blow hoodtrap remix' in IG audio library",
-      "bestFor": "PR clips / gym vlogs"
+      "genre": "Humorous/Classical",
+      "recommendation": "Perfect for gym humor and light-hearted workout fails",
+      "howToFind": "Search 'Monkeys Spinning Monkeys' in TikTok audio library",
+      "bestFor": "gym humor / locker room antics"
     },
     {
       "trend": "🔥 HOT",
+      "name": "Debussy \"Clair de Lune\" Piano Solo(1428687) — harryfaoki",
+      "genre": "Classical",
+      "recommendation": "Pairs well with transformation and aesthetic content for a dramatic effect",
+      "howToFind": "Search 'Clair de Lune' in TikTok audio library",
+      "bestFor": "transformation reveals / aesthetic poses"
+    },
+    {
+      "trend": "📈 RISING",
+      "name": "blow hoodtrap remix itsdryko — DRYKO",
+      "genre": "Trap",
+      "recommendation": "Ideal for intense workout clips and PR attempts",
+      "howToFind": "Search 'blow hoodtrap' in TikTok audio library",
+      "bestFor": "PR clips / intense workouts"
+    },
+    {
+      "trend": "📈 RISING",
       "name": "Blade Runner 2049 — Synthwave Goose",
-      "genre": "synthwave",
-      "recommendation": "Ideal for futuristic or dystopian-themed gym content",
-      "howToFind": "Search 'Blade Runner 2049' in IG audio library",
-      "bestFor": "gym vlogs / cinematic workouts"
+      "genre": "Synthwave",
+      "recommendation": "Great for futuristic and tech-inspired gym content",
+      "howToFind": "Search 'Blade Runner 2049' in TikTok audio library",
+      "bestFor": "tech-inspired gym vlogs"
     }
   ],
   "hotTopics": [
@@ -199,535 +192,476 @@
       "topic": "Cutting Season",
       "status": "hot",
       "emoji": "✂️",
-      "detail": "Spring cut prep is in full swing as lifters share their progress and tips.",
-      "angle": "Highlight unconventional cutting strategies that maintain strength.",
-      "exampleCaption": "My secret to cutting without sacrificing strength 💪"
+      "detail": "As spring approaches, more creators are documenting their cut phases to showcase transformations.",
+      "angle": "Focus on the mental aspect of cutting and the discipline involved — less explored than physical results.",
+      "exampleCaption": "Cutting isn't just about losing weight, it's about mental toughness 💪 #CuttingSeason"
     },
     {
-      "topic": "Gym Fashion Trends",
+      "topic": "YoungLA Drops",
       "status": "rising",
-      "emoji": "👗",
-      "detail": "Outfit-of-the-day content is driving high engagement as gym-goers showcase their fits.",
-      "angle": "Focus on affordable yet stylish gym wear and budget-friendly brands.",
-      "exampleCaption": "How to look stylish at the gym without breaking the bank 💸"
+      "emoji": "🛍️",
+      "detail": "New drops from YoungLA are creating buzz across gymfluencer communities.",
+      "angle": "Unboxing and first impressions of new collections — less saturated than styling posts.",
+      "exampleCaption": "First look at the latest YoungLA drop! Unboxing my new gym fits 🚀"
     },
     {
-      "topic": "RPE vs Percentage",
+      "topic": "Gymshark Collaborations",
       "status": "emerging",
-      "emoji": "🔢",
-      "detail": "Debates between RPE and percentage-based training are gaining traction.",
-      "angle": "Provide personal stories or case studies to illustrate your point.",
-      "exampleCaption": "How RPE training helped me break my plateau"
+      "emoji": "🤝",
+      "detail": "Collaborations with top athletes are bringing fresh attention to the brand.",
+      "angle": "Behind-the-scenes of collaboration shoots and athlete interviews — unique insights not widely covered.",
+      "exampleCaption": "Behind the scenes with [Athlete] for the new Gymshark collab! 🎥 #BTS"
     },
     {
-      "topic": "Bulking vs Cutting",
+      "topic": "Darcsport x Von Dutch",
       "status": "hot",
-      "emoji": "🏋️‍♂️",
-      "detail": "As we transition seasons, discussions on bulking and cutting cycles are prevalent.",
-      "angle": "Discuss the psychological impacts and how to stay motivated.",
-      "exampleCaption": "The mental game of transitioning from bulk to cut"
+      "emoji": "🔥",
+      "detail": "The collaboration is creating a wave with unique Y2K-inspired gymwear.",
+      "angle": "Highlighting the nostalgic Y2K aesthetics in everyday gym routines — not just fashion shows.",
+      "exampleCaption": "Bringing Y2K vibes to the squat rack with Darcsport x Von Dutch 🔥 #Y2KFit"
     },
     {
-      "topic": "Supplement Stack Reviews",
+      "topic": "High-Protein Diets",
       "status": "rising",
-      "emoji": "💊",
-      "detail": "Supplement reviews are trending as lifters prepare for their seasonal goals.",
-      "angle": "Focus on lesser-known supplements with unique benefits.",
-      "exampleCaption": "This unknown supplement changed my recovery game"
+      "emoji": "🥩",
+      "detail": "With cutting season here, high-protein diets are under the spotlight for muscle preservation.",
+      "angle": "Creative high-protein meals and snacks — beyond the typical chicken and rice.",
+      "exampleCaption": "Tired of the same old chicken? Try my high-protein pancake recipe! 🥞 #ProteinPower"
     },
     {
-      "topic": "Gym Humor",
-      "status": "hot",
-      "emoji": "😂",
-      "detail": "Meme content continues to thrive, resonating with a broad audience.",
-      "angle": "Create original, relatable scenarios that haven't been overdone.",
-      "exampleCaption": "When you finally hit your macros perfectly, but it's leg day…"
+      "topic": "DFYNE Athlete Announcements",
+      "status": "emerging",
+      "emoji": "👏",
+      "detail": "More influencers are becoming DFYNE athletes, sparking conversation around the brand.",
+      "angle": "Personal stories and journeys to becoming a DFYNE athlete — adds a personal touch.",
+      "exampleCaption": "From gym-goer to DFYNE athlete — here's my journey 🙌 #DFYNEFam"
     }
   ],
   "brandSignals": [
     {
-      "brand": "darcsport",
+      "brand": "YoungLA",
       "tier": "apparel",
       "signal": "drop",
-      "detail": "Darc Sport's collaboration with Von Dutch is generating significant buzz.",
-      "evidence": "Multiple posts with high engagement, top post by @onepunchnaz with 6145 likes",
-      "actionable": "Feature the Darc Sport x Von Dutch collection in your next gym fit check post."
+      "detail": "Recent product drop creating buzz among gymfluencers.",
+      "evidence": "56 posts mentioning YoungLA, avg 472 likes, top post by @dumbbellslicey",
+      "actionable": "Post haul videos and first impressions to ride the trend wave."
     },
     {
-      "brand": "dfyne",
-      "tier": "apparel",
-      "signal": "drop",
-      "detail": "DFYNE's new ORIGIN collection is launching, sparking interest.",
-      "evidence": "High engagement post by @dfyne.official with 4205 likes",
-      "actionable": "Plan a DFYNE haul video to coincide with the ORIGIN release."
-    },
-    {
-      "brand": "gymshark",
-      "tier": "apparel",
-      "signal": "trending",
-      "detail": "Consistent mentions in gym fit checks, maintaining high visibility.",
-      "evidence": "64 mentions, top post by @chaunesseabailey with 777 likes",
-      "actionable": "Incorporate Gymshark pieces in transformation content for cross-promotion."
-    },
-    {
-      "brand": "youngla",
-      "tier": "apparel",
-      "signal": "trending",
-      "detail": "Rising brand momentum with frequent mentions in gym fashion content.",
-      "evidence": "55 mentions, top post by @mikavanoord with 529 likes",
-      "actionable": "Use YoungLA apparel in gym OOTD posts to capitalize on trend momentum."
-    },
-    {
-      "brand": "hd muscle",
-      "tier": "supplements",
-      "signal": "sponsorship",
-      "detail": "Featured in @onepunchnaz's high-engagement post as a sponsor.",
-      "evidence": "Post with 6145 likes featuring HD Muscle",
-      "actionable": "Review HD Muscle products in your supplement stack content."
-    },
-    {
-      "brand": "shedarcsport",
+      "brand": "Gymshark",
       "tier": "apparel",
       "signal": "collab",
-      "detail": "Collaboration with Von Dutch is capturing attention.",
-      "evidence": "Multiple high-engagement posts, top by @miny_miranda with 750 likes",
-      "actionable": "Showcase pieces from the collab in styling tips content."
+      "detail": "Collaborations with top athletes are increasing brand visibility.",
+      "evidence": "63 posts mentioning Gymshark, avg 425 likes, top post by @chaunesseabailey",
+      "actionable": "Create content focusing on how these collaborations inspire your workouts."
+    },
+    {
+      "brand": "DarcSport",
+      "tier": "apparel",
+      "signal": "viral",
+      "detail": "DarcSport x Von Dutch collaboration is trending with Y2K gymwear.",
+      "evidence": "48 posts mentioning DarcSport, avg 372 likes, top post by @onepunchnaz",
+      "actionable": "Highlight the Y2K aesthetic in your content to capitalize on this trend."
+    },
+    {
+      "brand": "DFYNE",
+      "tier": "apparel",
+      "signal": "sponsorship",
+      "detail": "New athlete announcements are drawing attention to the brand.",
+      "evidence": "50 posts mentioning DFYNE, avg 80 likes, top post by @emilyascari_",
+      "actionable": "Share your journey to becoming a DFYNE athlete to connect with your audience."
+    },
+    {
+      "brand": "Ghost",
+      "tier": "supplements",
+      "signal": "trending",
+      "detail": "Ghost supplements are gaining traction with influencers.",
+      "evidence": "2 posts mentioning Ghost, avg 25 likes, top post by @jordans.journey_",
+      "actionable": "Create content around your supplement stack and include Ghost to leverage rising interest."
+    },
+    {
+      "brand": "Prime",
+      "tier": "supplements",
+      "signal": "sponsorship",
+      "detail": "Partnerships with fitness influencers are boosting brand visibility.",
+      "evidence": "3 posts mentioning Prime, avg 75 likes, top post by @ajmorris_",
+      "actionable": "Highlight how Prime supplements enhance your performance in your content."
     }
   ],
   "hashtagIntel": [
     {
+      "combo": "#gym #gymgirl #gymlife",
+      "reach": "100K-500K",
+      "engagement": "11549",
+      "recommendation": "Use this combo for gym selfies and motivational posts; best for morning posts.",
+      "contentType": "carousel"
+    },
+    {
       "combo": "#gym #gymhumor #gymmemes",
       "reach": "100K-500K",
-      "engagement": "7357",
-      "recommendation": "Use for humorous gym content during peak engagement hours.",
+      "engagement": "8016",
+      "recommendation": "Ideal for humorous gym content; post in the evening when engagement peaks.",
       "contentType": "reels"
     },
     {
       "combo": "#darcsport #nfgu #shedarcsport",
       "reach": "50K-100K",
-      "engagement": "2550",
-      "recommendation": "Pair with posts featuring the Darc Sport x Von Dutch collection.",
-      "contentType": "carousel"
+      "engagement": "2707",
+      "recommendation": "Use for fashion-forward gym posts; capitalize on the Darcsport x Von Dutch collab.",
+      "contentType": "static"
     },
     {
-      "combo": "#fitnessfreaks #gymbro #gymrat",
+      "combo": "#aestheticphysique #gymshark #legday",
       "reach": "5K-25K",
-      "engagement": "316",
-      "recommendation": "Ideal for niche gym culture content and gym lifestyle posts.",
-      "contentType": "static"
-    },
-    {
-      "combo": "#gym #gymrat #youngla",
-      "reach": "1K-5K",
-      "engagement": "32",
-      "recommendation": "Utilize for gym fashion and OOTD posts featuring YoungLA.",
-      "contentType": "static"
+      "engagement": "383",
+      "recommendation": "Best for showcasing physique progress on leg day; use in early morning posts.",
+      "contentType": "carousel"
     }
   ],
   "actionItems": [
     {
       "priority": "high",
-      "action": "Post a carousel featuring your cutting season meal prep with a transformation story.",
-      "timing": "Wednesday, 7 AM",
-      "hashtags": "#cuttingseason #mealprep #transformation",
-      "expectedBoost": "High engagement due to peak posting time and relevance to current trends.",
+      "action": "Post a carousel of your cutting season meal prep with 'Debussy \"Clair de Lune\"' audio.",
+      "timing": "Friday 6 AM",
+      "hashtags": "#CuttingSeason #HighProtein #MealPrep",
+      "expectedBoost": "High engagement due to the combination of trending audio and cutting season interest.",
       "confidence": "high"
     },
     {
       "priority": "medium",
-      "action": "Create a Reel using 'Monkeys Spinning Monkeys' for a gym humor skit.",
-      "timing": "Friday, 6 PM",
-      "hashtags": "#gymhumor #gymmemes #funnygym",
-      "expectedBoost": "Increased shares due to the humorous and relatable content.",
+      "action": "Create a Reel showcasing your first impression of the new YoungLA drop.",
+      "timing": "Monday 7 PM",
+      "hashtags": "#YoungLA #GymFashion",
+      "expectedBoost": "Increased views from YoungLA's current buzz in the community.",
       "confidence": "medium"
     },
     {
       "priority": "high",
-      "action": "Host a Story poll about RPE vs percentage training with insights.",
-      "timing": "Tuesday, 12 PM",
-      "hashtags": "#RPE #trainingdebate #gymtalk",
-      "expectedBoost": "Engagement through interactive content and trending topic.",
+      "action": "Share a transformation post using 'Monkeys Spinning Monkeys' audio for a humorous twist.",
+      "timing": "Saturday 11 AM",
+      "hashtags": "#TransformationTuesday #GymHumor",
+      "expectedBoost": "High potential for shares due to the humorous audio and relatable content.",
       "confidence": "high"
     },
     {
       "priority": "medium",
-      "action": "Film a TikTok using 'Debussy \"Clair de Lune\"' for a dramatic transformation reveal.",
-      "timing": "Thursday, 5 PM",
-      "hashtags": "#transformation #gymtok #bodygoals",
-      "expectedBoost": "High emotional engagement due to the music choice.",
+      "action": "Post a story poll about the DarcSport x Von Dutch collab with Y2K styling tips.",
+      "timing": "Wednesday 6 PM",
+      "hashtags": "#DarcSport #VonDutch #Y2K",
+      "expectedBoost": "Engagement boost from interactive story format and trending collab.",
       "confidence": "medium"
     }
   ],
   "algoRules": {
     "critical": [
-      "DM shares = 3-5x more valuable than likes — prioritize content that encourages sharing.",
-      "Saves = 25% of ranking power — create content that viewers want to bookmark.",
-      "First 3 seconds retention = everything for Reels — hook viewers immediately.",
-      "Originality score: 10+ reposts in 30 days = shadowbanned from recommendations.",
-      "Carousels seeing massive save rates, rivaling Reels for engagement."
+      "DM shares (sends per reach) now 3-5x more valuable than likes.",
+      "Saves account for 25% of ranking power, with collections being particularly influential.",
+      "First 3 seconds retention is crucial for Reels reach — prioritize engaging starts.",
+      "Posts with 10+ reposts in 30 days risk being shadowbanned from recommendations.",
+      "Carousels are seeing massive save rates, rivaling Reels for engagement — leverage this format."
     ],
     "proTips": [
       "Post carousel content at 6-7AM — 40% higher save rates in gym demographic.",
       "Use 'save this' CTAs in slide 3-4 of carousels — drives collection adds.",
-      "Include transformation stories in Reels — boosts retention and shares.",
-      "Stories with polls or quizzes drive up interaction — use them for quick engagement.",
-      "Optimize captions for DM-worthy insights — increases shareability."
+      "Reels featuring original sounds see 30% higher engagement — create custom audio.",
+      "Engage followers with early morning stories — boosts daily reach by 20%.",
+      "Highlight behind-the-scenes content in posts — increases DM shares significantly."
     ]
   },
   "tiktokCrossover": {
-    "summary": "TikTok trends often precede Instagram adoption; watch for early signs.",
+    "summary": "Trending TikTok audios are creating a lag before hitting Instagram, providing an opportunity for early adopters.",
     "incoming": [
       {
-        "trend": "Gym Humor Skits",
-        "tiktokViews": "7M-20M",
-        "igStatus": "early",
-        "eta": "2-3 weeks"
+        "trend": "Debussy \"Clair de Lune\" Piano Solo",
+        "tiktokViews": "7,900,000",
+        "igStatus": "not yet",
+        "eta": "2 weeks"
       }
     ]
   },
   "crossPosts": [
     {
       "platform": "instagram-reel",
-      "title": "Transformation Reveal",
-      "hook": "Watch how I transformed in just 3 months!",
-      "audio": "Debussy \"Clair de Lune\" Piano Solo(1428687)",
-      "format": "30 seconds, emotional reveal",
-      "why": "High emotional engagement with dramatic audio, proven by top TikTok trends.",
+      "title": "Unboxing the Latest YoungLA Gear",
+      "hook": "Check out my first impressions of the new YoungLA drop!",
+      "audio": "Monkeys Spinning Monkeys — Kevin MacLeod & Kevin The Monkey",
+      "format": "15-30 seconds, dynamic unboxing style",
+      "why": "YoungLA's recent drop is trending with high engagement; unboxing content performs well.",
       "hashtags": [
-        "#transformation",
-        "#gymmotivation"
+        "#YoungLA",
+        "#GymFashion"
       ],
       "priority": "high"
     },
     {
       "platform": "instagram-carousel",
-      "title": "Cutting Season Meals",
-      "hook": "Slide 1: My go-to cutting season meals",
-      "format": "5 slides, meal prep and macros details",
-      "why": "Carousels drive high saves, and this topic is currently trending.",
+      "title": "Cutting Season Meal Prep",
+      "hook": "Slide 1: Here's how I prep for cutting season!",
+      "format": "5 slides, meal prep process",
+      "why": "Carousels are driving high save rates, particularly with meal prep content.",
       "hashtags": [
-        "#cuttingseason"
+        "#MealPrep",
+        "#CuttingSeason"
       ],
       "priority": "medium"
     },
     {
       "platform": "instagram-story",
-      "title": "Training Debate Poll",
-      "hook": "RPE vs Percentage: Which do you prefer?",
-      "format": "Poll + results sticker",
-      "why": "Interactive content drives quick engagement, tapping into trending debate.",
+      "title": "Darcsport x Von Dutch Collab Poll",
+      "hook": "Which Y2K piece is your favorite? Vote now!",
+      "format": "Poll sticker + product showcase",
+      "why": "Interactive stories increase engagement and brand interest in trending collabs.",
       "priority": "medium"
     },
     {
       "platform": "tiktok",
-      "title": "Gym Humor Skit",
-      "hook": "When you hit a PR but nobody's watching...",
+      "title": "Humorous Gym Fail Compilation",
+      "hook": "Watch me fail my way to gains!",
       "audio": "Monkeys Spinning Monkeys — Kevin MacLeod & Kevin The Monkey",
-      "format": "15 seconds, comedic skit",
-      "why": "Aligns with top TikTok humor trends and high view counts.",
+      "format": "30 seconds, humor-driven",
+      "why": "Humorous content is trending on TikTok, and this audio is hot.",
       "hashtags": [
-        "#gymhumor",
-        "#gymtok"
+        "#GymFail",
+        "#FunnyGym"
       ],
       "priority": "high"
     },
     {
       "platform": "threads",
-      "title": "Gym Culture Debate",
-      "hook": "RPE or percentage-based training: What's your take?",
+      "title": "Why Cutting is as Mental as Physical",
+      "hook": "Cutting isn't just about the physical transformation — it's a mental game too.",
       "format": "Hot take",
-      "why": "Drives replies and engagement through debate on a trending topic.",
+      "why": "Current focus on cutting season with a fresh mental angle.",
       "priority": "medium"
     },
     {
       "platform": "newsletter",
-      "title": "Gym Fashion on a Budget",
-      "hook": "How to look stylish without breaking the bank",
-      "format": "Deep dive on affordable brands and styling tips",
-      "why": "In-depth exploration of a rising trend with actionable advice.",
+      "title": "Spring Cut Strategies",
+      "hook": "Unlock Your Best Physique: Spring Cutting Strategies",
+      "format": "Deep dive into cutting methods and mindset",
+      "why": "With cutting season trending, a detailed guide offers valuable insights.",
       "priority": "low"
     }
   ],
   "hotPosts": [
     {
-      "id": "3839078258352954431",
+      "id": "3839608917316174423",
       "platform": "instagram",
-      "username": "dfyne.official",
-      "caption": "this week is fuelled by new ORIGIN✨\n\nany guesses what colour is still to come? \n\nnew ORIGIN launching 26 February at 4pm GMT\n\n#DFYNE",
-      "likes": 4205,
-      "comments": 100,
+      "username": "dumbbellslicey",
+      "caption": "lifts w u\n.\nfits from @youngla @younglaforher code: SLICEY\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#gym #gymmotivation #gymrat #gymlife #gymgirl #gymgirls #girlswholift #girlsthatlift #workout #workouts #co",
+      "likes": 11309,
+      "comments": 87,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/641041083_18090191438517543_6664692778169008687_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=MzgzOTA3ODI0NzYxNTU1ODcxNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzMjB4MTYzMC5zZHIuQzMifQ%3D%3D&_nc_ohc=zwNrwAHuilQQ7kNvwFhqzD4&_nc_oc=Adn6bxF0tL58wXp6H-kqMgUzER6Drnc6zT8xxuPBye1JR7soRPwZcC-Atp6A4YNGv5Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ezkieOxFrXlgJrLTNJuRTw&oh=00_AfsagR9R-8q0kMOiB7VqTjhpKwgBIaOtwnCzUyRnqes2zg&oe=69A3624B",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/641653454_17925387645246851_1105023564773765680_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=1&ig_cache_key=MzgzOTYwNzk2MzA1MzI5NzM0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEzMjB4MTc2MC5zZHIuQzMifQ%3D%3D&_nc_ohc=_2Av2NlatfMQ7kNvwHSnJE8&_nc_oc=AdkdgnCNdQx_hx2Y_l3QRc6Q9666Dc31DynWn9-aIsOicPSB8PEtZWYGtfwm2UHN8GU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=G-Do8hbr8QmJ1IxZb5l3kA&oh=00_AfuDpj47KIrZrLCMCKq0z_01vNjBn8ezWjqJ6DL9XM4Tyg&oe=69A37214",
       "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVHJVXuDZw_/",
-      "whyViral": "The post effectively teases a new product launch with a question that encourages engagement, resulting in 100 comments, a high comment-to-like ratio.",
-      "trend": "#DFYNE",
-      "postedAgo": "19h",
-      "hookUsed": "Question Hook",
+      "postURL": "https://www.instagram.com/p/DVJB_eZDYJX/",
+      "whyViral": "This post features a brand collaboration with YoungLA, showcasing a popular fitness brand that resonates with the audience. The high comment rate (87 comments) indicates strong engagement.",
+      "trend": "#gym",
+      "postedAgo": "2h",
+      "hookUsed": "lifts w u",
       "audioUsed": null,
-      "takeaway": "Use open-ended questions to drive engagement and create anticipation for product launches."
+      "takeaway": "Incorporate brand collaborations with popular fitness brands to increase engagement."
     },
     {
       "id": "3839030472974295278",
       "platform": "instagram",
       "username": "onepunchnaz",
       "caption": "11 week out. 258.4lbs this morning. \n\n@darcsport 🐺 “1punch”\nHD Muscle 💊 “1punch”\n@elev8.foods 🥣 “1punch”\n\n#mrolympia #aesthetics #bodybuilding_motivation #darcsport #classicbodybuilding",
-      "likes": 6145,
-      "comments": 59,
+      "likes": 6423,
+      "comments": 60,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640323526_18382586554095585_550859375137230786_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=MzgzOTAzMDQxNDI2MjQ2MTgyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyMDZ4MTYwOC5zZHIuQzMifQ%3D%3D&_nc_ohc=thK43PTAxCEQ7kNvwG7yBod&_nc_oc=Adl2pTNJiJQkRW1qKyfGyVSbC4skHVKXythy30Evm35yT5jHokXCBU1mEPgcoau4vXg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=q85buRQ730hvAxr1YMHBJw&oh=00_AfsK21O-yc4Wh58eROFst2rb-aw_gpdzpMg8IxkqEVbWpA&oe=69A34942",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640323526_18382586554095585_550859375137230786_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=104&ig_cache_key=MzgzOTAzMDQxNDI2MjQ2MTgyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyMDZ4MTYwOC5zZHIuQzMifQ%3D%3D&_nc_ohc=thK43PTAxCEQ7kNvwG7yBod&_nc_oc=Adl2pTNJiJQkRW1qKyfGyVSbC4skHVKXythy30Evm35yT5jHokXCBU1mEPgcoau4vXg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=jl7Y6jg-QCGg7O--Cyo5Ig&oh=00_Afu4CNkcKdTVzNlbT47xnl4wmbXfG9CRivhEd_UdJpzwbA&oe=69A38182",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVG-eAHiGDu/",
-      "whyViral": "This post combines personal progress updates with brand collaborations, leading to high engagement with 59 comments.",
+      "whyViral": "The post effectively uses multiple brand tags, including Darc Sport and HD Muscle, to appeal to a niche bodybuilding audience. The 60 comments show strong community interaction.",
       "trend": "#mrolympia",
       "postedAgo": "21h",
-      "hookUsed": "Progress Update",
+      "hookUsed": "11 week out. 258.4lbs this morning.",
       "audioUsed": null,
-      "takeaway": "Integrate personal milestones with brand partnerships to create relatable and engaging content."
+      "takeaway": "Leverage multiple brand partnerships to engage niche audiences."
     },
     {
       "id": "3839143369948201372",
       "platform": "instagram",
       "username": "kaitlynadventures",
       "caption": "What I eat in a day on a bulk (Aiming for 2100 Cals, 160g or Protein)\nWearing @shedarcsport @shedarcsport 🐺 Code: KAIT10\n\n#darcsport #shedarcsport #NFGU #SSDD",
-      "likes": 2639,
-      "comments": 40,
+      "likes": 2928,
+      "comments": 42,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639666662_18013415852819908_2670921168711785139_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=MzgzOTE0MTM0MjQ4ODc4ODEyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMy5zZHIuQzMifQ%3D%3D&_nc_ohc=gpU7vLNBdgYQ7kNvwEVRHQ7&_nc_oc=Adn3VIiPm62577XSVzU1gCtJ89ZRXuUvxXyphE6agMmg10pDzD8iIS7dXX2JIoNpgPY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=q85buRQ730hvAxr1YMHBJw&oh=00_AftiFsfD9VtQYp7jedIzAglebB1nHnPFGNlGU79niCcw4w&oe=69A34DB3",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639666662_18013415852819908_2670921168711785139_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=MzgzOTE0MTM0MjQ4ODc4ODEyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMy5zZHIuQzMifQ%3D%3D&_nc_ohc=gpU7vLNBdgYQ7kNvwEVRHQ7&_nc_oc=Adn3VIiPm62577XSVzU1gCtJ89ZRXuUvxXyphE6agMmg10pDzD8iIS7dXX2JIoNpgPY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=jl7Y6jg-QCGg7O--Cyo5Ig&oh=00_AfuP5BVk4Mul2Vxy4WAsi9prMu6baS6kO_x98y6ourzDjQ&oe=69A385F3",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVHYI3njwGc/",
-      "whyViral": "The post provides a detailed 'What I Eat in a Day' format, which is popular for its educational value, and includes a brand collaboration with Darc Sport.",
+      "whyViral": "This 'What I eat in a day' post combines personal fitness goals with a brand collaboration, driving engagement with 42 comments.",
       "trend": "#darcsport",
       "postedAgo": "17h",
-      "hookUsed": "Routine Breakdown",
+      "hookUsed": "What I eat in a day on a bulk",
       "audioUsed": null,
-      "takeaway": "Share specific daily routines or diets to engage and educate your audience while promoting brands."
-    },
-    {
-      "id": "3838561370313851443",
-      "platform": "instagram",
-      "username": "annettevasquezzz",
-      "caption": "@darcsport x Von Dutch is live!! 🖤 code “ANNETTE”\n\n@shedarcsport #DARCSPORT #SHEDARCSPORT #NFGU #SSDD",
-      "likes": 2272,
-      "comments": 23,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640310987_18086348099227977_7877629165858826171_n.jpg?stp=dst-jpg_e15_s480x480_tt6&_nc_cat=103&ig_cache_key=MzgzODU2MDgwMTE1NDgyNjg4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHg5NjAuc2RyLkMzIn0%3D&_nc_ohc=_Y-jAyCMsMUQ7kNvwFx75hn&_nc_oc=AdnwMsMffZXO-2D28tfLBdrEfKm3pqCIMvNi8s6nAYocJDwtY1DpKqzYMtLDb-kmOXw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=4nQ-80q_CJs0uuzknAhcxA&oh=00_Aft8xnIw1DE7S3k5YK_NAgo04dQQdXCfgTi4F2RPUWm9ow&oe=69A36602",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVFTzqOGAIz/",
-      "whyViral": "Announcing a live collaboration drop with a personal discount code, this post leverages urgency and exclusivity, generating 23 comments.",
-      "trend": "#DARCSPORT",
-      "postedAgo": "1d",
-      "hookUsed": "Urgency Hook",
-      "audioUsed": null,
-      "takeaway": "Create urgency with time-sensitive announcements and personal discount codes to boost engagement."
-    },
-    {
-      "id": "3839050833610734285",
-      "platform": "instagram",
-      "username": "rosiegodwinfit",
-      "caption": "@dfyne.official vision collection🤌🤌\ncode ‘ROSIEGODWIN’ to save on all orders!\ni’m wearing size small in petrol blue <3\n\n#dfyne #gymfit #gymoutfit #gymgirl #progress",
-      "likes": 660,
-      "comments": 36,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640382577_17926803594224257_7021434480742689730_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=111&ig_cache_key=MzgzOTA1MDc1MDkyNDE4NjExMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=SKwh602Ocy0Q7kNvwHWjRBn&_nc_oc=Adn6f1kVj14HMXYFspaDwyVt6IbFPw5PwLlrywuM_Lf9y1afug2r-jlsz3DTwx7RNIg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ezkieOxFrXlgJrLTNJuRTw&oh=00_Aftoh4soK8ykmn6BRAN22TZpPn9GYvmJSXnmEmKw301uqw&oe=69A34772",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVHDGScCPrN/",
-      "whyViral": "The post showcases a new collection with a personal discount code, resulting in 36 comments, indicating effective brand promotion.",
-      "trend": "#dfyne",
-      "postedAgo": "20h",
-      "hookUsed": "Product Showcase",
-      "audioUsed": null,
-      "takeaway": "Use personal discount codes and showcase new collections to drive engagement and sales."
-    },
-    {
-      "id": "3839431649067806216",
-      "platform": "instagram",
-      "username": "emilyascari_",
-      "caption": "GUYYYSSSSS I’M OFFICIALLY A DFYNE ATHLETE 🥹🎂\n\nThis has been an absolute dream for YEARS and I actually cannot believe I am saying this bahahaha \n\nDfyne has always been my favourite activewear brand ",
-      "likes": 642,
-      "comments": 72,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640330424_18571996783056595_7979098587104619709_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=MzgzOTQzMTExNTUwMTk1MDcwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=IWegQYD44G8Q7kNvwHiZFJs&_nc_oc=Adkn5zJlXx0q85qHLbnOpUROmrO4s9B00tlIblHXpySpAs6ILzRKI0s7tcLJJ75zQDI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=k2eNaqRWSDzg4BgVa_MN1g&oh=00_AfvKA3RvXZhel_i2tdF62kNTm1nz2gDcE35eJ9i7s-jk7A&oe=69A34FBA",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVIZr4eFC4I/",
-      "whyViral": "Announcing a personal achievement of becoming a DFYNE athlete, this post resonates with followers, leading to 72 comments.",
-      "trend": "#sunrise",
-      "postedAgo": "8h",
-      "hookUsed": "Achievement Announcement",
-      "audioUsed": null,
-      "takeaway": "Share personal achievements related to brand partnerships to inspire and engage your audience."
+      "takeaway": "Share personal fitness journeys alongside brand promotions for relatable content."
     },
     {
       "id": "3839501867378281921",
       "platform": "instagram",
       "username": "mikavanoord",
       "caption": "Chat rate de hoed \n\n@youngla code ‘Mika’ \n@esncom @esncom.nl code ‘mikavanoord’ \n\n#gym #fitness #youngla #ski #skivacation",
-      "likes": 529,
-      "comments": 82,
+      "likes": 916,
+      "comments": 119,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640382225_18513148393073028_4195680968929910223_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=MzgzOTUwMDc3NTU3NTgyMDI0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc1NS5oZHIuQzMifQ%3D%3D&_nc_ohc=8Q2xXy2OrWAQ7kNvwHrtwP0&_nc_oc=Adl74eqVqeajTe_QLEIQiC184kfDaqns-tXxnzKGfVss9s6t20pkq8DtEa2t_wU0glQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=Dg8E2DmKQ551on0FukIdtw&oh=00_AftNSujrVMFLLX8cMv2jN_K24IOEMKa79M-M_w_wCSREqw&oe=69A35D8C",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640382225_18513148393073028_4195680968929910223_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=MzgzOTUwMDc3NTU3NTgyMDI0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTc1NS5oZHIuQzMifQ%3D%3D&_nc_ohc=8Q2xXy2OrWAQ7kNvwH70YBm&_nc_oc=AdmAuGqL8VNgQbtBJYDG4ogMDYCSxvbj-olZlWLxb_SBm1NJ8HXBASgjbzc40DcEI9E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=G-Do8hbr8QmJ1IxZb5l3kA&oh=00_AfuAq_K4Yx6Cygy7CsXuEoWa7KCtpm5sq80LZYHgIJD5bw&oe=69A395CC",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVIppsXiA3B/",
-      "whyViral": "The post combines humor with a brand partnership, resulting in 82 comments, indicating strong engagement.",
+      "whyViral": "The high comment rate (119 comments) relative to likes indicates strong engagement, likely due to the personal touch and brand collaboration with YoungLA.",
       "trend": "#gym",
       "postedAgo": "5h",
-      "hookUsed": "Humor Hook",
+      "hookUsed": "Chat rate de hoed",
       "audioUsed": null,
-      "takeaway": "Incorporate humor into brand collaborations to make your content more relatable and engaging."
+      "takeaway": "Engage your audience with personal stories and brand partnerships."
     },
     {
-      "id": "3838638729528125671",
+      "id": "3839431649067806216",
       "platform": "instagram",
-      "username": "ddfi.t",
-      "caption": "@darcsport x @vondutch \n\nAlways moving and grooving ❤️‍🔥🐺\n_______________\n@darcsport x @shedarcsport || DARIA \n\n.\n.\n. \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#gym #fitness #DARCSPORT, #SHEDARCSPORT, #NFGU",
-      "likes": 1596,
-      "comments": 32,
+      "username": "emilyascari_",
+      "caption": "GUYYYSSSSS I’M OFFICIALLY A DFYNE ATHLETE 🥹🎂\n\nThis has been an absolute dream for YEARS and I actually cannot believe I am saying this bahahaha \n\nDfyne has always been my favourite activewear brand ",
+      "likes": 841,
+      "comments": 92,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639841844_18065864048656085_5230132939071159606_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=110&ig_cache_key=MzgzODYzODcxNTY2MTczOTg0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=ehY32LB5-bcQ7kNvwGpQkWK&_nc_oc=AdkRsO-rllfgY-4vKF5I2fCYi_q0_sGC0qDzbBWImJU0AM02EGyuS3LWQ4YVLe7Tuts&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=q85buRQ730hvAxr1YMHBJw&oh=00_Afup2lUmRoYeXJcAExx3HtEK-TCymvvoRn0lTlIEsJO46g&oe=69A34336",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640330424_18571996783056595_7979098587104619709_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=MzgzOTQzMTExNTUwMTk1MDcwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=IWegQYD44G8Q7kNvwHiZFJs&_nc_oc=Adkn5zJlXx0q85qHLbnOpUROmrO4s9B00tlIblHXpySpAs6ILzRKI0s7tcLJJ75zQDI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=N5D0dMYCbnF-o-G1rdRVFw&oh=00_Afu9cA1DEFkoW8rU38DyF2hA8OS1yUM9n1QB7GyEWLPXbQ&oe=69A387FA",
       "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVFlZYmlKjn/",
-      "whyViral": "Featuring a collaboration between Darc Sport and Von Dutch, this post uses a catchy caption and brand tags to engage followers.",
-      "trend": "#gym",
-      "postedAgo": "1d",
-      "hookUsed": "Collaboration Highlight",
+      "postURL": "https://www.instagram.com/p/DVIZr4eFC4I/",
+      "whyViral": "Announcing a new athlete partnership with DFYNE, this post taps into aspirational content, generating 92 comments from an excited audience.",
+      "trend": "#sunrise",
+      "postedAgo": "8h",
+      "hookUsed": "GUYYYSSSSS I’M OFFICIALLY A DFYNE ATHLETE",
       "audioUsed": null,
-      "takeaway": "Leverage popular brand collaborations and catchy captions to boost engagement."
-    },
-    {
-      "id": "3838357272787837655",
-      "platform": "instagram",
-      "username": "gainsbygoose",
-      "caption": "screw 2016 I’m trying to go back to 2006\n\n@darcsport X @vondutch drop is tonight 9pm EST\ncode goose 🪿 \n\n#darcsport #shedarcsport #nfgu",
-      "likes": 1888,
-      "comments": 32,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/635065112_18089747549153673_4489383223494559904_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=111&ig_cache_key=MzgzODM1Njk2NTU4MDI2NTIwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTY0Mi5zZHIuQzMifQ%3D%3D&_nc_ohc=HxcLA1HD5LcQ7kNvwExmUxH&_nc_oc=AdkbzZgjqMdsYqg-yaY3yDTTbMSH1983nkGJiDUKjNpQYzUZROvDmizgHLb3mAAV8eU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=4nQ-80q_CJs0uuzknAhcxA&oh=00_AfuJvH-qHhMY2VIge2s-6F9rJLHErWNQIJg73M5MzIo23g&oe=69A342D2",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVElZpljmLX/",
-      "whyViral": "The post taps into nostalgia with a reference to 2006, combined with a brand drop announcement, resulting in 32 comments.",
-      "trend": "#darcsport",
-      "postedAgo": "1d",
-      "hookUsed": "Nostalgia Hook",
-      "audioUsed": null,
-      "takeaway": "Use nostalgia to connect with your audience while promoting new products."
+      "takeaway": "Announce partnerships or milestones to create aspirational content."
     },
     {
       "id": "3839196560291435502",
       "platform": "instagram",
       "username": "chaunesseabailey",
       "caption": "you’ll see what I mean soon 🙂‍↕️\n\nwearing @gymshark\ncode: CBAILEY10 🤍\n\n#gymshark #cuttingseason #growthjourney",
-      "likes": 777,
-      "comments": 40,
+      "likes": 880,
+      "comments": 42,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/639909764_18036954113769018_2400461970995565665_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=109&ig_cache_key=MzgzOTE5NDQ0MzY5NDY2Njg5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=h3Bfd7uvN0sQ7kNvwGK6E4c&_nc_oc=AdlrfnQps9BXtUTjzp1WAKAoqFlIMo8aHA5dDLb51PXKpbydJY_QouoViSvOShjxCZQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=wicaUMN-F2tCepyo65D5Kg&oh=00_AfuiXXVL3W39Lfl_hlXvFgJlC-0iRQyZf5E2HRXPhdygbg&oe=69A33699",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/639909764_18036954113769018_2400461970995565665_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=109&ig_cache_key=MzgzOTE5NDQ0MzY5NDY2Njg5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5oZHIuQzMifQ%3D%3D&_nc_ohc=h3Bfd7uvN0sQ7kNvwGK6E4c&_nc_oc=AdlrfnQps9BXtUTjzp1WAKAoqFlIMo8aHA5dDLb51PXKpbydJY_QouoViSvOShjxCZQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=hQ2xGA5ZyPx8iAA3hIjyoQ&oh=00_AfvUPTF8lH1fc-o7L_-8jFXVBLZaYRjbyAsL5tbS-8XZrQ&oe=69A3A719",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVHkO4_EpPu/",
-      "whyViral": "The post teases upcoming content with a personal discount code, resulting in 40 comments, showing effective anticipation building.",
+      "whyViral": "This post uses a teaser hook and features a Gymshark collaboration, appealing to followers interested in fitness transformations.",
       "trend": "#gymshark",
-      "postedAgo": "15h",
-      "hookUsed": "Teaser Hook",
+      "postedAgo": "16h",
+      "hookUsed": "you’ll see what I mean soon 🙂‍↕️",
       "audioUsed": null,
-      "takeaway": "Tease future content with personal discount codes to maintain audience interest."
+      "takeaway": "Use teaser hooks to build anticipation and engagement."
+    },
+    {
+      "id": "3838561370313851443",
+      "platform": "instagram",
+      "username": "annettevasquezzz",
+      "caption": "@darcsport x Von Dutch is live!! 🖤 code “ANNETTE”\n\n@shedarcsport #DARCSPORT #SHEDARCSPORT #NFGU #SSDD",
+      "likes": 2291,
+      "comments": 23,
+      "shares": 0,
+      "saves": 0,
+      "format": "carousel",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640310987_18086348099227977_7877629165858826171_n.jpg?stp=dst-jpg_e15_s480x480_tt6&_nc_cat=103&ig_cache_key=MzgzODU2MDgwMTE1NDgyNjg4Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHg5NjAuc2RyLkMzIn0%3D&_nc_ohc=_Y-jAyCMsMUQ7kNvwHa-1h7&_nc_oc=AdkJ3AP44RV5G90z7avdKA9Kf_cWFTQUhjX-tCsX7bcbPNYgLCu5wRpwwkT1WMy-oqw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=B8mT4Yt0Io65JGlQo7o2Iw&oh=00_Aft1KeO5tHY_z3CSja33JU2GMDzf_NMBdM7CAb0I2vv-fg&oe=69A39E42",
+      "profilePicURL": null,
+      "postURL": "https://www.instagram.com/p/DVFTzqOGAIz/",
+      "whyViral": "The post promotes a Darc Sport x Von Dutch collaboration, tapping into the hype of limited edition drops, with 23 comments.",
+      "trend": "#DARCSPORT",
+      "postedAgo": "1d",
+      "hookUsed": "@darcsport x Von Dutch is live!!",
+      "audioUsed": null,
+      "takeaway": "Promote limited edition or exclusive collaborations to drive engagement."
+    },
+    {
+      "id": "3838638729528125671",
+      "platform": "instagram",
+      "username": "ddfi.t",
+      "caption": "@darcsport x @vondutch \n\nAlways moving and grooving ❤️‍🔥🐺\n_______________\n@darcsport x @shedarcsport || DARIA \n\n.\n.\n. \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#gym #fitness #DARCSPORT, #SHEDARCSPORT, #NFGU",
+      "likes": 1614,
+      "comments": 32,
+      "shares": 0,
+      "saves": 0,
+      "format": "carousel",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639841844_18065864048656085_5230132939071159606_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=110&ig_cache_key=MzgzODYzODcxNTY2MTczOTg0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=ehY32LB5-bcQ7kNvwGpQkWK&_nc_oc=AdkRsO-rllfgY-4vKF5I2fCYi_q0_sGC0qDzbBWImJU0AM02EGyuS3LWQ4YVLe7Tuts&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=jl7Y6jg-QCGg7O--Cyo5Ig&oh=00_AfvrDcGd1_-7EE8noHFguGa62nOIxf4xHZL8KSqsqkmwlw&oe=69A37B76",
+      "profilePicURL": null,
+      "postURL": "https://www.instagram.com/p/DVFlZYmlKjn/",
+      "whyViral": "Featuring a Darc Sport collaboration, this post uses a dynamic caption and multiple brand tags to engage followers, resulting in 32 comments.",
+      "trend": "#gym",
+      "postedAgo": "1d",
+      "hookUsed": "@darcsport x @vondutch",
+      "audioUsed": null,
+      "takeaway": "Use dynamic captions and multiple brand tags to increase engagement."
     },
     {
       "id": "3838598692178338673",
       "platform": "instagram",
       "username": "miny_miranda",
       "caption": "@darcsport x @vondutch The most iconic duo of all time💘\nNo one does it better than the Darc Girls.🖤\nDrop is live!!!! Code: MINY✨\n#y2k #y2kinspo #darcsport #vondutch",
-      "likes": 750,
+      "likes": 762,
       "comments": 49,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639976406_18567659440055857_414264638932935321_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzgzODU5NTQzMjU1ODE3ODMwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNTZ4MTU0MS5zZHIuQzMifQ%3D%3D&_nc_ohc=99NRI2E2gecQ7kNvwGf0cDx&_nc_oc=AdlK09YnJI73bR7HV7Ggr7Hnli6mmipEuCadp6cfHwUo-HGwnV9jhyyRausN0imiqbA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=q85buRQ730hvAxr1YMHBJw&oh=00_AfteyY4sP0A3dreingEps7Hobxh8g-4EcYmwJ5JPuLbCqQ&oe=69A3349E",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639976406_18567659440055857_414264638932935321_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzgzODU5NTQzMjU1ODE3ODMwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNTZ4MTU0MS5zZHIuQzMifQ%3D%3D&_nc_ohc=99NRI2E2gecQ7kNvwGf0cDx&_nc_oc=AdlK09YnJI73bR7HV7Ggr7Hnli6mmipEuCadp6cfHwUo-HGwnV9jhyyRausN0imiqbA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=jl7Y6jg-QCGg7O--Cyo5Ig&oh=00_Afs8Qo40WEA_R4HHfytP47SW49QK_5OFDWoRSQXm9LoH9w&oe=69A3A51E",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVFcSw6kaNx/",
-      "whyViral": "This post highlights an iconic brand collaboration, generating 49 comments, showing strong interest in the partnership.",
+      "whyViral": "This post highlights a Darc Sport x Von Dutch drop, using a nostalgic Y2K theme to attract engagement, with 49 comments.",
       "trend": "#y2k",
       "postedAgo": "1d",
-      "hookUsed": "Iconic Collaboration",
+      "hookUsed": "@darcsport x @vondutch The most iconic duo of all time",
       "audioUsed": null,
-      "takeaway": "Highlight iconic brand collaborations to capture audience interest and drive engagement."
+      "takeaway": "Incorporate nostalgic themes to resonate with your audience."
     },
     {
-      "id": "3838429082091124523",
+      "id": "3839164006276601468",
       "platform": "instagram",
-      "username": "soppheeyahh",
-      "caption": "DARC x VON DUTCH drops tonight at 8pm CST! \n\nFor the y2k girlies🐺💞\n\n@darcsport \n@shedarcsport \ncode sophia🫶🏼\n\n#darcsport",
-      "likes": 449,
-      "comments": 11,
+      "username": "aitana_berjon",
+      "caption": "Outfits lately, theme: color combos 🖤\nNo soy tanto de colores, pero estos combosssss🫠🔋\n@wolfpak.official lo que me encanta es que mi gymbag de WOLFpak combina con el combo que sea (c0de AITANA 10% ",
+      "likes": 737,
+      "comments": 6,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/641244854_17997639848912082_2783833537818516650_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=MzgzODQyODEwMzI1Nzk1MjEwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMS5oZHIuQzMifQ%3D%3D&_nc_ohc=16nbMHuiV4QQ7kNvwFkCR_N&_nc_oc=AdmFoenQ6NuIo4hTCGVXZWDkX00b5vkgQ3tqjMSIw_d_ENl1EkUOurK8HJBfixJdaZ4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=4nQ-80q_CJs0uuzknAhcxA&oh=00_AfsD_D-caCB6J9vZtm5TynS_jCgz9YzbHVxtfOXpXjewKw&oe=69A35EF0",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/628661640_18572979052002051_74278201494589420_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=107&ig_cache_key=MzgzODk3MTY4NDAwODA3ODUxOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=aPMCCj_3NzQQ7kNvwGbMbEu&_nc_oc=AdnYjoWThMfgmRqt_gHjp15XkDHVMl7-matcM3bKkucbnjqK3R9H0XibFDKRSXkIznU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=B8mT4Yt0Io65JGlQo7o2Iw&oh=00_AfuYfpjxY9LOXv91HgdFSnm3GDYMRBUxR1YfXOA36svpUA&oe=69A3A282",
       "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVE1unNkfcr/",
-      "whyViral": "Announcing a drop with a personal code, this post targets a specific audience (y2k girlies), resulting in 11 comments.",
-      "trend": "#darcsport",
-      "postedAgo": "1d",
-      "hookUsed": "Targeted Audience Hook",
+      "postURL": "https://www.instagram.com/p/DVHc1KslRZ8/",
+      "whyViral": "The post showcases a unique theme of color combos in gym outfits, engaging followers with 6 comments, despite a smaller like count.",
+      "trend": "#gymoutfits",
+      "postedAgo": "17h",
+      "hookUsed": "Outfits lately, theme: color combos",
       "audioUsed": null,
-      "takeaway": "Target specific audience segments with tailored messages and personal codes."
-    },
-    {
-      "id": "3838533222607706777",
-      "platform": "instagram",
-      "username": "rodrigue.z.lifts",
-      "caption": "VON DUTCH x DARC SPORT \n\nThe collection drops tonight!!! 6PST | 8CST | 9EST\n\nThe @darcsport design team went HAM on this drop 🤌 a ton of new y2K styles, bikinis, and COLOR 😏🐺 \n\nIf you have any ques",
-      "likes": 382,
-      "comments": 11,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640000391_18023349089805116_5694746304695430859_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=MzgzODUzMzE2MTI4Njk5NjA1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=yJ57U80HlvUQ7kNvwFBTpyh&_nc_oc=AdmHsZSoGF1oxDsTOK3dVTueXZGw_dah8IzdrjC85i8MVU64dLbPNeTWjjfrU58rW_M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=4nQ-80q_CJs0uuzknAhcxA&oh=00_AfvAwo7Qi_iQfL4-23zLupulnSz2G_XkNOANgXUDrt4fdQ&oe=69A3604A",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVFNaDoEVqZ/",
-      "whyViral": "This post creates excitement for a collection drop with a detailed description and personal insights, generating 11 comments.",
-      "trend": "#darcsport",
-      "postedAgo": "1d",
-      "hookUsed": "Detailed Description",
-      "audioUsed": null,
-      "takeaway": "Use detailed descriptions and personal insights to build excitement for product launches."
+      "takeaway": "Experiment with themed content to engage niche audiences."
     },
     {
       "id": "3839155392727499880",
       "platform": "instagram",
       "username": "macyyfit_",
       "caption": "What I eat in a day prioritising high protein & whole foods🍓 @dfyne.official dc MACYFIT\n\n#dfyne #wholefoods #gymfood #highprotein #whatieatinaday",
-      "likes": 218,
-      "comments": 75,
+      "likes": 245,
+      "comments": 78,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/642265938_18084734519586236_52118478813067114_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=110&ig_cache_key=MzgzOTE1NDQ2NDMzNTEyNjA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=7Y4V56MI_NIQ7kNvwEv_-id&_nc_oc=Adl6qFJrVTiI5RRfNHYiGlwXpkq6xlLsM7ytT4idwpqghqA0CoF-voM-BCzLV7Pa6A8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=k2eNaqRWSDzg4BgVa_MN1g&oh=00_AfspxGqrnBVYr484VF6YV1tZZkJ-Hw0w6LKIHqqrZFzIrg&oe=69A340D9",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/642265938_18084734519586236_52118478813067114_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=110&ig_cache_key=MzgzOTE1NDQ2NDMzNTEyNjA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=7Y4V56MI_NIQ7kNvwEv_-id&_nc_oc=Adl6qFJrVTiI5RRfNHYiGlwXpkq6xlLsM7ytT4idwpqghqA0CoF-voM-BCzLV7Pa6A8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=cT4sr5xrGhO-157fE12aPQ&oh=00_Afv3sEeuXfzcqJGO9ybjTNl0Gml8NXfv9Tr7vHHB3te_dQ&oe=69A37919",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVHa30tDERo/",
-      "whyViral": "The post shares a 'What I Eat in a Day' format with a focus on high protein, resulting in 75 comments, indicating strong engagement.",
+      "whyViral": "This post combines a 'What I eat in a day' format with a DFYNE brand collaboration, generating a high comment rate (78 comments).",
       "trend": "#dfyne",
       "postedAgo": "17h",
-      "hookUsed": "Dietary Focus",
+      "hookUsed": "What I eat in a day prioritising high protein & whole foods",
       "audioUsed": null,
-      "takeaway": "Focus on specific dietary goals in your content to engage health-conscious audiences."
+      "takeaway": "Combine popular content formats with brand promotions for higher engagement."
     },
     {
       "id": "7608364046936591647",
@@ -742,12 +676,12 @@
       "thumbnailURL": null,
       "profilePicURL": "https://p16-common-sign.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/5d46e3d125f6076e2a2b58e9c6d58b91~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=18470286&x-expires=1772100000&x-signature=AtrBaU6GTFDZtMd%2BcbH7czNvkbM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast5",
       "postURL": "https://www.tiktok.com/@talkden69/video/7608364046936591647",
-      "whyViral": "This TikTok post uses humor and relatability, achieving massive engagement with 849,300 likes and 157,900 shares.",
+      "whyViral": "This TikTok post went viral with over 849,300 likes and 157,900 shares, using humor and relatability to engage a broad audience.",
       "trend": "#fyp",
       "postedAgo": "5d",
-      "hookUsed": "Relatable Humor",
+      "hookUsed": "It’s never this serious i’m crying",
       "audioUsed": "Debussy \"Clair de Lune\" Piano Solo(1428687)",
-      "takeaway": "Leverage humor and relatable scenarios to drive high engagement on TikTok."
+      "takeaway": "Use humor and relatable content to drive high engagement on TikTok."
     },
     {
       "id": "7607924673178914070",
@@ -762,12 +696,12 @@
       "thumbnailURL": null,
       "profilePicURL": "https://p16-pu-sign-no.tiktokcdn-eu.com/tos-no1a-avt-0068c001-no/22faf44e201b179b179230a665056be2~tplv-tiktokx-cropcenter:720:720.jpeg?dr=10399&refresh_token=393758e2&x-expires=1772100000&x-signature=PiTMPtqPdzSk2%2BZLBy%2FEMNccuJ8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=no1a",
       "postURL": "https://www.tiktok.com/@k3vin.b37/video/7607924673178914070",
-      "whyViral": "Featuring a brand collaboration with DFYNE, this TikTok post uses a catchy sound and personal code, resulting in 538,700 likes.",
+      "whyViral": "The post features a DFYNE brand collaboration and has high engagement with 538,700 likes and 85,300 shares, showing the power of brand partnerships on TikTok.",
       "trend": "#08",
       "postedAgo": "6d",
-      "hookUsed": "Catchy Audio",
+      "hookUsed": "@DFYNE code KVN10",
       "audioUsed": "оригинальный звук - (:",
-      "takeaway": "Combine catchy audio with brand collaborations to enhance TikTok engagement."
+      "takeaway": "Leverage brand partnerships to boost engagement on TikTok."
     },
     {
       "id": "7608673444762291478",
@@ -782,78 +716,144 @@
       "thumbnailURL": null,
       "profilePicURL": "https://p19-common-sign.tiktokcdn-us.com/tos-maliva-avt-0068/accf8f832d8678fed0a4fbe8688ff4a9~tplv-tiktokx-cropcenter:720:720.jpeg?dr=9640&refresh_token=fc96fdaa&x-expires=1772100000&x-signature=kgRX5RTpQTgc91x1ch3lfYNyNP4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=useast8",
       "postURL": "https://www.tiktok.com/@jezbezwez/video/7608673444762291478",
-      "whyViral": "This TikTok post promotes multiple brands with discount codes, achieving 327,600 likes and 37,000 shares.",
+      "whyViral": "This TikTok post uses a dual brand promotion strategy, resulting in 327,600 likes and 37,000 shares, highlighting effective cross-promotion.",
       "trend": "#gym",
       "postedAgo": "4d",
-      "hookUsed": "Multi-Brand Promotion",
+      "hookUsed": "CODE: JEZBEZWEZ10 AT EKKO",
       "audioUsed": "Count up",
-      "takeaway": "Promote multiple brands in a single post to maximize reach and engagement."
-    },
-    {
-      "id": "3838344372316957038",
-      "platform": "instagram",
-      "username": "limamike17",
-      "caption": "Short kings United! Got a lift in with the bro @fitnessdon_ 💪🏾💪🏾💪🏾",
-      "likes": 654,
-      "comments": 30,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640159565_18560572360032802_3683536251293339201_n.jpg?stp=dst-jpegr_e35_s1080x1080_tt6&_nc_cat=110&ig_cache_key=MzgzODM0MzU5Nzc0NjQ1MTgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5oZHIuQzMifQ%3D%3D&_nc_ohc=g2yQ0muDgpUQ7kNvwHxQS1W&_nc_oc=AdkCmgSmAzm5ue2ffiQ71dl7cD3HRycdDZ7Wai70DHlx3HoqV4UWLOoA36Nx0LxaECs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=wicaUMN-F2tCepyo65D5Kg&oh=00_AfuMWAYYJ8FlVHUYsef7I3EHAaLdeTILeDnfqDjckAkSew&oe=69A35A5D",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVEid7Fkmlu/",
-      "whyViral": "The post captures a relatable gym moment with a friend, generating 30 comments, showing the power of community content.",
-      "trend": "#fitness",
-      "postedAgo": "1d",
-      "hookUsed": "Community Highlight",
-      "audioUsed": null,
-      "takeaway": "Highlight community and friendship in your content to foster engagement."
+      "takeaway": "Use cross-promotion strategies to maximize reach on TikTok."
     },
     {
       "id": "3838030987938873584",
       "platform": "instagram",
       "username": "arjunaasol_",
       "caption": "Karena badan bagus itu bukan soal genetik.\nTapi soal konsisten saat orang lain berhenti\n\n#fitnessindonesia\n#gymindonesia\n#fitnesslifestyle\n#workoutmotivation\n#gymmotivation\n#bodygoals\n#cuttingseason\n#",
-      "likes": 660,
-      "comments": 10,
+      "likes": 701,
+      "comments": 11,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/637692693_18220058077312986_4015665423072277252_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=101&ig_cache_key=MzgzODAyOTgzMTYxOTYwMTg2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Bc4HelhhGbIQ7kNvwEDDQ10&_nc_oc=AdmR-kn4cxd-mQWu17ctV_X4W9XohaLZeTDQ3WlqYV8xxxbRnlGIQK1klBTga1slfEM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=2pAlNLBRqm_GbgmS8NbsLA&oh=00_AfsOrBmRQoPInxhQTQBaSvImIdM71zFYJTdgvG6BJAz6mA&oe=69A3446A",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/637692693_18220058077312986_4015665423072277252_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=101&ig_cache_key=MzgzODAyOTgzMTYxOTYwMTg2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Bc4HelhhGbIQ7kNvwHCfJWE&_nc_oc=AdmoskwfH52AKotX_JSLk4FWJz3SUXrrwk-_qh6NByLAKFgtfiWzO2kgPBzwCPFgoCk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ezheUa2CrIRLQ7k3HQcLqg&oh=00_Afv8IRRQguGch9j9-fFKx1gl60uU2kSHIDfI1J1RvXxorQ&oe=69A37CAA",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVDbNlJCcDw/",
-      "whyViral": "The post uses motivational language combined with a personal story, resulting in 10 comments, showing effective storytelling.",
+      "whyViral": "The post uses motivational content with a personal touch, engaging followers with 11 comments, despite a smaller like count.",
       "trend": "#fitnessindonesia",
       "postedAgo": "2d",
-      "hookUsed": "Motivational Story",
+      "hookUsed": "Karena badan bagus itu bukan soal genetik.",
       "audioUsed": null,
-      "takeaway": "Incorporate personal stories with motivational language to inspire and engage your audience."
+      "takeaway": "Incorporate personal stories into motivational content to engage followers."
+    },
+    {
+      "id": "3838344372316957038",
+      "platform": "instagram",
+      "username": "limamike17",
+      "caption": "Short kings United! Got a lift in with the bro @fitnessdon_ 💪🏾💪🏾💪🏾",
+      "likes": 660,
+      "comments": 30,
+      "shares": 0,
+      "saves": 0,
+      "format": "carousel",
+      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640159565_18560572360032802_3683536251293339201_n.jpg?stp=dst-jpegr_e35_s1080x1080_tt6&_nc_cat=110&ig_cache_key=MzgzODM0MzU5Nzc0NjQ1MTgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5oZHIuQzMifQ%3D%3D&_nc_ohc=g2yQ0muDgpUQ7kNvwFI9KJ6&_nc_oc=AdnE5MDR-FC-VwZANr3mTbAGWkiGJGdWE4uGbGelAa89HJ-ZJn9Jc79xpBizpMPUQmA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=ezheUa2CrIRLQ7k3HQcLqg&oh=00_AftSFd9RIBnWHaJ5vYopyffE80EoYYZe_WXxwWPoJnovEg&oe=69A3929D",
+      "profilePicURL": null,
+      "postURL": "https://www.instagram.com/p/DVEid7Fkmlu/",
+      "whyViral": "This post features a collaboration with another fitness influencer, generating 30 comments and showcasing the power of influencer collaborations.",
+      "trend": "#fitness",
+      "postedAgo": "1d",
+      "hookUsed": "Short kings United!",
+      "audioUsed": null,
+      "takeaway": "Collaborate with other influencers to expand your reach."
     },
     {
       "id": "3839400479835773278",
       "platform": "instagram",
       "username": "kit.kit_mad",
       "caption": "It has been 3 months since i started keto lean bulk, current weight is 80kg(177lbs)\nI'm having a huge improvement in my sleep and workouts after deep cut season and long starvation days, I will keep i",
-      "likes": 292,
-      "comments": 8,
+      "likes": 461,
+      "comments": 11,
       "shares": 0,
       "saves": 0,
       "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640410908_17897552370396815_8211737864476839373_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=MzgzOTM5NzY2NTkzNTkyMjA5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMS5oZHIuQzMifQ%3D%3D&_nc_ohc=tctNmOwaC3kQ7kNvwE2pUkM&_nc_oc=AdndFZe2EsHdQx00Gguz8vc7LCZ7FmqKLGwOBQHLhECAo3q9cARYkvZ3TusuzTlaZ5U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=Dg8E2DmKQ551on0FukIdtw&oh=00_AftNHKl18jtkMXeTovy6-QUf_1wq8PkIoZkA5k7K3t9sbg&oe=69A33D3D",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640410908_17897552370396815_8211737864476839373_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=102&ig_cache_key=MzgzOTM5NzY2NTkzNTkyMjA5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMS5oZHIuQzMifQ%3D%3D&_nc_ohc=tctNmOwaC3kQ7kNvwF0vy3z&_nc_oc=AdnuvvY-sJw79GYAWJn2EeCGtL_8oVu0D6WX75HPohfq1iGg3HXbwcY-F24aThSGzFI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=G-Do8hbr8QmJ1IxZb5l3kA&oh=00_Afsk1nWO9p7zr3zW4ruVWyV39km7SWLwv1x7J-4QopK2mw&oe=69A3757D",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DVISmT3E1le/",
-      "whyViral": "Sharing a personal fitness journey with a focus on diet changes, this post engages with 8 comments, showing interest in personal progress.",
+      "whyViral": "The post shares a personal fitness journey, engaging followers with 11 comments, and highlights the importance of storytelling.",
       "trend": "#gymbro",
       "postedAgo": "9h",
-      "hookUsed": "Journey Documentation",
+      "hookUsed": "It has been 3 months since i started keto lean bulk",
       "audioUsed": null,
-      "takeaway": "Document personal fitness journeys with a focus on specific changes to engage followers."
+      "takeaway": "Share your fitness journey to connect with your audience."
+    },
+    {
+      "id": "3838429082091124523",
+      "platform": "instagram",
+      "username": "soppheeyahh",
+      "caption": "DARC x VON DUTCH drops tonight at 8pm CST! \n\nFor the y2k girlies🐺💞\n\n@darcsport \n@shedarcsport \ncode sophia🫶🏼\n\n#darcsport",
+      "likes": 451,
+      "comments": 11,
+      "shares": 0,
+      "saves": 0,
+      "format": "carousel",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/641244854_17997639848912082_2783833537818516650_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=MzgzODQyODEwMzI1Nzk1MjEwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMS5oZHIuQzMifQ%3D%3D&_nc_ohc=16nbMHuiV4QQ7kNvwHvmadM&_nc_oc=Admuazj6zm7CPajSI8r6I9v24A_U48EBdz77RLsuG3hYwY2KYD8kSj7nudBhj8TWXaQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=B8mT4Yt0Io65JGlQo7o2Iw&oh=00_AftXYy-dF66o41WR61l_NQhUEzM-gRo9LgK2YWXshQCAAg&oe=69A39730",
+      "profilePicURL": null,
+      "postURL": "https://www.instagram.com/p/DVE1unNkfcr/",
+      "whyViral": "The post promotes a Darc Sport x Von Dutch drop, using a Y2K theme to attract engagement, with 11 comments.",
+      "trend": "#darcsport",
+      "postedAgo": "1d",
+      "hookUsed": "DARC x VON DUTCH drops tonight at 8pm CST!",
+      "audioUsed": null,
+      "takeaway": "Use themed content to resonate with specific audience interests."
+    },
+    {
+      "id": "3838533222607706777",
+      "platform": "instagram",
+      "username": "rodrigue.z.lifts",
+      "caption": "VON DUTCH x DARC SPORT \n\nThe collection drops tonight!!! 6PST | 8CST | 9EST\n\nThe @darcsport design team went HAM on this drop 🤌 a ton of new y2K styles, bikinis, and COLOR 😏🐺 \n\nIf you have any ques",
+      "likes": 394,
+      "comments": 11,
+      "shares": 0,
+      "saves": 0,
+      "format": "carousel",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/640000391_18023349089805116_5694746304695430859_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=MzgzODUzMzE2MTI4Njk5NjA1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=yJ57U80HlvUQ7kNvwERQBRf&_nc_oc=Adnu2JL6xZX4DiIo9P-cy-FBHqiKgpAis7w34IRRztkRIOVd3_d_DJr2nlrNXM6TeH0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=B8mT4Yt0Io65JGlQo7o2Iw&oh=00_Afv7YXbtZwKo8C3qoyduZjON0e4OdfmUaf-Bb7fyamGonw&oe=69A3988A",
+      "profilePicURL": null,
+      "postURL": "https://www.instagram.com/p/DVFNaDoEVqZ/",
+      "whyViral": "This post highlights a Darc Sport x Von Dutch collection drop, using a detailed description to engage followers, resulting in 11 comments.",
+      "trend": "#darcsport",
+      "postedAgo": "1d",
+      "hookUsed": "VON DUTCH x DARC SPORT",
+      "audioUsed": null,
+      "takeaway": "Provide detailed descriptions of product drops to engage your audience."
+    },
+    {
+      "id": "3839631903058871335",
+      "platform": "instagram",
+      "username": "_aarguelless",
+      "caption": "🦵🔥 CUÁDRICEPS QUE NO PIDEN PERMISO 🔥🦵\n\nEsta vez son 6 ejercicios de 12–15 reps,\ny 3 de ellos en la misma máquina, pero cambiando la posición del suelo en cada bloque para generar más tensión y ata",
+      "likes": 350,
+      "comments": 12,
+      "shares": 0,
+      "saves": 0,
+      "format": "carousel",
+      "thumbnailURL": "https://scontent-cph2-1.cdninstagram.com/v/t51.82787-15/638860170_18575099056047495_4365306586207033121_n.jpg?stp=dst-jpg_e15_s480x480_tt6&_nc_cat=106&ig_cache_key=MzgzOTYzMDMyNDMxNDMzODAwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHg5NjAuc2RyLkMzIn0%3D&_nc_ohc=uGazCBS_q0oQ7kNvwEG_7MZ&_nc_oc=AdkaCKSWX3ky6PWQBKdehP1sPVtEIIacbDJkGemS9UkLlsn0FJbUbkCoFUJZKy4Wv6Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-cph2-1.cdninstagram.com&_nc_gid=G-Do8hbr8QmJ1IxZb5l3kA&oh=00_AfvVm7by7mPfTuaqu7APr9DaEGuelTNIUTlwGsFx8d7Tmg&oe=69A3A583",
+      "profilePicURL": null,
+      "postURL": "https://www.instagram.com/p/DVJHN9iFMQn/",
+      "whyViral": "The post uses an engaging caption and detailed workout routine, generating 12 comments, showing the effectiveness of educational content.",
+      "trend": "#LegDay",
+      "postedAgo": "1h",
+      "hookUsed": "🦵🔥 CUÁDRICEPS QUE NO PIDEN PERMISO 🔥🦵",
+      "audioUsed": null,
+      "takeaway": "Share detailed workout routines to provide value to your audience."
     }
   ],
   "weeklyTrend": {
-    "direction": "declining",
-    "summary": "Carousel leading format performance with +2.3% vs 7-day average. Overall declining trend across content formats. Emerging hashtags: #gymhumor, #darcsport - potential early trend opportunities.",
+    "direction": "stable",
+    "summary": "Reel leading format performance with +8.1% vs 7-day average. Overall stable trend across content formats. Emerging hashtags: #gymgirl, #gymlife - potential early trend opportunities.",
     "formatChanges": [
+      {
+        "name": "Reel",
+        "thisWeek": 80,
+        "lastWeek": 74,
+        "change": "+8.1%"
+      },
       {
         "name": "Carousel",
         "thisWeek": 90,
@@ -861,24 +861,18 @@
         "change": "+2.3%"
       },
       {
-        "name": "Reel",
-        "thisWeek": 75,
-        "lastWeek": 74,
-        "change": "+1.4%"
+        "name": "Story",
+        "thisWeek": 70,
+        "lastWeek": 71,
+        "change": "-1.4%"
       },
       {
         "name": "Static",
         "thisWeek": 40,
         "lastWeek": 42,
         "change": "-4.8%"
-      },
-      {
-        "name": "Story",
-        "thisWeek": 50,
-        "lastWeek": 71,
-        "change": "-29.6%"
       }
     ],
-    "engagementVelocity": "-7.7%"
+    "engagementVelocity": "+1.0%"
   }
 }
