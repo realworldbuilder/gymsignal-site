@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "date": "2026-02-25",
-    "lastUpdated": "Tuesday, Feb 24, 2026, 10:45 PM",
+    "date": "2026-02-24",
+    "lastUpdated": "Monday, Feb 24, 2026, 11:14 PM",
     "version": "3.0",
     "sources": [
       "real-instagram-scrape",
@@ -10,32 +10,32 @@
       "951-posts-analyzed"
     ]
   },
-  "heroInsight": "Carousels are dominating with an average engagement score of 185, making them the top content format for gymfluencers in 2026 — swipe-through content is the key to better engagement.",
+  "heroInsight": "Carousels are dominating with an average engagement score of 185, making them the top content format for gymfluencers in 2026 \u2014 swipe-through content is the key to better engagement.",
   "formatPerformance": {
     "summary": "Carousels are leading the charge with their high engagement rates, driven by their interactive nature and ability to tell a story over multiple slides. Reels continue to be relevant, estimated to score around 75 due to their dynamic and engaging format, but they require captivating hooks in the first 3 seconds to maximize reach.",
     "data": [
       {
         "name": "Reel",
         "score": 75,
-        "trend": "↑",
+        "trend": "\u2191",
         "note": "Reels maintain a strong presence due to their high engagement potential, especially with high retention in the first 3 seconds."
       },
       {
         "name": "Carousel",
         "score": 85,
-        "trend": "↑",
+        "trend": "\u2191",
         "note": "Carousels are seeing massive save rates, rivaling Reels for engagement, supported by their 61% of total post count."
       },
       {
         "name": "Story",
         "score": 50,
-        "trend": "→",
+        "trend": "\u2192",
         "note": "Stories remain critical for daily engagement, estimated based on their interactive nature and consistent usage in fitness content."
       },
       {
         "name": "Static",
         "score": 40,
-        "trend": "↓",
+        "trend": "\u2193",
         "note": "Static posts have lower engagement, averaging 26 likes, indicating a declining trend compared to dynamic formats."
       }
     ],
@@ -43,42 +43,42 @@
   },
   "trendingHooks": [
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "I tried [X] for 30 days and here's what happened",
       "multiplier": "3.2x engagement vs average",
       "example": "I tried intermittent fasting for 30 days and here's what happened",
       "whyItWorks": "Creates a curiosity gap and promises a story with a dramatic transformation."
     },
     {
-      "trend": "📈",
+      "trend": "\ud83d\udcc8",
       "template": "POV: You're [scenario]",
       "multiplier": "2.8x engagement vs average",
       "example": "POV: You're 3 weeks into your bulk and someone offers you a salad",
       "whyItWorks": "Relatable scenarios that engage the audience by tapping into shared experiences."
     },
     {
-      "trend": "💎",
+      "trend": "\ud83d\udc8e",
       "template": "Why I stopped [X]",
       "multiplier": "4.1x engagement vs average",
       "example": "Why I stopped using pre-workout",
       "whyItWorks": "Intrigue and potential controversy drive comments and shares."
     },
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "[X] vs [Y]: The ultimate showdown",
       "multiplier": "2.5x engagement vs average",
       "example": "Machines vs Free Weights: The ultimate showdown",
       "whyItWorks": "Encourages debate and interaction by presenting a rivalry."
     },
     {
-      "trend": "📈",
+      "trend": "\ud83d\udcc8",
       "template": "The 3 things I wish I knew before [X]",
       "multiplier": "3.0x engagement vs average",
       "example": "The 3 things I wish I knew before starting my cut",
       "whyItWorks": "Promises valuable insights and lessons learned, driving curiosity."
     },
     {
-      "trend": "💎",
+      "trend": "\ud83d\udc8e",
       "template": "5 mistakes you're making with [X]",
       "multiplier": "3.5x engagement vs average",
       "example": "5 mistakes you're making with your deadlift",
@@ -162,32 +162,32 @@
   },
   "trendingAudio": [
     {
-      "trend": "🔥 HOT",
-      "name": "Monkeys Spinning Monkeys — Kevin MacLeod & Kevin The Monkey",
+      "trend": "\ud83d\udd25 HOT",
+      "name": "Monkeys Spinning Monkeys \u2014 Kevin MacLeod & Kevin The Monkey",
       "genre": "Playful, catchy",
       "recommendation": "Use for light-hearted gym memes and funny workout clips",
       "howToFind": "Search 'Monkeys Spinning Monkeys' in IG audio library",
       "bestFor": "gym memes / light-hearted reels"
     },
     {
-      "trend": "📈 RISING",
-      "name": "Debussy 'Clair de Lune' Piano Solo — harryfaoki",
+      "trend": "\ud83d\udcc8 RISING",
+      "name": "Debussy 'Clair de Lune' Piano Solo \u2014 harryfaoki",
       "genre": "Classical, emotional",
       "recommendation": "Perfect for transformation reveals and aesthetic gym shots",
       "howToFind": "Search 'Clair de Lune' in IG audio library",
       "bestFor": "transformation reveals / aesthetic gym vlogs"
     },
     {
-      "trend": "⚠️ SATURATED",
-      "name": "blow hoodtrap remix itsdryko — DRYKO",
+      "trend": "\u26a0\ufe0f SATURATED",
+      "name": "blow hoodtrap remix itsdryko \u2014 DRYKO",
       "genre": "Trap, energetic",
       "recommendation": "Syncs well with high-energy lifts and intense workout sessions",
       "howToFind": "Search 'blow hoodtrap remix' in IG audio library",
       "bestFor": "PR clips / heavy lifts"
     },
     {
-      "trend": "🔥 HOT",
-      "name": "Hopelessly Devoted To You — @partytimekaraoke",
+      "trend": "\ud83d\udd25 HOT",
+      "name": "Hopelessly Devoted To You \u2014 @partytimekaraoke",
       "genre": "Nostalgic, emotional",
       "recommendation": "Use for lifestyle shots and heartfelt gym moments",
       "howToFind": "Search 'Hopelessly Devoted To You' in IG audio library",
@@ -198,7 +198,7 @@
     {
       "topic": "muscle building",
       "status": "emerging",
-      "emoji": "💪",
+      "emoji": "\ud83d\udcaa",
       "detail": "With a +1500% velocity on TikTok, muscle building content is gaining rapid traction.",
       "angle": "Deep dives into muscle recovery and lesser-known muscle activation techniques.",
       "exampleCaption": "Building muscle is more than just lifting heavy. Discover the recovery secrets that make a difference.",
@@ -208,7 +208,7 @@
     {
       "topic": "bulking",
       "status": "emerging",
-      "emoji": "🍔",
+      "emoji": "\ud83c\udf54",
       "detail": "Bulking content is seeing a +1100% velocity increase on TikTok.",
       "angle": "Creative high-calorie meal preps that don't compromise on taste.",
       "exampleCaption": "Bulking doesn't have to be boring. Try these delicious meal preps!",
@@ -218,7 +218,7 @@
     {
       "topic": "gym memes",
       "status": "hot",
-      "emoji": "😂",
+      "emoji": "\ud83d\ude02",
       "detail": "Gym memes are trending on Instagram with a +733.3% velocity, capturing the lighter side of gym culture.",
       "angle": "Behind-the-scenes gym fails that highlight the humorous reality of gym life.",
       "exampleCaption": "When your gym session doesn't go as planned... #gymmemes",
@@ -228,7 +228,7 @@
     {
       "topic": "fitnesstok",
       "status": "rising",
-      "emoji": "🏋️",
+      "emoji": "\ud83c\udfcb\ufe0f",
       "detail": "FitnessTok is trending on TikTok with a +700% velocity, showcasing diverse workout routines.",
       "angle": "Unconventional workout hacks that challenge traditional exercises.",
       "exampleCaption": "Ditch the norm and try these unconventional workout hacks!",
@@ -238,7 +238,7 @@
     {
       "topic": "strength training",
       "status": "emerging",
-      "emoji": "🏋️‍♂️",
+      "emoji": "\ud83c\udfcb\ufe0f\u200d\u2642\ufe0f",
       "detail": "Strength training content is up by +500% on TikTok, indicating a shift towards functional fitness.",
       "angle": "Exploring the benefits of hybrid strength and cardio routines.",
       "exampleCaption": "Combine strength and cardio for the ultimate workout!",
@@ -248,7 +248,7 @@
     {
       "topic": "body transformation",
       "status": "emerging",
-      "emoji": "🔄",
+      "emoji": "\ud83d\udd04",
       "detail": "Body transformation stories are up by +500% on TikTok, ideal for spring cut prep content.",
       "angle": "Mindset shifts that lead to sustainable transformations.",
       "exampleCaption": "Transform your body and mind with these key mindset shifts.",
@@ -395,14 +395,14 @@
   "algoRules": {
     "critical": [
       "DM shares are now 3-5x more valuable than likes, prioritizing content that encourages sharing.",
-      "Saves account for 25% of ranking power, especially collections — encourage 'save for later'.",
+      "Saves account for 25% of ranking power, especially collections \u2014 encourage 'save for later'.",
       "Shares via DM contribute 20% of ranking power, boosting hidden content discovery.",
       "First 3 seconds retention is crucial for Reels reach, emphasizing strong hooks.",
       "Originality score penalizes content with 10+ reposts in 30 days, affecting recommendations."
     ],
     "proTips": [
-      "Post carousel content at 6-7AM — 40% higher save rates in gym demographic.",
-      "Use 'save this' CTAs in slide 3-4 of carousels — drives collection adds.",
+      "Post carousel content at 6-7AM \u2014 40% higher save rates in gym demographic.",
+      "Use 'save this' CTAs in slide 3-4 of carousels \u2014 drives collection adds.",
       "Feature a question or poll in your Stories to boost interaction and retention.",
       "Include a remix of trending audio for Reels to tap into existing viral trends.",
       "Highlight new product drops in Stories with countdown stickers to drive anticipation."
@@ -449,8 +449,8 @@
     {
       "platform": "instagram-reel",
       "title": "Transformational Journey",
-      "hook": "Watch my 30-day transformation journey — the ups, downs, and gains!",
-      "audio": "Debussy 'Clair de Lune' Piano Solo — harryfaoki",
+      "hook": "Watch my 30-day transformation journey \u2014 the ups, downs, and gains!",
+      "audio": "Debussy 'Clair de Lune' Piano Solo \u2014 harryfaoki",
       "format": "30-60 seconds, dramatic storytelling",
       "why": "Transformation content is up +500%, and classical music enhances emotional impact.",
       "hashtags": [
@@ -462,7 +462,7 @@
     {
       "platform": "instagram-carousel",
       "title": "Bulk Season Meal Prep",
-      "hook": "Swipe to see my top 5 bulking meals — easy and delicious!",
+      "hook": "Swipe to see my top 5 bulking meals \u2014 easy and delicious!",
       "format": "5-slide carousel with meal images and recipes",
       "why": "Bulking content is seeing a +1100% velocity increase, perfect for engagement.",
       "hashtags": [
@@ -483,7 +483,7 @@
       "platform": "tiktok",
       "title": "Unconventional Workouts",
       "hook": "Ditch the norm: Try these insane workout hacks!",
-      "audio": "Monkeys Spinning Monkeys — Kevin MacLeod & Kevin The Monkey",
+      "audio": "Monkeys Spinning Monkeys \u2014 Kevin MacLeod & Kevin The Monkey",
       "format": "15-30 seconds, fast-paced",
       "why": "Capitalizes on the +700% velocity of FitnessTok and humor in workouts.",
       "hashtags": [
@@ -607,7 +607,7 @@
       "id": "3839030472974295278",
       "platform": "instagram",
       "username": "onepunchnaz",
-      "caption": "11 week out. 258.4lbs this morning. \n\n@darcsport 🐺 “1punch”\nHD Muscle 💊 “1punch”\n@elev8.foods 🥣 “1punch”\n\n#mrolympia #aesthetics #bodybuilding_motivation #darcsport #classicbodybuilding",
+      "caption": "11 week out. 258.4lbs this morning. \n\n@darcsport \ud83d\udc3a \u201c1punch\u201d\nHD Muscle \ud83d\udc8a \u201c1punch\u201d\n@elev8.foods \ud83e\udd63 \u201c1punch\u201d\n\n#mrolympia #aesthetics #bodybuilding_motivation #darcsport #classicbodybuilding",
       "likes": 6423,
       "comments": 60,
       "shares": 0,
@@ -627,7 +627,7 @@
       "id": "3839143369948201372",
       "platform": "instagram",
       "username": "kaitlynadventures",
-      "caption": "What I eat in a day on a bulk (Aiming for 2100 Cals, 160g or Protein)\nWearing @shedarcsport @shedarcsport 🐺 Code: KAIT10\n\n#darcsport #shedarcsport #NFGU #SSDD",
+      "caption": "What I eat in a day on a bulk (Aiming for 2100 Cals, 160g or Protein)\nWearing @shedarcsport @shedarcsport \ud83d\udc3a Code: KAIT10\n\n#darcsport #shedarcsport #NFGU #SSDD",
       "likes": 2928,
       "comments": 42,
       "shares": 0,
@@ -647,7 +647,7 @@
       "id": "3839431649067806216",
       "platform": "instagram",
       "username": "emilyascari_",
-      "caption": "GUYYYSSSSS I’M OFFICIALLY A DFYNE ATHLETE 🥹🎂\n\nThis has been an absolute dream for YEARS and I actually cannot believe I am saying this bahahaha \n\nDfyne has always been my favourite activewear brand ",
+      "caption": "GUYYYSSSSS I\u2019M OFFICIALLY A DFYNE ATHLETE \ud83e\udd79\ud83c\udf82\n\nThis has been an absolute dream for YEARS and I actually cannot believe I am saying this bahahaha \n\nDfyne has always been my favourite activewear brand ",
       "likes": 841,
       "comments": 92,
       "shares": 0,
@@ -659,7 +659,7 @@
       "whyViral": "Announcing a new brand partnership with DFYNE, this post captures excitement and authenticity, reflected in 92 comments on 841 likes.",
       "trend": "#sunrise",
       "postedAgo": "20h",
-      "hookUsed": "GUYYYSSSSS I’M OFFICIALLY A DFYNE ATHLETE",
+      "hookUsed": "GUYYYSSSSS I\u2019M OFFICIALLY A DFYNE ATHLETE",
       "audioUsed": null,
       "takeaway": "Leverage milestone announcements to engage your audience and celebrate brand partnerships."
     },
@@ -667,7 +667,7 @@
       "id": "3839501867378281921",
       "platform": "instagram",
       "username": "mikavanoord",
-      "caption": "Chat rate de hoed \n\n@youngla code ‘Mika’ \n@esncom @esncom.nl code ‘mikavanoord’ \n\n#gym #fitness #youngla #ski #skivacation",
+      "caption": "Chat rate de hoed \n\n@youngla code \u2018Mika\u2019 \n@esncom @esncom.nl code \u2018mikavanoord\u2019 \n\n#gym #fitness #youngla #ski #skivacation",
       "likes": 916,
       "comments": 119,
       "shares": 0,
@@ -687,7 +687,7 @@
       "id": "3839196560291435502",
       "platform": "instagram",
       "username": "chaunesseabailey",
-      "caption": "you’ll see what I mean soon 🙂‍↕️\n\nwearing @gymshark\ncode: CBAILEY10 🤍\n\n#gymshark #cuttingseason #growthjourney",
+      "caption": "you\u2019ll see what I mean soon \ud83d\ude42\u200d\u2195\ufe0f\n\nwearing @gymshark\ncode: CBAILEY10 \ud83e\udd0d\n\n#gymshark #cuttingseason #growthjourney",
       "likes": 880,
       "comments": 42,
       "shares": 0,
@@ -699,7 +699,7 @@
       "whyViral": "The post effectively uses anticipation and a Gymshark collaboration to engage followers, with 42 comments on 880 likes.",
       "trend": "#gymshark",
       "postedAgo": "1d",
-      "hookUsed": "you’ll see what I mean soon",
+      "hookUsed": "you\u2019ll see what I mean soon",
       "audioUsed": null,
       "takeaway": "Create anticipation for upcoming content or changes to keep your audience engaged and curious."
     },
@@ -707,7 +707,7 @@
       "id": "3838561370313851443",
       "platform": "instagram",
       "username": "annettevasquezzz",
-      "caption": "@darcsport x Von Dutch is live!! 🖤 code “ANNETTE”\n\n@shedarcsport #DARCSPORT #SHEDARCSPORT #NFGU #SSDD",
+      "caption": "@darcsport x Von Dutch is live!! \ud83d\udda4 code \u201cANNETTE\u201d\n\n@shedarcsport #DARCSPORT #SHEDARCSPORT #NFGU #SSDD",
       "likes": 2291,
       "comments": 23,
       "shares": 0,
@@ -727,7 +727,7 @@
       "id": "3838638729528125671",
       "platform": "instagram",
       "username": "ddfi.t",
-      "caption": "@darcsport x @vondutch \n\nAlways moving and grooving ❤️‍🔥🐺\n_______________\n@darcsport x @shedarcsport || DARIA \n\n.\n.\n. \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#gym #fitness #DARCSPORT, #SHEDARCSPORT, #NFGU",
+      "caption": "@darcsport x @vondutch \n\nAlways moving and grooving \u2764\ufe0f\u200d\ud83d\udd25\ud83d\udc3a\n_______________\n@darcsport x @shedarcsport || DARIA \n\n.\n.\n. \n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n#gym #fitness #DARCSPORT, #SHEDARCSPORT, #NFGU",
       "likes": 1614,
       "comments": 32,
       "shares": 0,
@@ -747,7 +747,7 @@
       "id": "3838598692178338673",
       "platform": "instagram",
       "username": "miny_miranda",
-      "caption": "@darcsport x @vondutch The most iconic duo of all time💘\nNo one does it better than the Darc Girls.🖤\nDrop is live!!!! Code: MINY✨\n#y2k #y2kinspo #darcsport #vondutch",
+      "caption": "@darcsport x @vondutch The most iconic duo of all time\ud83d\udc98\nNo one does it better than the Darc Girls.\ud83d\udda4\nDrop is live!!!! Code: MINY\u2728\n#y2k #y2kinspo #darcsport #vondutch",
       "likes": 762,
       "comments": 49,
       "shares": 0,
@@ -767,7 +767,7 @@
       "id": "3838429082091124523",
       "platform": "instagram",
       "username": "soppheeyahh",
-      "caption": "DARC x VON DUTCH drops tonight at 8pm CST! \n\nFor the y2k girlies🐺💞\n\n@darcsport \n@shedarcsport \ncode sophia🫶🏼\n\n#darcsport",
+      "caption": "DARC x VON DUTCH drops tonight at 8pm CST! \n\nFor the y2k girlies\ud83d\udc3a\ud83d\udc9e\n\n@darcsport \n@shedarcsport \ncode sophia\ud83e\udef6\ud83c\udffc\n\n#darcsport",
       "likes": 451,
       "comments": 11,
       "shares": 0,
@@ -787,7 +787,7 @@
       "id": "3839155392727499880",
       "platform": "instagram",
       "username": "macyyfit_",
-      "caption": "What I eat in a day prioritising high protein & whole foods🍓 @dfyne.official dc MACYFIT\n\n#dfyne #wholefoods #gymfood #highprotein #whatieatinaday",
+      "caption": "What I eat in a day prioritising high protein & whole foods\ud83c\udf53 @dfyne.official dc MACYFIT\n\n#dfyne #wholefoods #gymfood #highprotein #whatieatinaday",
       "likes": 245,
       "comments": 78,
       "shares": 0,
@@ -807,7 +807,7 @@
       "id": "3838344372316957038",
       "platform": "instagram",
       "username": "limamike17",
-      "caption": "Short kings United! Got a lift in with the bro @fitnessdon_ 💪🏾💪🏾💪🏾",
+      "caption": "Short kings United! Got a lift in with the bro @fitnessdon_ \ud83d\udcaa\ud83c\udffe\ud83d\udcaa\ud83c\udffe\ud83d\udcaa\ud83c\udffe",
       "likes": 660,
       "comments": 30,
       "shares": 0,
@@ -847,7 +847,7 @@
       "id": "7608364046936591647",
       "platform": "tiktok",
       "username": "talkden69",
-      "caption": "It’s never this serious i’m crying 😭😭😭😭😭😭 #fyp #gymtok #cringe #xyzbca ",
+      "caption": "It\u2019s never this serious i\u2019m crying \ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d #fyp #gymtok #cringe #xyzbca ",
       "likes": 849300,
       "comments": 3466,
       "shares": 157900,
@@ -859,7 +859,7 @@
       "whyViral": "This TikTok post humorously addresses gym culture, achieving massive engagement with 849,300 likes and 157,900 shares.",
       "trend": "#fyp",
       "postedAgo": "6d",
-      "hookUsed": "It’s never this serious i’m crying",
+      "hookUsed": "It\u2019s never this serious i\u2019m crying",
       "audioUsed": "Debussy \"Clair de Lune\" Piano Solo(1428687)",
       "takeaway": "Use humor to connect with your audience and encourage sharing."
     },
@@ -887,7 +887,7 @@
       "id": "7609756931816738062",
       "platform": "tiktok",
       "username": "tbowtrains",
-      "caption": "we’re cool for the summer @DFYNE code tbow\n\n#gymtok #physique #fyp ",
+      "caption": "we\u2019re cool for the summer @DFYNE code tbow\n\n#gymtok #physique #fyp ",
       "likes": 108000,
       "comments": 376,
       "shares": 5375,
@@ -899,7 +899,7 @@
       "whyViral": "This TikTok post highlights a DFYNE collaboration with a summer vibe, achieving 108,000 likes and 5,375 shares.",
       "trend": "#gymtok",
       "postedAgo": "2d",
-      "hookUsed": "we’re cool for the summer",
+      "hookUsed": "we\u2019re cool for the summer",
       "audioUsed": "original sound",
       "takeaway": "Use seasonal themes and brand collaborations to create timely and engaging content."
     },
@@ -907,7 +907,7 @@
       "id": "3839164006276601468",
       "platform": "instagram",
       "username": "aitana_berjon",
-      "caption": "Outfits lately, theme: color combos 🖤\nNo soy tanto de colores, pero estos combosssss🫠🔋\n@wolfpak.official lo que me encanta es que mi gymbag de WOLFpak combina con el combo que sea (c0de AITANA 10% ",
+      "caption": "Outfits lately, theme: color combos \ud83d\udda4\nNo soy tanto de colores, pero estos combosssss\ud83e\udee0\ud83d\udd0b\n@wolfpak.official lo que me encanta es que mi gymbag de WOLFpak combina con el combo que sea (c0de AITANA 10% ",
       "likes": 737,
       "comments": 6,
       "shares": 0,
@@ -947,7 +947,7 @@
       "id": "3838533222607706777",
       "platform": "instagram",
       "username": "rodrigue.z.lifts",
-      "caption": "VON DUTCH x DARC SPORT \n\nThe collection drops tonight!!! 6PST | 8CST | 9EST\n\nThe @darcsport design team went HAM on this drop 🤌 a ton of new y2K styles, bikinis, and COLOR 😏🐺 \n\nIf you have any ques",
+      "caption": "VON DUTCH x DARC SPORT \n\nThe collection drops tonight!!! 6PST | 8CST | 9EST\n\nThe @darcsport design team went HAM on this drop \ud83e\udd0c a ton of new y2K styles, bikinis, and COLOR \ud83d\ude0f\ud83d\udc3a \n\nIf you have any ques",
       "likes": 394,
       "comments": 11,
       "shares": 0,
@@ -967,7 +967,7 @@
       "id": "3838660169685279020",
       "platform": "instagram",
       "username": "gymscenter",
-      "caption": "😭\n\n#gym #gymlife #gymmemes #gymrat #gymhumor",
+      "caption": "\ud83d\ude2d\n\n#gym #gymlife #gymmemes #gymrat #gymhumor",
       "likes": 715,
       "comments": 1,
       "shares": 0,
@@ -979,7 +979,7 @@
       "whyViral": "This post uses humor in a gym meme format, engaging with 1 comment on 715 likes.",
       "trend": "#gym",
       "postedAgo": "1d",
-      "hookUsed": "😭",
+      "hookUsed": "\ud83d\ude2d",
       "audioUsed": null,
       "takeaway": "Utilize humor and memes to connect with your audience and encourage interaction."
     }
