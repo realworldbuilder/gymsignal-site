@@ -8,34 +8,38 @@
       "real-tiktok-scrape",
       "gpt4o-analysis",
       "5400-posts-analyzed"
-    ]
+    ],
+    "postsAnalyzed": 5400,
+    "hashtagsTracked": 18,
+    "brandsTracked": 12,
+    "totalPostsAllTime": 7442
   },
-  "heroInsight": "⚡️ Carousels are dominating the engagement game with an average of 17k likes per post, proving their worth as the top-performing format in 2026. @annabel.lucinda's carousel post hit 63,558 likes, showcasing the power of swipe-through content.",
+  "heroInsight": "\u26a1\ufe0f Carousels are dominating the engagement game with an average of 17k likes per post, proving their worth as the top-performing format in 2026. @annabel.lucinda's carousel post hit 63,558 likes, showcasing the power of swipe-through content.",
   "formatPerformance": {
     "summary": "Carousels are currently winning the engagement race with superior save and share rates, while Reels maintain relevance for their reach potential.",
     "data": [
       {
         "name": "Reel",
         "score": 75,
-        "trend": "↑",
+        "trend": "\u2191",
         "note": "Reels are crucial for reach, with first 3-second retention being vital for their performance."
       },
       {
         "name": "Carousel",
         "score": 85,
-        "trend": "↑",
+        "trend": "\u2191",
         "note": "Carousels are seeing a massive save rate and engagement, evident from @annabel.lucinda's post."
       },
       {
         "name": "Story",
         "score": 55,
-        "trend": "→",
+        "trend": "\u2192",
         "note": "Stories are indispensable for daily engagement boosts, despite lacking direct hashtag data."
       },
       {
         "name": "Static",
         "score": 40,
-        "trend": "↓",
+        "trend": "\u2193",
         "note": "Static posts are losing ground, with lower average likes and engagement."
       }
     ],
@@ -43,42 +47,42 @@
   },
   "trendingHooks": [
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "Why I stopped [X] for 30 days",
       "multiplier": "3.2x engagement vs average",
       "example": "Why I stopped using pre-workout for 30 days",
-      "whyItWorks": "Creates a curiosity gap and promises insights from a personal experiment — drives comments and shares."
+      "whyItWorks": "Creates a curiosity gap and promises insights from a personal experiment \u2014 drives comments and shares."
     },
     {
-      "trend": "📈",
+      "trend": "\ud83d\udcc8",
       "template": "POV: You're [scenario]",
       "multiplier": "2.8x engagement vs average",
       "example": "POV: You're three months into your cut and someone offers you pizza",
       "whyItWorks": "Relatable scenarios encourage engagement through shared experiences and humor."
     },
     {
-      "trend": "📈",
-      "template": "Operation GAINS😝⚡️",
+      "trend": "\ud83d\udcc8",
+      "template": "Operation GAINS\ud83d\ude1d\u26a1\ufe0f",
       "multiplier": "3.6x engagement vs average",
-      "example": "Operation GAINS😝⚡️ — New PR in the bag!",
+      "example": "Operation GAINS\ud83d\ude1d\u26a1\ufe0f \u2014 New PR in the bag!",
       "whyItWorks": "Exudes excitement and energy, catching attention and encouraging gym-goers to share their triumphs."
     },
     {
-      "trend": "💎",
+      "trend": "\ud83d\udc8e",
       "template": "I tried [X] and here's what happened",
       "multiplier": "2.5x engagement vs average",
       "example": "I tried intermittent fasting and here's what happened",
       "whyItWorks": "Promises a story arc with personal insight, appealing to those curious about fitness trends."
     },
     {
-      "trend": "💎",
+      "trend": "\ud83d\udc8e",
       "template": "Before [X] vs After [X]",
       "multiplier": "2.3x engagement vs average",
       "example": "Before my bulk vs After my bulk",
       "whyItWorks": "Visual transformations are highly engaging and relatable, driving curiosity and shares."
     },
     {
-      "trend": "🔥",
+      "trend": "\ud83d\udd25",
       "template": "Here's why [X] changed my gym game",
       "multiplier": "3.0x engagement vs average",
       "example": "Here's why switching to a PPL split changed my gym game",
@@ -162,32 +166,32 @@
   },
   "trendingAudio": [
     {
-      "trend": "🔥 HOT",
-      "name": "Reason To Stay — Olivia Dean",
+      "trend": "\ud83d\udd25 HOT",
+      "name": "Reason To Stay \u2014 Olivia Dean",
       "genre": "Universal",
       "recommendation": "Best for transformation reveals and lifestyle vlogs.",
       "howToFind": "Search 'Reason To Stay' in the IG audio library.",
       "bestFor": "transformation reveals / gym vlogs"
     },
     {
-      "trend": "📈 RISING",
-      "name": "Hopelessly Devoted To You — @partytimekaraoke",
+      "trend": "\ud83d\udcc8 RISING",
+      "name": "Hopelessly Devoted To You \u2014 @partytimekaraoke",
       "genre": "Nostalgic",
       "recommendation": "Pairs well with personal journey stories.",
       "howToFind": "Search 'Hopelessly Devoted To You' in IG audio library.",
       "bestFor": "fit checks / gym vlogs"
     },
     {
-      "trend": "⚠️ SATURATED",
-      "name": "Mental Breakdown — @allurebh",
+      "trend": "\u26a0\ufe0f SATURATED",
+      "name": "Mental Breakdown \u2014 @allurebh",
       "genre": "Dramatic",
       "recommendation": "Ideal for humorous takes on gym struggles.",
       "howToFind": "Use 'original audio' from @allurebh.",
       "bestFor": "gym humor / meme content"
     },
     {
-      "trend": "📈 RISING",
-      "name": "Orange Juice — @glocknerauto",
+      "trend": "\ud83d\udcc8 RISING",
+      "name": "Orange Juice \u2014 @glocknerauto",
       "genre": "Upbeat",
       "recommendation": "Great for upbeat gym routines and PR clips.",
       "howToFind": "Search 'Orange Juice' in IG audio library.",
@@ -198,60 +202,60 @@
     {
       "topic": "#musclebuilding",
       "status": "emerging",
-      "emoji": "💪",
+      "emoji": "\ud83d\udcaa",
       "detail": "Massive 1500% growth on TikTok, signaling a shift towards muscle-centric content.",
       "angle": "Focus on unconventional muscle-building techniques that aren't widely covered.",
-      "exampleCaption": "Tried a new muscle-building technique and saw insane results! 💪",
+      "exampleCaption": "Tried a new muscle-building technique and saw insane results! \ud83d\udcaa",
       "velocity": "+1500%",
       "trajectory": "accelerating"
     },
     {
       "topic": "#bulk",
       "status": "emerging",
-      "emoji": "🍔",
+      "emoji": "\ud83c\udf54",
       "detail": "1100% increase on TikTok as lifters share their bulking journeys.",
       "angle": "Highlight the 'dirty bulk' vs 'clean bulk' debate with personal anecdotes.",
-      "exampleCaption": "Dirty bulk vs Clean bulk — which side are you on? 🍔",
+      "exampleCaption": "Dirty bulk vs Clean bulk \u2014 which side are you on? \ud83c\udf54",
       "velocity": "+1100%",
       "trajectory": "accelerating"
     },
     {
       "topic": "#bodytransformation",
       "status": "rising",
-      "emoji": "🔄",
+      "emoji": "\ud83d\udd04",
       "detail": "500% growth on TikTok as users showcase dramatic before-and-afters.",
       "angle": "Focus on mental transformation that accompanies the physical change.",
-      "exampleCaption": "More than just a physical change — here's my mental transformation journey. 🔄",
+      "exampleCaption": "More than just a physical change \u2014 here's my mental transformation journey. \ud83d\udd04",
       "velocity": "+500%",
       "trajectory": "sustained"
     },
     {
       "topic": "#gymmemes",
       "status": "emerging",
-      "emoji": "🤣",
+      "emoji": "\ud83e\udd23",
       "detail": "733.3% velocity on Instagram as humor content gains popularity.",
       "angle": "Create niche memes that only true gym rats would understand.",
-      "exampleCaption": "When your rest day turns into a cheat meal day... 🤣",
+      "exampleCaption": "When your rest day turns into a cheat meal day... \ud83e\udd23",
       "velocity": "+733.3%",
       "trajectory": "accelerating"
     },
     {
       "topic": "#fitnesstips",
       "status": "rising",
-      "emoji": "📝",
+      "emoji": "\ud83d\udcdd",
       "detail": "233.3% growth on TikTok, indicating growing demand for practical advice.",
       "angle": "Focus on unconventional tips that challenge common gym myths.",
-      "exampleCaption": "Forget what you've heard — these fitness tips will change your game! 📝",
+      "exampleCaption": "Forget what you've heard \u2014 these fitness tips will change your game! \ud83d\udcdd",
       "velocity": "+233.3%",
       "trajectory": "accelerating"
     },
     {
       "topic": "#biceps",
       "status": "emerging",
-      "emoji": "💪",
+      "emoji": "\ud83d\udcaa",
       "detail": "300% increase on TikTok, with users focusing on arm hypertrophy.",
       "angle": "Explore the 'arm day' culture and unexpected bicep exercises.",
-      "exampleCaption": "Not your average arm day — try these bicep burners! 💪",
+      "exampleCaption": "Not your average arm day \u2014 try these bicep burners! \ud83d\udcaa",
       "velocity": "+300%",
       "trajectory": "accelerating"
     }
@@ -409,8 +413,8 @@
       "Originality score: 10+ reposts in 30 days = shadowbanned from recommendations, focus on unique content."
     ],
     "proTips": [
-      "Post carousel content at 6-7AM — 40% higher save rates in gym demographic.",
-      "Use 'save this' CTAs in slide 3-4 of carousels — drives collection adds.",
+      "Post carousel content at 6-7AM \u2014 40% higher save rates in gym demographic.",
+      "Use 'save this' CTAs in slide 3-4 of carousels \u2014 drives collection adds.",
       "Leverage 'reason to stay' audio for transformation Reels for maximum impact.",
       "Incorporate polls or quizzes in Stories to boost interaction rates.",
       "Keep Reels under 30 seconds to optimize completion rates and retention."
@@ -458,7 +462,7 @@
       "platform": "instagram-reel",
       "title": "Muscle-Building Techniques Reel",
       "hook": "Ever tried this new muscle-building technique?",
-      "audio": "Reason To Stay — Olivia Dean",
+      "audio": "Reason To Stay \u2014 Olivia Dean",
       "format": "15-30 sec, dynamic shots, quick cuts",
       "why": "Leverage the emerging #musclebuilding trend with 1500% velocity on TikTok.",
       "hashtags": [
@@ -491,7 +495,7 @@
       "platform": "tiktok",
       "title": "Bicep Workout Routine",
       "hook": "These bicep burners are insane!",
-      "audio": "Orange Juice — @glocknerauto",
+      "audio": "Orange Juice \u2014 @glocknerauto",
       "format": "30 sec, energetic, instructional",
       "why": "Capitalize on the #biceps trend with 300% velocity on TikTok.",
       "hashtags": [
@@ -582,7 +586,7 @@
       "id": "3840494482924492165",
       "platform": "instagram",
       "username": "annabel.lucinda",
-      "caption": "4 YEARS SOBER!! ✨\n\nFor those who don’t know… in February of 2022, I made one of the most important decisions of my life: I chose to go completely sober.\n\nAt the time, I was struggling deeply with alco",
+      "caption": "4 YEARS SOBER!! \u2728\n\nFor those who don\u2019t know\u2026 in February of 2022, I made one of the most important decisions of my life: I chose to go completely sober.\n\nAt the time, I was struggling deeply with alco",
       "likes": 63558,
       "comments": 489,
       "shares": 0,
@@ -642,7 +646,7 @@
       "id": "3837649334268202150",
       "platform": "instagram",
       "username": "alexis_xol",
-      "caption": "Von Dutch x @darcsport \nTOMORROW / 6PM PST \n\n🪩 ‘XOL’ to $AVE \n\n#vondutch #darcsport #darc",
+      "caption": "Von Dutch x @darcsport \nTOMORROW / 6PM PST \n\n\ud83e\udea9 \u2018XOL\u2019 to $AVE \n\n#vondutch #darcsport #darc",
       "likes": 11912,
       "comments": 140,
       "shares": 0,
@@ -662,7 +666,7 @@
       "id": "3839692787944305804",
       "platform": "instagram",
       "username": "tivneet_kaur",
-      "caption": "New collection dropping tonight at 8pm UK time @younglaforher 🤍🩷\nCode: Tiv for 15% off \n\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#youngla #feminine #thickthighs #londongyms gymbox",
+      "caption": "New collection dropping tonight at 8pm UK time @younglaforher \ud83e\udd0d\ud83e\ude77\nCode: Tiv for 15% off \n\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n#youngla #feminine #thickthighs #londongyms gymbox",
       "likes": 7667,
       "comments": 74,
       "shares": 0,
@@ -682,7 +686,7 @@
       "id": "3839030472974295278",
       "platform": "instagram",
       "username": "onepunchnaz",
-      "caption": "11 week out. 258.4lbs this morning. \n\n@darcsport 🐺 “1punch”\nHD Muscle 💊 “1punch”\n@elev8.foods 🥣 “1punch”\n\n#mrolympia #aesthetics #bodybuilding_motivation #darcsport #classicbodybuilding",
+      "caption": "11 week out. 258.4lbs this morning. \n\n@darcsport \ud83d\udc3a \u201c1punch\u201d\nHD Muscle \ud83d\udc8a \u201c1punch\u201d\n@elev8.foods \ud83e\udd63 \u201c1punch\u201d\n\n#mrolympia #aesthetics #bodybuilding_motivation #darcsport #classicbodybuilding",
       "likes": 7392,
       "comments": 66,
       "shares": 0,
@@ -722,7 +726,7 @@
       "id": "3839078258352954431",
       "platform": "instagram",
       "username": "dfyne.official",
-      "caption": "this week is fuelled by new ORIGIN✨\n\nany guesses what colour is still to come? \n\nnew ORIGIN launching 26 February at 4pm GMT\n\n#DFYNE",
+      "caption": "this week is fuelled by new ORIGIN\u2728\n\nany guesses what colour is still to come? \n\nnew ORIGIN launching 26 February at 4pm GMT\n\n#DFYNE",
       "likes": 5793,
       "comments": 141,
       "shares": 0,
@@ -762,7 +766,7 @@
       "id": "3838311593663866850",
       "platform": "instagram",
       "username": "kathrynm_fit",
-      "caption": "G-I-V-E-A-W-A-Y 💙🎉\n\nI’m partnering with @alphalete to give away 3 x $100 gift cards in preparation for their birthdays sale and drop 2! \n\nHere’s how to enter:\n1️⃣ like this post\n2️⃣ follow me @kathr",
+      "caption": "G-I-V-E-A-W-A-Y \ud83d\udc99\ud83c\udf89\n\nI\u2019m partnering with @alphalete to give away 3 x $100 gift cards in preparation for their birthdays sale and drop 2! \n\nHere\u2019s how to enter:\n1\ufe0f\u20e3 like this post\n2\ufe0f\u20e3 follow me @kathr",
       "likes": 1430,
       "comments": 3413,
       "shares": 0,
@@ -782,7 +786,7 @@
       "id": "3836867784873669842",
       "platform": "instagram",
       "username": "gymscenter",
-      "caption": "😌\n\n#gym #gymmemes #gymlife #gains #glutes",
+      "caption": "\ud83d\ude0c\n\n#gym #gymmemes #gymlife #gains #glutes",
       "likes": 13038,
       "comments": 16,
       "shares": 0,
@@ -802,7 +806,7 @@
       "id": "3836838934235631831",
       "platform": "instagram",
       "username": "agbodoll",
-      "caption": "25 I was still becoming.\n28 I am blooming. 🌹\n\nAging like fine wine, richer, deeper, more refined with time.\nStronger in my body. Softer in my spirit. Wiser in my decisions.\n\nThe gym shaped my curves ",
+      "caption": "25 I was still becoming.\n28 I am blooming. \ud83c\udf39\n\nAging like fine wine, richer, deeper, more refined with time.\nStronger in my body. Softer in my spirit. Wiser in my decisions.\n\nThe gym shaped my curves ",
       "likes": 6448,
       "comments": 70,
       "shares": 0,
@@ -822,7 +826,7 @@
       "id": "3838314956857295838",
       "platform": "instagram",
       "username": "thegymhighlights",
-      "caption": "😭\n\n#gym #gymmemes #creatine",
+      "caption": "\ud83d\ude2d\n\n#gym #gymmemes #creatine",
       "likes": 12393,
       "comments": 92,
       "shares": 0,
@@ -842,7 +846,7 @@
       "id": "3835952306940052762",
       "platform": "instagram",
       "username": "rachiemara23",
-      "caption": "Today's festivities... thankful for the opportunity ☺️💪",
+      "caption": "Today's festivities... thankful for the opportunity \u263a\ufe0f\ud83d\udcaa",
       "likes": 9371,
       "comments": 26,
       "shares": 0,
@@ -862,7 +866,7 @@
       "id": "3836267749227669862",
       "platform": "instagram",
       "username": "teagan.kirin",
-      "caption": "we are like Pokémon, you can have an evolution (҂◡̀_◡́)ᕤ it’s fascinating how many forms we can have\n\nlooking back at my forms today .. it’s crazy I’m the same brain slab in every body\n\nLet’s build mo",
+      "caption": "we are like Pok\u00e9mon, you can have an evolution (\u0482\u25e1\u0300_\u25e1\u0301)\u1564 it\u2019s fascinating how many forms we can have\n\nlooking back at my forms today .. it\u2019s crazy I\u2019m the same brain slab in every body\n\nLet\u2019s build mo",
       "likes": 6105,
       "comments": 210,
       "shares": 0,
@@ -871,7 +875,7 @@
       "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/639567625_18041639531767320_8913957490924666250_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=100&ig_cache_key=MzgzNjI2NzU3OTAzOTYwMzczMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxOS5zZHIuQzMifQ%3D%3D&_nc_ohc=-MOruwMYfJMQ7kNvwF8n-ed&_nc_oc=AdkUfi-zxIJyGos8FGXZ5PMEJ5x6zTCEZGjYUbejvgAHlNXGnaRyjmLw_V4UXMF_6Hs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=Qg1VbOgLGfAFwiePEbyytg&oh=00_Aftopr6wl2PDpNFgW05baoTeddpIMKQU0_0BohEwA9lNYQ&oe=69A580B0",
       "profilePicURL": null,
       "postURL": "https://www.instagram.com/p/DU9KTFIAKlm/",
-      "whyViral": "Teagan's post about personal evolution and fitness received 6105 likes and 210 comments, using a unique analogy hook with Pokémon.",
+      "whyViral": "Teagan's post about personal evolution and fitness received 6105 likes and 210 comments, using a unique analogy hook with Pok\u00e9mon.",
       "trend": "#bodybuilding",
       "postedAgo": "6d",
       "hookUsed": "Analogy",
@@ -882,7 +886,7 @@
       "id": "3840540758495727069",
       "platform": "instagram",
       "username": "mariaamdr.fit",
-      "caption": "vuestro subrayador favorito levantador de hierros 🫵🏼💚\n\nnunca pensé que me pondría un color así pero ME HA GUSTAO 🤌🏼 \n\n#gym #gymgirl #gymshark #gymmotivation #workout",
+      "caption": "vuestro subrayador favorito levantador de hierros \ud83e\udef5\ud83c\udffc\ud83d\udc9a\n\nnunca pens\u00e9 que me pondr\u00eda un color as\u00ed pero ME HA GUSTAO \ud83e\udd0c\ud83c\udffc \n\n#gym #gymgirl #gymshark #gymmotivation #workout",
       "likes": 5466,
       "comments": 37,
       "shares": 0,
@@ -922,7 +926,7 @@
       "id": "3838890722649190163",
       "platform": "instagram",
       "username": "thegymtiktok",
-      "caption": "❤️‍🩹\n\n#gym #gymmemes #gymhumor",
+      "caption": "\u2764\ufe0f\u200d\ud83e\ude79\n\n#gym #gymmemes #gymhumor",
       "likes": 19491,
       "comments": 26,
       "shares": 0,
@@ -942,7 +946,7 @@
       "id": "3838311593663866850",
       "platform": "instagram",
       "username": "kathrynm_fit",
-      "caption": "G-I-V-E-A-W-A-Y 💙🎉\n\nI’m partnering with @alphalete to give away 3 x $100 gift cards in preparation for their birthdays sale and drop 2! \n\nHere’s how to enter:\n1️⃣ like this post\n2️⃣ follow me @kathr",
+      "caption": "G-I-V-E-A-W-A-Y \ud83d\udc99\ud83c\udf89\n\nI\u2019m partnering with @alphalete to give away 3 x $100 gift cards in preparation for their birthdays sale and drop 2! \n\nHere\u2019s how to enter:\n1\ufe0f\u20e3 like this post\n2\ufe0f\u20e3 follow me @kathr",
       "likes": 1430,
       "comments": 3413,
       "shares": 0,
@@ -962,7 +966,7 @@
       "id": "3837649334268202150",
       "platform": "instagram",
       "username": "alexis_xol",
-      "caption": "Von Dutch x @darcsport \nTOMORROW / 6PM PST \n\n🪩 ‘XOL’ to $AVE \n\n#vondutch #darcsport #darc",
+      "caption": "Von Dutch x @darcsport \nTOMORROW / 6PM PST \n\n\ud83e\udea9 \u2018XOL\u2019 to $AVE \n\n#vondutch #darcsport #darc",
       "likes": 11912,
       "comments": 140,
       "shares": 0,
