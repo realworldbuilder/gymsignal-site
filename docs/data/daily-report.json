@@ -1,1008 +1,1420 @@
 {
   "metadata": {
-    "date": "2026-03-05",
-    "lastUpdated": "Thursday, Mar 5, 2026, 12:19 PM",
-    "version": "3.0",
+    "generated": 1771715953492,
+    "date": "2026-02-21",
+    "lastUpdated": "Friday, Mar 6 at 5:43 AM",
+    "version": "1.0",
     "sources": [
-      "real-instagram-scrape",
-      "real-tiktok-scrape",
-      "gpt4o-analysis",
-      "1805-posts-analyzed"
-    ],
-    "postsAnalyzed": 1805,
-    "hashtagsTracked": 18,
-    "brandsTracked": 12,
-    "totalPostsAllTime": 12785
+      "scottsocialmarketing",
+      "socialpilot",
+      "buffer",
+      "later",
+      "dashsocial",
+      "heyorca",
+      "smmnut",
+      "explodingtopics",
+      "reddit r/instagrammarketing",
+      "reddit r/socialmediamarketing",
+      "tiktok creative center",
+      "hootsuite",
+      "napoleoncat",
+      "metricool"
+    ]
   },
-  "heroInsight": "Carousel posts currently dominate with an average engagement score of 101, significantly higher than static posts at 60, thanks to their 2.5x better save rates and DM shares.",
+  "heroInsight": "carousel posts are the 2026 algorithm winner \u2014 reels pushed less aggressively, swipe-through content now getting 2.5x better engagement than single posts",
   "formatPerformance": {
-    "summary": "Carousels are outperforming other formats due to their high save rates and shared via DM, indicating that swipe-through content is engaging audiences more effectively.",
     "data": [
       {
-        "name": "Reel",
-        "score": 75,
-        "trend": "↑",
-        "note": "Reels maintain relevance with high retention in the first 3 seconds, essential for maximized reach."
+        "name": "Carousel",
+        "score": 88,
+        "trend": "\u2191",
+        "details": "Carousels crushing it - algorithm favoring swipe-through content. Transformation stories + workout breakdowns = viral gold"
       },
       {
-        "name": "Carousel",
-        "score": 85,
-        "trend": "↑",
-        "note": "Carousels have massive save rates, rivaling Reels, making them a top engagement driver."
+        "name": "Reel",
+        "score": 74,
+        "trend": "\u2192",
+        "details": "Reels pushed less aggressively in 2026. Still solid reach but carousels now outperforming on engagement"
       },
       {
         "name": "Story",
-        "score": 50,
-        "trend": "→",
-        "note": "Stories remain critical for interaction but lack robust data from this scrape."
+        "score": 71,
+        "trend": "\u2191",
+        "details": "Stories with polls/questions now boost main feed reach significantly. Secret weapon for algorithm"
       },
       {
         "name": "Static",
-        "score": 60,
-        "trend": "→",
-        "note": "Static posts have stable but lower engagement, with average likes at 60."
+        "score": 42,
+        "trend": "\u2193",
+        "details": "Static posts struggling hard unless exceptional before/after or viral moment"
       }
     ],
-    "winner": "carousel"
+    "winner": "carousel",
+    "summary": "carousel posts leading with 88% performance score"
   },
   "trendingHooks": [
     {
-      "trend": "🔥",
-      "template": "I stopped [X] and here's what happened",
-      "multiplier": "4.1x engagement vs average",
-      "example": "I stopped doing cardio and here's what happened",
-      "whyItWorks": "Creates curiosity gap + personal story = high comments"
+      "rank": 1,
+      "template": "Why I stopped [X]",
+      "example": "Why I stopped doing HIIT every day",
+      "multiplier": "4.1x",
+      "trend": "\ud83d\udd25",
+      "status": "hot"
     },
     {
-      "trend": "🔥",
-      "template": "POV: You're [scenario]",
-      "multiplier": "2.8x engagement vs average",
-      "example": "POV: You're on your last set and the gym is about to close",
-      "whyItWorks": "Relatable scenarios increase shareability"
-    },
-    {
-      "trend": "📈",
+      "rank": 2,
       "template": "I tried [X] for 30 days",
-      "multiplier": "3.2x engagement vs average",
-      "example": "I tried intermittent fasting for 30 days",
-      "whyItWorks": "Challenges attract interest and inspire followers"
+      "example": "I tried only compound movements for 30 days",
+      "multiplier": "3.2x",
+      "trend": "\ud83d\udd25",
+      "status": "hot"
     },
     {
-      "trend": "📈",
-      "template": "Operation [X]",
-      "multiplier": "2.5x engagement vs average",
-      "example": "Operation Bulk: Gains Incoming",
-      "whyItWorks": "Military-style themes imply discipline and dedication"
+      "rank": 3,
+      "template": "POV: You're [scenario]",
+      "example": "POV: You're 3 months into your cut",
+      "multiplier": "2.8x",
+      "trend": "\u2197",
+      "status": "rising"
     },
     {
-      "trend": "💎",
-      "template": "[X] vs [Y]",
-      "multiplier": "2.0x engagement vs average",
-      "example": "Free weights vs machines: Which builds more muscle?",
-      "whyItWorks": "Debate formats stimulate discussion"
-    },
-    {
-      "trend": "💎",
-      "template": "Why I love [X]",
-      "multiplier": "2.3x engagement vs average",
-      "example": "Why I love deadlifts over squats",
-      "whyItWorks": "Personal endorsements create authenticity and trust"
+      "rank": 4,
+      "template": "Day in my life as a [X]",
+      "example": "Day in my life as a powerlifter",
+      "multiplier": "2.3x",
+      "trend": "\u2197",
+      "status": "rising"
     }
   ],
   "postingTimes": {
-    "summary": "Optimal posting times are early mornings and late evenings for peak engagement.",
+    "heatmap": [
+      {
+        "day": 0,
+        "hour": 0,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 1,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 2,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 3,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 4,
+        "intensity": 17,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 5,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 6,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 7,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 8,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 9,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 10,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 11,
+        "intensity": 36,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 12,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 13,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 14,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 15,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 16,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 17,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 18,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 19,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 20,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 21,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 22,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 0,
+        "hour": 23,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 0,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 1,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 2,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 3,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 4,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 5,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 6,
+        "intensity": 22,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 7,
+        "intensity": 24,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 8,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 9,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 10,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 11,
+        "intensity": 36,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 12,
+        "intensity": 24,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 13,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 14,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 15,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 16,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 17,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 18,
+        "intensity": 40,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 19,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 20,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 21,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 22,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 1,
+        "hour": 23,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 0,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 1,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 2,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 3,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 4,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 5,
+        "intensity": 36,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 6,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 7,
+        "intensity": 22,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 8,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 9,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 10,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 11,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 12,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 13,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 14,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 15,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 16,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 17,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 18,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 19,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 20,
+        "intensity": 36,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 21,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 22,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 2,
+        "hour": 23,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 0,
+        "intensity": 40,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 1,
+        "intensity": 17,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 2,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 3,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 4,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 5,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 6,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 7,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 8,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 9,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 10,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 11,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 12,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 13,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 14,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 15,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 16,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 17,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 18,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 19,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 20,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 21,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 22,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 3,
+        "hour": 23,
+        "intensity": 17,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 0,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 1,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 2,
+        "intensity": 17,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 3,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 4,
+        "intensity": 24,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 5,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 6,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 7,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 8,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 9,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 10,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 11,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 12,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 13,
+        "intensity": 23,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 14,
+        "intensity": 17,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 15,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 16,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 17,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 18,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 19,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 20,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 21,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 22,
+        "intensity": 13,
+        "optimal": false
+      },
+      {
+        "day": 4,
+        "hour": 23,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 0,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 1,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 2,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 3,
+        "intensity": 22,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 4,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 5,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 6,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 7,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 8,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 9,
+        "intensity": 37,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 10,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 11,
+        "intensity": 24,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 12,
+        "intensity": 34,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 13,
+        "intensity": 15,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 14,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 15,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 16,
+        "intensity": 39,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 17,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 18,
+        "intensity": 19,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 19,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 20,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 21,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 22,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 5,
+        "hour": 23,
+        "intensity": 11,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 0,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 1,
+        "intensity": 28,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 2,
+        "intensity": 21,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 3,
+        "intensity": 27,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 4,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 5,
+        "intensity": 14,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 6,
+        "intensity": 18,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 7,
+        "intensity": 25,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 8,
+        "intensity": 35,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 9,
+        "intensity": 20,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 10,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 11,
+        "intensity": 32,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 12,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 13,
+        "intensity": 12,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 14,
+        "intensity": 31,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 15,
+        "intensity": 36,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 16,
+        "intensity": 10,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 17,
+        "intensity": 33,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 18,
+        "intensity": 26,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 19,
+        "intensity": 16,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 20,
+        "intensity": 30,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 21,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 22,
+        "intensity": 38,
+        "optimal": false
+      },
+      {
+        "day": 6,
+        "hour": 23,
+        "intensity": 24,
+        "optimal": false
+      }
+    ],
     "bestWindows": [
       {
-        "day": "Monday",
+        "day": "Sunday",
         "hours": [
-          6,
-          7,
+          9,
+          10,
+          16,
           17,
           18
         ],
-        "boost": "+40% engagement"
-      },
-      {
-        "day": "Tuesday",
-        "hours": [
-          6,
-          7,
-          12,
-          18
-        ],
-        "boost": "+35% engagement"
-      },
-      {
-        "day": "Wednesday",
-        "hours": [
-          6,
-          7,
-          17,
-          18
-        ],
-        "boost": "+38% engagement"
-      },
-      {
-        "day": "Thursday",
-        "hours": [
-          6,
-          7,
-          12,
-          18
-        ],
-        "boost": "+32% engagement"
-      },
-      {
-        "day": "Friday",
-        "hours": [
-          6,
-          7,
-          17,
-          18
-        ],
-        "boost": "+36% engagement"
+        "boost": "170%"
       },
       {
         "day": "Saturday",
         "hours": [
           8,
           9,
-          11,
-          12
+          10,
+          16,
+          17
         ],
-        "boost": "+30% engagement"
+        "boost": "160%"
       },
       {
-        "day": "Sunday",
+        "day": "Thursday",
         "hours": [
-          8,
-          9,
+          6,
+          7,
           17,
-          18
+          18,
+          19
         ],
-        "boost": "+28% engagement"
+        "boost": "150%"
       }
-    ]
+    ],
+    "summary": "Peak engagement: Sundays at 17am"
   },
   "trendingAudio": [
     {
-      "trend": "🔥 HOT",
-      "name": "Aaya Sher — Anirudh Ravichander",
-      "usageCount": 4,
-      "avgLikes": 593,
+      "name": "Lush Life (Zara Larsson)",
+      "trend": "\ud83d\udd25",
+      "genre": "confident",
+      "saturation": "medium",
+      "recommendation": "solid choice"
+    },
+    {
+      "name": "Slowed Rihanna Sample",
+      "trend": "\u2197",
+      "genre": "chill",
+      "saturation": "low",
+      "recommendation": "use before it peaks"
+    },
+    {
+      "name": "Cinematic Clock Ticking",
+      "trend": "\ud83d\udd25",
       "genre": "dramatic",
-      "recommendation": "Use for intense workout montages",
-      "howToFind": "Search 'Aaya Sher' in IG audio library",
-      "bestFor": "transformation reveals",
-      "examplePosts": [
-        "https://www.instagram.com/p/DVbQPayEiGC/",
-        "https://www.instagram.com/p/DVdXizVkqx8/"
-      ]
+      "saturation": "medium",
+      "recommendation": "solid choice"
     },
     {
-      "trend": "📈 RISING",
-      "name": "Woo — Rihanna",
-      "usageCount": 3,
-      "avgLikes": 452,
-      "genre": "hype rap",
-      "recommendation": "Perfect for showcasing new gym fits",
-      "howToFind": "Search 'Woo' by Rihanna",
-      "bestFor": "fit checks",
-      "examplePosts": [
-        "https://www.instagram.com/p/DVbebjoAHeV/",
-        "https://www.instagram.com/p/DVdSh51jAqI/"
-      ]
+      "name": "Beast Mode Phonk",
+      "trend": "\u2192",
+      "genre": "aggressive",
+      "saturation": "high",
+      "recommendation": "oversaturated - avoid"
     },
     {
-      "trend": "⚠️ SATURATED",
-      "name": "5-7 — Karan Aujla",
-      "usageCount": 6,
-      "avgLikes": 17,
-      "genre": "hype",
-      "recommendation": "Use sparingly to avoid overuse",
-      "howToFind": "Search '5-7' in IG audio library",
-      "bestFor": "PR clips",
-      "examplePosts": [
-        "https://www.instagram.com/p/DVdQcAPkxJV/"
-      ]
-    },
-    {
-      "trend": "📈 RISING",
-      "name": "DREAMS COME TRUE — excape.",
-      "usageCount": 3,
-      "avgLikes": 646,
-      "genre": "inspirational",
-      "recommendation": "Pairs well with achievement posts",
-      "howToFind": "Search 'DREAMS COME TRUE' in IG audio library",
-      "bestFor": "meal prep",
-      "examplePosts": [
-        "https://www.instagram.com/p/DVbn1EzkZjU/"
-      ]
+      "name": "3 Quick Tips Audio",
+      "trend": "\u2197",
+      "genre": "tutorial",
+      "saturation": "low",
+      "recommendation": "use before it peaks"
     }
   ],
   "hotTopics": [
     {
-      "topic": "muscle building techniques",
-      "status": "emerging",
-      "emoji": "💪",
-      "detail": "#musclebuilding on TikTok is up 1500%, signaling a surge in interest for new techniques and strategies.",
-      "angle": "Focus on unconventional or lesser-known muscle-building hacks",
-      "exampleCaption": "Unlocking the secret to explosive muscle growth",
-      "velocity": "+1500%",
-      "trajectory": "accelerating"
-    },
-    {
-      "topic": "bulking season",
-      "status": "rising",
-      "emoji": "🍔",
-      "detail": "With #bulk and #bulking both seeing over 1000% growth on TikTok, this topic is gaining traction as lifters gear up for gains.",
-      "angle": "Showcase clean bulking meal plans and progress",
-      "exampleCaption": "Bulking up without the extra fat — here's how!",
-      "velocity": "+1100%",
-      "trajectory": "sustained"
-    },
-    {
-      "topic": "gym memes",
+      "topic": "cutting season",
       "status": "hot",
-      "emoji": "😂",
-      "detail": "#gymmemes on Instagram has spiked 733.3%, illustrating the community's love for humor and relatability.",
-      "angle": "Create memes that highlight gym pet peeves",
-      "exampleCaption": "When someone asks if you're done with the squat rack... only 3 more sets!",
-      "velocity": "+733.3%",
-      "trajectory": "sustained"
+      "emoji": "\ud83d\udd25",
+      "score": 92,
+      "momentum": "\ud83d\udd25"
     },
     {
-      "topic": "strength training science",
+      "topic": "ozempic debates",
+      "status": "hot",
+      "emoji": "\ud83d\udd25",
+      "score": 88,
+      "momentum": "\ud83d\udd25"
+    },
+    {
+      "topic": "winter bulking",
+      "status": "cooling",
+      "emoji": "\u2744\ufe0f",
+      "score": 34,
+      "momentum": "\u2744\ufe0f"
+    },
+    {
+      "topic": "home workouts",
+      "status": "stable",
+      "emoji": "\u2192",
+      "score": 65,
+      "momentum": "\u2192"
+    },
+    {
+      "topic": "meal prep sunday",
+      "status": "stable",
+      "emoji": "\u2192",
+      "score": 71,
+      "momentum": "\u2192"
+    },
+    {
+      "topic": "gym anxiety",
       "status": "rising",
-      "emoji": "📚",
-      "detail": "#strengthtraining is up 500% on TikTok, indicating a growing interest in scientific approaches to training.",
-      "angle": "Focus on new studies or breakthroughs in training methodologies",
-      "exampleCaption": "The science-backed way to double your strength gains",
-      "velocity": "+500%",
-      "trajectory": "accelerating"
+      "emoji": "\ud83d\udcc8",
+      "score": 78,
+      "momentum": "\u2197"
     },
     {
-      "topic": "body transformations",
-      "status": "emerging",
-      "emoji": "🦸‍♂️",
-      "detail": "#bodytransformation is trending upwards on TikTok (+500%), capturing the audience's love for dramatic changes.",
-      "angle": "Highlight the emotional journey behind the transformation",
-      "exampleCaption": "From underdog to champion: my transformation story",
-      "velocity": "+500%",
-      "trajectory": "accelerating"
+      "topic": "form check",
+      "status": "rising",
+      "emoji": "\ud83d\udcc8",
+      "score": 82,
+      "momentum": "\u2197"
     },
     {
-      "topic": "biceps focus",
-      "status": "emerging",
-      "emoji": "💪",
-      "detail": "#biceps is trending on TikTok (+300%) but hasn't reached Instagram yet, suggesting an opportunity for fresh content.",
-      "angle": "Focus on unique or rare bicep exercises",
-      "exampleCaption": "The ultimate bicep workout you haven't tried yet",
-      "velocity": "+300%",
-      "trajectory": "accelerating"
-    }
-  ],
-  "brandSignals": [
-    {
-      "brand": "gymshark",
-      "tier": "apparel",
-      "signal": "trending",
-      "detail": "Gymshark has the highest mentions with 17 posts, indicating strong brand presence and engagement.",
-      "evidence": "17 posts mentioning brand, avg 91 likes, top post by @saiyan_muscle_mami",
-      "actionable": "Leverage Gymshark's trending status by engaging with their content or tagging them in posts.",
-      "metrics": {
-        "mentions": 17,
-        "avgLikes": 91,
-        "platformSplit": "72% IG / 28% TK"
-      }
-    },
-    {
-      "brand": "dfyne",
-      "tier": "apparel",
-      "signal": "trending",
-      "detail": "DFYNE shows high engagement with an average of 224 likes across 10 mentions.",
-      "evidence": "10 posts mentioning brand, avg 224 likes, top post by @ana_maiafitness",
-      "actionable": "Feature DFYNE apparel in your next gym fit check to tap into their engagement.",
-      "metrics": {
-        "mentions": 10,
-        "avgLikes": 224,
-        "platformSplit": "100% IG"
-      }
-    },
-    {
-      "brand": "youngla",
-      "tier": "apparel",
-      "signal": "sponsorship",
-      "detail": "YoungLA's mentions and engagement show potential for new sponsorship opportunities.",
-      "evidence": "5 posts mentioning brand, avg 59 likes, top post by @kezzyliftz",
-      "actionable": "Reach out to YoungLA for potential collaborations as they expand their creator partnerships.",
-      "metrics": {
-        "mentions": 5,
-        "avgLikes": 59,
-        "platformSplit": "100% IG"
-      }
-    },
-    {
-      "brand": "prime",
-      "tier": "supplements",
-      "signal": "collab",
-      "detail": "Prime's 13 mentions suggest they're actively collaborating with influencers.",
-      "evidence": "13 posts mentioning brand, avg 34 likes, top post by @alex_cano_challenge",
-      "actionable": "Consider collaborating with Prime to enhance your supplement content.",
-      "metrics": {
-        "mentions": 13,
-        "avgLikes": 34,
-        "platformSplit": "80% IG / 20% TK"
-      }
-    },
-    {
-      "brand": "davidlaid",
-      "tier": "creators",
-      "signal": "viral moment",
-      "detail": "David Laid's mentions indicate a viral moment that could be capitalized on.",
-      "evidence": "2 posts mentioning brand, avg 23 likes, top post by @tyswo1e",
-      "actionable": "Engage with David Laid's content to ride the wave of his viral moment.",
-      "metrics": {
-        "mentions": 2,
-        "avgLikes": 23,
-        "platformSplit": "100% IG"
-      }
-    },
-    {
-      "brand": "darcsport",
-      "tier": "apparel",
-      "signal": "drop",
-      "detail": "Darc Sport's low but consistent mention indicates a new drop or collection.",
-      "evidence": "1 post mentioning brand, avg 12 likes, top post by @kendyl_fitt",
-      "actionable": "Highlight Darc Sport's new drop in your next gym fashion content.",
-      "metrics": {
-        "mentions": 1,
-        "avgLikes": 12,
-        "platformSplit": "100% IG"
-      }
+      "topic": "hiit vs strength",
+      "status": "hot",
+      "emoji": "\ud83d\udd25",
+      "score": 85,
+      "momentum": "\ud83d\udd25"
     }
   ],
   "hashtagIntel": [
     {
-      "combo": "#bodybuilding #maharashtra #marathimulgi",
-      "reach": "100K-500K",
-      "engagement": "5784",
-      "recommendation": "Use this combo for regional bodybuilding content to maximize reach.",
-      "contentType": "carousel"
+      "combo": "#fitness #gym #workout",
+      "avgEngagement": "2.4k",
+      "saturation": "medium",
+      "recommendation": "solid baseline",
+      "contentType": "general"
     },
     {
-      "combo": "#bodybuilding #gym #gymtalk",
-      "reach": "50K-100K",
-      "engagement": "3097",
-      "recommendation": "Perfect for gym discussion posts to engage with a focused audience.",
-      "contentType": "static"
+      "combo": "#transformation #beforeandafter #fitness",
+      "avgEngagement": "4.1k",
+      "saturation": "low",
+      "recommendation": "high potential",
+      "contentType": "transformation"
     },
     {
-      "combo": "#bossbabevibes #fitgirls_inspire #gymfit",
-      "reach": "50K-100K",
-      "engagement": "1439",
-      "recommendation": "Target female empowerment in fitness for a more engaged audience.",
-      "contentType": "reels"
+      "combo": "#cuttingseason #shredded #fitness",
+      "avgEngagement": "3.2k",
+      "saturation": "medium",
+      "recommendation": "seasonal hot",
+      "contentType": "cutting"
     },
     {
-      "combo": "#activewearforwomen #bootygains #girlswholiftheavy",
-      "reach": "50K-100K",
-      "engagement": "1245",
-      "recommendation": "Best for showcasing activewear in strength training posts.",
-      "contentType": "carousel"
+      "combo": "#gymmemes #fitness #relatable",
+      "avgEngagement": "5.8k",
+      "saturation": "high",
+      "recommendation": "oversaturated",
+      "contentType": "meme"
+    },
+    {
+      "combo": "#personaltrainer #fitnesstips #workout",
+      "avgEngagement": "1.9k",
+      "saturation": "low",
+      "recommendation": "underused gem",
+      "contentType": "educational"
     }
   ],
+  "weeklyTrend": {
+    "data": [
+      {
+        "date": "2026-02-28",
+        "day": "Sat",
+        "engagement": 138,
+        "isWeekend": true
+      },
+      {
+        "date": "2026-03-01",
+        "day": "Sun",
+        "engagement": 132,
+        "isWeekend": true
+      },
+      {
+        "date": "2026-03-02",
+        "day": "Mon",
+        "engagement": 102,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-03-03",
+        "day": "Tue",
+        "engagement": 107,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-03-04",
+        "day": "Wed",
+        "engagement": 106,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-03-05",
+        "day": "Thu",
+        "engagement": 92,
+        "isWeekend": false
+      },
+      {
+        "date": "2026-03-06",
+        "day": "Fri",
+        "engagement": 108,
+        "isWeekend": false
+      }
+    ],
+    "trend": "stable",
+    "summary": "fitness content engagement holding steady with weekend spikes"
+  },
   "actionItems": [
     {
       "priority": "high",
-      "action": "Create a Reel showcasing your favorite muscle-building technique with the song 'Aaya Sher'.",
-      "timing": "Post on Monday at 6 AM",
-      "hashtags": "#musclebuilding #gym #gains",
-      "expectedBoost": "The mix of trending audio and emerging topic will capture high engagement.",
+      "action": "post carousel with \"Why I stopped [X]\" hook",
+      "timing": "Sunday at 17am",
+      "hashtags": "#fitness #transformation #gymlife",
+      "expectedBoost": "4.1x engagement",
       "confidence": "high"
     },
     {
       "priority": "medium",
-      "action": "Post a carousel of your clean bulking meal prep with 'Woo' by Rihanna.",
-      "timing": "Post on Wednesday at 7 PM",
-      "hashtags": "#bulking #mealprep #gains",
-      "expectedBoost": "Combining meal prep with a rising audio trend increases save rates.",
+      "action": "leverage trending topic: cutting season",
+      "timing": "Saturday evening",
+      "hashtags": "#cuttingseason #fitness #gymtips",
+      "expectedBoost": "2.5x engagement",
       "confidence": "medium"
     },
     {
       "priority": "low",
-      "action": "Use Stories to poll your audience about their favorite gym memes.",
-      "timing": "Post on Saturday at 9 AM",
-      "hashtags": "#gymmemes #funny #fitfam",
-      "expectedBoost": "Interactive content drives higher engagement through direct feedback.",
+      "action": "try rising audio trend: Slowed Rihanna Sample",
+      "timing": "weekend morning (8-10am)",
+      "hashtags": "#motivation #gymlife #fitness",
+      "expectedBoost": "1.8x engagement",
       "confidence": "medium"
-    },
-    {
-      "priority": "high",
-      "action": "Launch a TikTok on 'Why I love deadlifts' with a personal story angle.",
-      "timing": "Post on Friday at 6 PM",
-      "hashtags": "#deadlifts #strength #fitness",
-      "expectedBoost": "Leveraging personal stories on TikTok can go viral due to relatability.",
-      "confidence": "high"
     }
   ],
   "algoRules": {
     "critical": [
-      "DM shares = 3-5x more valuable than likes",
-      "Saves = 25% of ranking power",
-      "Shares via DM = 20% of ranking power",
-      "First 3 seconds retention = critical for Reels reach",
-      "Originality score: 10+ reposts in 30 days = shadowbanned from recommendations"
+      "first 3 seconds = everything. 60%+ viewers past 3s = algo pushes wider",
+      "DM shares > saves > comments > likes (in order of algo weight)",
+      "CONSISTENCY > format choice in 2026. same days, same windows, same niche identity",
+      "no tiktok/capcut watermarks \u2014 auto-disqualified from explore + reels tab",
+      "10+ reposts in 30 days = excluded from ALL recommendations",
+      "carousels getting boosted reach again \u2014 not just reels anymore",
+      "captions scanned by NLP for semantic search \u2014 write for humans AND the algo",
+      "original content gets 40-60% more distribution than reposts",
+      "clarity beats creativity: 3-second profile identity test determines follow rate"
     ],
     "proTips": [
-      "Post carousel content at 6-7 AM — 40% higher save rates in gym demographic",
-      "Use 'save this' CTAs in slide 3-4 of carousels — drives collection adds",
-      "Leverage trending audio in Reels to increase DM shares",
-      "Engage with high-performing posts to boost your own visibility",
-      "Optimize first 3 seconds of Reels with eye-catching visuals to maximize reach"
+      "ask yourself: 'would someone DM this to a friend?' if yes, the algo rewards you",
+      "keep reels 15-30 sec for highest completion rate",
+      "respond to comments in first hour \u2014 conversation depth > comment count",
+      "use trial reels to test with non-followers before pushing to audience",
+      "mix hashtag sizes: 2-3 broad (1M+), 2-3 mid (100K-1M), 1-2 niche (<100K)",
+      "posting patterns > posting times. same days, same windows, every week.",
+      "faceless reels work IF you build native formats \u2014 no cross-posting",
+      "slower targeted growth > fast spike tools. engagement quality matters in 2026"
     ]
   },
   "tiktokCrossover": {
-    "summary": "Hashtags like #musclebuilding are booming on TikTok but haven't peaked on IG yet, offering a first-mover advantage.",
+    "summary": "what starts on tiktok hits IG 1-2 weeks later. here's what's about to cross over.",
     "incoming": [
       {
-        "trend": "#musclebuilding",
-        "tiktokViews": "1500% increase",
+        "trend": "3-3-3 interval walking",
+        "tiktokViews": "4.2B",
+        "igStatus": "early",
+        "eta": "happening NOW"
+      },
+      {
+        "trend": "rucking vest content",
+        "tiktokViews": "+1000% growth",
         "igStatus": "not yet",
-        "eta": "1-2 weeks",
-        "velocity": "+1500%",
-        "firstMoverWindow": "2-4 weeks"
+        "eta": "1-2 weeks"
+      },
+      {
+        "trend": "Olympic Theme audio for achievements",
+        "tiktokViews": "trending",
+        "igStatus": "early",
+        "eta": "this week"
+      },
+      {
+        "trend": "japanese ambient audio",
+        "tiktokViews": "#1 trending sound",
+        "igStatus": "not yet",
+        "eta": "2-3 weeks"
       }
     ]
   },
-  "crossPosts": [
-    {
-      "platform": "instagram-reel",
-      "title": "Unboxing New Gym Gear",
-      "hook": "Check out my latest haul from Gymshark!",
-      "audio": "Woo — Rihanna",
-      "format": "30 seconds, fast-paced unboxing",
-      "why": "Gymshark's trending status and hype music increase engagement",
-      "hashtags": [
-        "#gymshark",
-        "#fitspo"
-      ],
-      "priority": "high"
-    },
-    {
-      "platform": "instagram-carousel",
-      "title": "Progress Pics: 30-Day Transformation",
-      "hook": "Swipe to see the gains!",
-      "format": "5 slides, before-and-after",
-      "why": "Carousels are dominating with 2.5x engagement",
-      "hashtags": [
-        "#transformation",
-        "#gains"
-      ],
-      "priority": "medium"
-    },
-    {
-      "platform": "instagram-story",
-      "title": "What's Your Favorite Lift?",
-      "hook": "Poll: Deadlift vs Squat",
-      "format": "Poll sticker + gym selfies",
-      "why": "Interactive stories increase engagement and direct feedback",
-      "priority": "medium"
-    },
-    {
-      "platform": "tiktok",
-      "title": "Bicep Blast Routine",
-      "hook": "This bicep workout will blow your mind!",
-      "audio": "Trending TikTok audio",
-      "format": "15 seconds, quick cuts",
-      "why": "Bicep focus is emerging with +300% velocity",
-      "hashtags": [
-        "#biceps",
-        "#gymtok"
-      ],
-      "priority": "high"
-    },
-    {
-      "platform": "threads",
-      "title": "Gym Pet Peeves",
-      "hook": "What's your biggest gym pet peeve? Discuss!",
-      "format": "Question",
-      "why": "Relatable posts drive replies and engagement",
-      "priority": "medium"
-    },
-    {
-      "platform": "newsletter",
-      "title": "The Science of Strength Gains",
-      "hook": "Unlock New Levels of Strength: Latest Research",
-      "format": "Deep dive into new studies on strength training",
-      "why": "Emerging interest in scientific training methods offers depth",
-      "priority": "low"
-    }
-  ],
-  "velocityAlerts": [
-    {
-      "type": "emerging",
-      "hashtag": "#musclebuilding",
-      "velocity": "+1500%",
-      "platform": "TK",
-      "insight": "Capitalize on this emerging trend before it peaks on IG."
-    },
-    {
-      "type": "first_mover",
-      "hashtag": "#biceps",
-      "velocity": "+300%",
-      "platform": "TK",
-      "insight": "Be among the first to bring this trend to IG for an early advantage."
-    },
-    {
-      "type": "sustained",
-      "hashtag": "#gymmemes",
-      "velocity": "+733.3%",
-      "platform": "IG",
-      "insight": "Continue to leverage humor and relatability in gym content."
-    }
-  ],
-  "engagementBenchmarks": [
-    {
-      "hashtag": "#fitspodaily",
-      "avgLikes": "7593",
-      "avgComments": "20",
-      "reach": "100K-500K",
-      "niche": "general fitness"
-    },
-    {
-      "hashtag": "#gymgirlvibes",
-      "avgLikes": "7509",
-      "avgComments": "18",
-      "reach": "100K-500K",
-      "niche": "female fitness"
-    },
-    {
-      "hashtag": "#gymphotography",
-      "avgLikes": "5639",
-      "avgComments": "16",
-      "reach": "50K-100K",
-      "niche": "fitness photography"
-    },
-    {
-      "hashtag": "#fitgirlenergy",
-      "avgLikes": "4534",
-      "avgComments": "14",
-      "reach": "50K-100K",
-      "niche": "female fitness"
-    }
-  ],
-  "hotPosts": [
-    {
-      "id": "3844864052485161033",
-      "platform": "instagram",
-      "username": "thedorianyates",
-      "caption": "Here’s some shots from 1995 in the dungeon.\n\nTaken for my prep files, for my physique review.\n\nThese were taken on a hot Summers day in August I believe and yes - believe it or not - there was the occ",
-      "likes": 12714,
-      "comments": 75,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/645898324_18568790362029030_3336777235018681006_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzg0NDg2MTA5NDUxOTM4NjA5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzl4MTI3NS5zZHIuQzMifQ%3D%3D&_nc_ohc=KlvDVEny-n0Q7kNvwEw6H6m&_nc_oc=AdnkI9AnmJlp4RUclFpBtlxHrBPeeRc_SXAjVHKJihbI0iyH15iPjiueWuCFZk1hxfY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=olurJ_EL20CQsgTfzkVeIQ&_nc_ss=1a&oh=00_Afw-c78F0Y1V4vmncUYumzDjwYMlw8_b45-3gdVJIjeU7g&oe=69ADDD64",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbs3waDABJ/",
-      "whyViral": "This post features vintage bodybuilding shots from 1995, appealing to nostalgia and history enthusiasts. With 12,714 likes and 75 comments, it demonstrates the power of unique, historical content.",
-      "trend": "#MrOlympia",
-      "postedAgo": "1d",
-      "hookUsed": "Nostalgia",
-      "audioUsed": null,
-      "takeaway": "Leverage nostalgia by sharing unique, historical content that your audience can connect with."
-    },
-    {
-      "id": "3844901559544678095",
-      "platform": "instagram",
-      "username": "brandon.d.hendrickson",
-      "caption": "One thing we all have in common is the ability to dream, envision, and form a plan..the difference is who decides to execute 🎯🌊🏄🏾‍♂️💎\n\n#gymtalk #gym #tlk #bodybuilding #physique",
-      "likes": 5773,
-      "comments": 80,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/641295971_18570018577007436_6227717087653267684_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=108&ig_cache_key=Mzg0NDkwMTA0MTM4MDM3MDcyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkxOS5zZHIuQzMifQ%3D%3D&_nc_ohc=Nde4xvfyl6EQ7kNvwFYIF03&_nc_oc=AdmQ_mChutBiHJDmSvEmQbjS-QDb-DEWRJnPQKI8Oz_3L3pCZR7RTMStIB4zDmb-P0U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=olurJ_EL20CQsgTfzkVeIQ&_nc_ss=1a&oh=00_AfxC3m2GaEFFP7T_0ec3C9FTO952HdojZlzXMib9xm-CSQ&oe=69ADF1C9",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVb1ZjlAYbP/",
-      "whyViral": "Brandon Hendrickson's post combines motivational text with high-quality physique images, garnering 5,773 likes and 80 comments. The combination of inspiration and visual appeal is a winning strategy.",
-      "trend": "#gymtalk",
-      "postedAgo": "1d",
-      "hookUsed": "Motivational message",
-      "audioUsed": null,
-      "takeaway": "Pair motivational messages with striking visuals to engage and inspire your audience."
-    },
-    {
-      "id": "3844841877997197524",
-      "platform": "instagram",
-      "username": "lesley_cusumano",
-      "caption": "Mornings like this are proof that the world is beautiful when it’s quiet. 🌻\n.\n.\n.\n#fitnurse #athlete #morningroutine #bodybuilder #musclemommy",
-      "likes": 1939,
-      "comments": 166,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/642504045_18447046246108679_3317637073356267669_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=111&ig_cache_key=Mzg0NDgzOTY1MzYyMzU3MDg5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTgwMC5zZHIuQzMifQ%3D%3D&_nc_ohc=La85yh9WQzgQ7kNvwFvCGUQ&_nc_oc=Adl5gH4fQbNF6u04pgPi6GaN8bkEAQKZ5zyom-lSw6RDL62469SF835C4pbkahRPPk4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=VXcP0Q4TzvTYQKIXbYQaFQ&_nc_ss=1a&oh=00_Afx3KxRU8qrDlfW4dWGk96-BFtZd0KvUBa1IFT_YYqODiQ&oe=69ADC841",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbn1EzkZjU/",
-      "whyViral": "Lesley Cusumano's post about the beauty of quiet mornings resonates with followers, achieving 1,939 likes and 166 comments. The personal touch and relatable content drive engagement.",
-      "trend": "#fitnurse",
-      "postedAgo": "1d",
-      "hookUsed": "Relatable personal story",
-      "audioUsed": null,
-      "takeaway": "Share personal, relatable moments to foster a deeper connection with your audience."
-    },
-    {
-      "id": "3845267828970953639",
-      "platform": "instagram",
-      "username": "swati_gade_official",
-      "caption": "🌶️महाराष्ट्रची.. .\n.\n\n.\n.\n.\n#powerlifting #bodybuilding #zeemarathi #marathimulgi #maharashtra",
-      "likes": 5535,
-      "comments": 85,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/645882771_18149558089458103_176274184055369061_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_cat=105&ig_cache_key=Mzg0NTI2NjYzMzA5MTAwMjc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyOTB4MTcyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Wo5fjcArIyAQ7kNvwHvpegD&_nc_oc=AdlknDPfRk1CA2CRhfJWcCtk9IMU4wFK5OENzDY8lIOq-_xO1BeUT7UAy4J_sB__tJQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=dDZ5ZtMxsBfyXQ-vQVGITA&_nc_ss=1a&oh=00_AfxqeZtnRAT6pmoPnnmMEIu_WMR6s4KoNvHsPomnlawcBQ&oe=69ADE9B4",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVdIrekDRun/",
-      "whyViral": "Swati Gade's post taps into regional pride and cultural identity, receiving 5,535 likes and 85 comments. The use of local language and cultural references enhances engagement.",
-      "trend": "#powerlifting",
-      "postedAgo": "1d",
-      "hookUsed": "Cultural identity",
-      "audioUsed": null,
-      "takeaway": "Incorporate cultural and regional elements to connect with niche audiences."
-    },
-    {
-      "id": "3841923558298051109",
-      "platform": "instagram",
-      "username": "nikhitha.todeti",
-      "caption": "Gym fits \n.\n.\n.\n.\n#gymfit #gymfitcheck #gym",
-      "likes": 1992,
-      "comments": 29,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/639969137_17901218208387048_1170503229102442251_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=Mzg0MTkyMjIwNTUyNTk3Mzg5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyNDJ4MTY1Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=xixIIk4_ntUQ7kNvwFxdMPB&_nc_oc=AdkIqc1aUbrhA_fZzfciuIteViMf6x_wQjYMl8sHHwDrL965RqOsrH9dt-tHrfZ-iJM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=_zOpDhob58hpuJgWn3HaAw&_nc_ss=1a&oh=00_AfyQVYBAYlbaZjOdWYprhzPA4h65MWUq9yw_iYGBTZlE5g&oe=69ADCF20",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVRQR7yj2Il/",
-      "whyViral": "Nikhitha Todeti's gym fit check post attracts 1,992 likes and 29 comments, showcasing the popularity of fashion-focused content within fitness niches.",
-      "trend": "#gymfit",
-      "postedAgo": "5d",
-      "hookUsed": "Fashion focus",
-      "audioUsed": null,
-      "takeaway": "Regularly feature gym fit checks to engage fashion-conscious fitness enthusiasts."
-    },
-    {
-      "id": "3844916343863146407",
-      "platform": "instagram",
-      "username": "iako_success",
-      "caption": "Learn back muscles anatomy with me 🧚🏼‍♀️\n.\nPerform each exercise with 2/3 sets & 12/15 repetitions 🦾\nI have 3kg dumbbells in my arms.\n.\njoin the Legion 👁️ \n🎥@axannah.g\n\n#back #backworkout #physiq",
-      "likes": 1163,
-      "comments": 13,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/641776888_17964770157042975_4871902076385904902_n.jpg?stp=dst-jpg_e15_s480x480_tt6&_nc_cat=108&ig_cache_key=Mzg0NDkxMzk3OTE5MDA0NjEyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHg5NjAuc2RyLkMzIn0%3D&_nc_ohc=XPqNUb4y4-kQ7kNvwFSRhWz&_nc_oc=Adm-iUjIXCyqb-ZDeHoj2_4a96UwbT8CkNRsuPVaYLvSB7lpBDy2IJxw9vPTX0P2Ego&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=_ZifFzLYq9NQ0Jw2iO0Mjg&_nc_ss=1a&oh=00_AfytpkQI2j7wnodmJ20YezI6h0OtDg7u_IE07dIQcHZZig&oe=69ADE0AA",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVb4wsjDnen/",
-      "whyViral": "This educational post on back muscle anatomy by Iako Success, with 1,163 likes and 13 comments, highlights the value of informative content in fitness.",
-      "trend": "#back",
-      "postedAgo": "1d",
-      "hookUsed": "Educational content",
-      "audioUsed": null,
-      "takeaway": "Create educational content that adds value and positions you as an expert."
-    },
-    {
-      "id": "3844800541964138389",
-      "platform": "instagram",
-      "username": "jacobbowless",
-      "caption": "Natty 2005\n#bodybuilding #physique #abs #fitnessmodel #gymlife",
-      "likes": 1352,
-      "comments": 53,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/642795140_17913564927305631_1732050844883686089_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=101&ig_cache_key=Mzg0NDc5ODkyNTYxMzU5MjUxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Bp-pW0E3DYMQ7kNvwGmqUNo&_nc_oc=AdmLWM8smZj3oRXR2w6QzMN4lMS0WUCiJeyDoURTsXp0hwjCCKtviCYQDjF37TaW8EU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=TtLZEW6h9TfhoHdbqFRO2g&_nc_ss=1a&oh=00_Afz2RWmy6svRG9igjnStfSnrIBssdYpJrDxuLMB1I0nUWw&oe=69ADC863",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbebjoAHeV/",
-      "whyViral": "Jacob Bowless's post, featuring a nostalgic reference to 2005, received 1,352 likes and 53 comments, showing the appeal of throwback content.",
-      "trend": "#bodybuilding",
-      "postedAgo": "2d",
-      "hookUsed": "Throwback",
-      "audioUsed": null,
-      "takeaway": "Use throwback content to evoke nostalgia and engage your audience."
-    },
-    {
-      "id": "3844677016759700384",
-      "platform": "instagram",
-      "username": "gursimxr7",
-      "caption": "good things happen when you try. \n\n.\n.\n.\n.\n#physique #looksmaxxing #grooming #skincare #glowup",
-      "likes": 3859,
-      "comments": 39,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/641764148_18020553692813717_3952258167621686523_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=101&ig_cache_key=Mzg0NDY3NTYwNTk4MDQyMzM3Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyMDZ4MTIwNi5zZHIuQzMifQ%3D%3D&_nc_ohc=vqva1KXXT1QQ7kNvwFoEgQK&_nc_oc=AdkT-j3PX09vc37xgIBK9Y7A2RDGL7sBbGWgrHuH5pGOj7cR-g7yrI05vIh9-n3jdiY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=Jd099oHVROphLHINFOlhwA&_nc_ss=1a&oh=00_AfydsmL540Rq9hWV2I2AfVQWOsdquYiCwUuFL5EYDXicfg&oe=69ADD45D",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbCWB0Egug/",
-      "whyViral": "Gursimxr7's post, with 3,859 likes and 39 comments, emphasizes the importance of trying, resonating with followers through a simple yet powerful message.",
-      "trend": "#physique",
-      "postedAgo": "2d",
-      "hookUsed": "Simple motivation",
-      "audioUsed": null,
-      "takeaway": "Craft simple, motivational messages that resonate with your audience's aspirations."
-    },
-    {
-      "id": "3844738135184515458",
-      "platform": "instagram",
-      "username": "rajaesthetics.kannada",
-      "caption": "A fictional character\n\n#physique #fitness #body #fyp #explorer",
-      "likes": 2326,
-      "comments": 11,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/640455223_18401926864183951_5180679876155994487_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=Mzg0NDczNjQ0NjczMzkyMDc1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=T7JcKmU40noQ7kNvwFuyGBF&_nc_oc=Adl6-fQamSPNx3DdK7bibnmQxHYoHz9IbtZxi6XmTA2fdVhalZBAD-hfhVwPq_Q3dGA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=kI_1Bk92eiJ-tThFBRVYAA&_nc_ss=1a&oh=00_AfwE9YZZVXknC7pKoo40Oo3dTAI2AxYTyVJm_i_tX4BHXA&oe=69ADD7D3",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbQPayEiGC/",
-      "whyViral": "Rajaesthetics.kannada's post, with 2,326 likes and 11 comments, uses a fictional character theme to creatively engage followers.",
-      "trend": "#physique",
-      "postedAgo": "2d",
-      "hookUsed": "Creative storytelling",
-      "audioUsed": null,
-      "takeaway": "Incorporate creative themes or storytelling to capture your audience's imagination."
-    },
-    {
-      "id": "3844948445832456967",
-      "platform": "instagram",
-      "username": "aaronschoening",
-      "caption": "I want my legs veins back🦵🏼\n\n.\n\n@2discipline_ my coaching \nDM me “GO” to get coached personally \n\n@esncom \nCode AARONS for maximum discount\n\n@jed_north \nCode AARONS 10% off \n\n.\n\n.\n\n#physique #gymmot",
-      "likes": 677,
-      "comments": 23,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/642551623_18308575168262069_8422529707535841017_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzg0NDk0Nzc0Mjk1OTM0MDM0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=p1qxaFQUN_YQ7kNvwE8vR-r&_nc_oc=AdnH2Gkm0tMMxD3zr_7K_LICMEvwIUXQJadkbK1rHxq9ORe-nk_q6vFIVTebUJ8ZG_I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=YIFsRw54-X9I1Pl-nSw-jQ&_nc_ss=1a&oh=00_AfyrozZ0w1eEqyCTyHvmA2XNfWOfCkfCV_MIxIAGjqMVjQ&oe=69ADC12C",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVcAD11iKsH/",
-      "whyViral": "Aaron Schoening's post combines personal fitness goals with brand promotions, achieving 677 likes and 23 comments, showcasing effective personal branding.",
-      "trend": "#physique",
-      "postedAgo": "1d",
-      "hookUsed": "Personal goal sharing",
-      "audioUsed": null,
-      "takeaway": "Integrate personal goals with brand collaborations to enhance authenticity and engagement."
-    },
-    {
-      "id": "3844965865616192516",
-      "platform": "instagram",
-      "username": "lucas.veronezi",
-      "caption": "Um dia incrível de aprendizado e troca de experiências!\n\nMuito conteúdo de qualidade, em breve no canal da @growthsupplements !\n\nO trampo não para.\n\n#powerlifting #mma #armwrestling #teamgrowth #theun",
-      "likes": 1130,
-      "comments": 31,
-      "shares": 0,
-      "saves": 0,
-      "format": "post",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/642456616_18125376670566309_3925206916558344221_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=111&ig_cache_key=Mzg0NDk2NTg2NTYxNjE5MjUxNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=Xoe0E6C6hQEQ7kNvwF98-s0&_nc_oc=Adl9eBGpCrwXCeU-aHALKcK0K4JHLpdeezjfh0mZZMAxEYq-KK8XAKe0LTyKQGVxlAo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=Fp3McWXRNGl1y5sEaWNMYg&_nc_ss=1a&oh=00_AfwTBqRScVr8T8ezu-zmNrYtrHbpcWOM6_Q2NcYHwg01Bg&oe=69ADC903",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVcEBVRjjQE/",
-      "whyViral": "Lucas Veronezi's post highlights a day of learning and collaboration, with 1,130 likes and 31 comments, emphasizing the value of sharing experiences.",
-      "trend": "#powerlifting",
-      "postedAgo": "1d",
-      "hookUsed": "Experience sharing",
-      "audioUsed": null,
-      "takeaway": "Share experiences and collaborations to provide value and build community."
-    },
-    {
-      "id": "3845333437264117160",
-      "platform": "instagram",
-      "username": "built_byjames",
-      "caption": "Most people want the result.\nVery few live the discipline.\n\n#mensphysique\n#physique\n#gymdiscipline\n#fitnessphysique\n#bodyaesthetics",
-      "likes": 664,
-      "comments": 2,
-      "shares": 0,
-      "saves": 0,
-      "format": "post",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/645889187_17851428183636495_3332863792337643583_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzg0NTMzMzQzNzI2NDExNzE2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwMTd4MTM1Ni5zZHIuQzMifQ%3D%3D&_nc_ohc=O4ISpapmDE8Q7kNvwERsRiF&_nc_oc=AdnEeVLLPlXyV-r35u9B7nOmdTMdgWCRP9GBZeGbghoj6fRjxvPNYXcJQTk7Ha1iYpE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=C-mCpM-dkKE_EbpYb2SZaw&_nc_ss=1a&oh=00_AfxrNLBzD5gJ_iW3V9UseTdar2Fm0SZS62SvOtwyhCD6VA&oe=69ADD417",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVdXmNDDz2o/",
-      "whyViral": "Built_byjames's post, with 664 likes and 2 comments, focuses on discipline, appealing to followers seeking motivation and guidance.",
-      "trend": "#mensphysique",
-      "postedAgo": "1d",
-      "hookUsed": "Discipline focus",
-      "audioUsed": null,
-      "takeaway": "Focus on themes of discipline and consistency to motivate your audience."
-    },
-    {
-      "id": "3844988300453063248",
-      "platform": "instagram",
-      "username": "bign8nrg",
-      "caption": "Secondaries total ~ 655 kg / 1,444 lb\n\nSquat\n265 kg / 584 lb x 3\n\nBench\n147.5 kg / 324 lb x 2 \n\nDeadlift\n242.5 kg / 535 lb x 1\n\n5 days out. Body is going to be in shambles by October, but f it we ball",
-      "likes": 608,
-      "comments": 7,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/642705466_18157288582426221_4705180474113400356_n.jpg?stp=dst-jpg_e15_s360x360_tt6&_nc_cat=102&ig_cache_key=Mzg0NDk4NjcxODc2NDI1NzYzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjcyMHg1NzYuc2RyLkMzIn0%3D&_nc_ohc=hVGGXFbCNBYQ7kNvwHEJlhk&_nc_oc=AdkqHHbjapoOjDYfowWZKd_Xd4k5WaDuNQwKs9NT3CeYEqe86Vu3y694ohNA2Fj44gw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=Fp3McWXRNGl1y5sEaWNMYg&_nc_ss=1a&oh=00_AfyoLy9qdz6j6AAcx7GO4yxaqYEZZ8kI35I6m3Vn4WgKXQ&oe=69ADE7EE",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVcJHzWCapQ/",
-      "whyViral": "Bign8nrg's post, detailing a powerlifting routine, received 608 likes and 7 comments, appealing to strength training enthusiasts.",
-      "trend": "#powerlifting",
-      "postedAgo": "1d",
-      "hookUsed": "Workout routine",
-      "audioUsed": null,
-      "takeaway": "Share detailed workout routines to engage and educate your audience."
-    },
-    {
-      "id": "3844926813357721799",
-      "platform": "instagram",
-      "username": "ironpeachmk",
-      "caption": "Swipe with Caution 🙀😽\n\n#big #bigger #biggestglutes #gainz #fit #motivation #gym #fitness #model #physique #legdayeveryday",
-      "likes": 566,
-      "comments": 152,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/640888457_18571407025016753_4422463915071525327_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=105&ig_cache_key=Mzg0NDkyNjIwNDY4ODY3MzM4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=8iX0bVX_NV4Q7kNvwGaS_eq&_nc_oc=AdmMzQR7WaHogPiISx5JvkP3mdLP61IE8Z9BwQFtQf8WFD2RzUmHbszqy7gAybmEiIk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=_ZifFzLYq9NQ0Jw2iO0Mjg&_nc_ss=1a&oh=00_AfyYNPAORVLQBiUTl-lmP29-wMXr7-rlN72ghFNxVcknSA&oe=69ADCBEC",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVb7JDBj8jH/",
-      "whyViral": "Ironpeachmk's post, with 566 likes and 152 comments, uses a playful 'Swipe with Caution' hook to intrigue and engage followers.",
-      "trend": "#big",
-      "postedAgo": "1d",
-      "hookUsed": "Playful intrigue",
-      "audioUsed": null,
-      "takeaway": "Use playful and intriguing hooks to encourage interaction and engagement."
-    },
-    {
-      "id": "3845165551715208893",
-      "platform": "instagram",
-      "username": "saiyan_muscle_mami",
-      "caption": "Oh hello there. Just dumpin shleg day pump pics here. Goodnight \n.\n.\n.\n.\n.\n.#gymshark66 \n#athlete #aesthetic #gymrat #jim #reels #bodybuilding #powerbuilding #musclemami #musclemommy #motivation #gym ",
-      "likes": 404,
-      "comments": 5,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/645736765_18562023781029074_2767404182692773543_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzg0NTE2NTM3MTk4MDg5OTQ4Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjExNzl4MTQ3My5zZHIuQzMifQ%3D%3D&_nc_ohc=kD5ysS2yrRwQ7kNvwFoT56m&_nc_oc=AdnSms3m94xGxhVeK9dXpG2UJto8OpTSBtuhWH60mTnRcjibgCZadAsK0TnNlZONh9I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=2gr9A_TUh5541DW-3-3jaA&_nc_ss=1a&oh=00_AfxllN3yZ4cBmx70evL4kVYtvIgwtH2F5ITpUML_BbrJ9g&oe=69ADCDCD",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVcxbJcjc69/",
-      "whyViral": "Saiyan_muscle_mami's post, with 404 likes and 5 comments, uses a casual, relatable tone to connect with followers.",
-      "trend": "#gymshark66",
-      "postedAgo": "1d",
-      "hookUsed": "Casual tone",
-      "audioUsed": null,
-      "takeaway": "Adopt a casual, relatable tone to foster a sense of community and approachability."
-    },
-    {
-      "id": "3844864692888015942",
-      "platform": "instagram",
-      "username": "gustetics",
-      "caption": "Just some moments from lately. Trying to balance training, school and life while building something bigger. Still a long way to go, but we’re getting there.\n\n#athletelifestyle #teenathlete #dailyrouti",
-      "likes": 394,
-      "comments": 62,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/641327592_17896022565409649_6598190964481058721_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=Mzg0NDg1MDcyNjQwOTM1MTkxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5oZHIuQzMifQ%3D%3D&_nc_ohc=GNifnPyEbIcQ7kNvwG1xEay&_nc_oc=AdkKE6YT4H287FB1nwwND6QsDxiAZGUq-vnNh-VQEmnZTMqCOsHSQx9vK92KJq2yLz4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=olurJ_EL20CQsgTfzkVeIQ&_nc_ss=1a&oh=00_AfyrWRA1sh0lpoIlcUMOFV7RKbYpXIgxwq1VtHsK4Up_QQ&oe=69ADC962",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbtBE1CBRG/",
-      "whyViral": "Gustetics's post, with 394 likes and 62 comments, shares personal growth and balance, resonating with followers seeking inspiration.",
-      "trend": "#athletelifestyle",
-      "postedAgo": "1d",
-      "hookUsed": "Personal growth journey",
-      "audioUsed": null,
-      "takeaway": "Share personal growth journeys to inspire and connect with your audience."
-    },
-    {
-      "id": "3845317252401080154",
-      "platform": "instagram",
-      "username": "cayit.yuksel",
-      "caption": "#goldsgym #egypt #fitness #bodybuilding #exercise",
-      "likes": 2100,
-      "comments": 0,
-      "shares": 0,
-      "saves": 0,
-      "format": "post",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/645801201_18094744001316207_2181076010148304939_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzg0NTMxNzI1MjQwMTA4MDE1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=USJ4a0zK8BAQ7kNvwEgVwhV&_nc_oc=AdmrZJw0Wh2GayYXjrcUHX9vSEYeE2hsZBtAVYn9ez5ooqo_anTGHO0KGxqD6E2IJ40&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=ZjwuQOOBv1-V-tJmCONJjQ&_nc_ss=1a&oh=00_AfwIqYHgiEhvhWLnuHDWBdJB_LmGjZe-Og5qh97MKwkXOA&oe=69ADE458",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVdT6ruDCda/",
-      "whyViral": "Cayit Yuksel's post, with 2,100 likes, leverages popular fitness hashtags to reach a broader audience.",
-      "trend": "#goldsgym",
-      "postedAgo": "1d",
-      "hookUsed": "Hashtag strategy",
-      "audioUsed": null,
-      "takeaway": "Utilize trending hashtags to increase visibility and reach new followers."
-    },
-    {
-      "id": "3844934531540022758",
-      "platform": "instagram",
-      "username": "laird_ross",
-      "caption": "One shoulder is higher than the other and a very tight lower back.\nLast week's heavy squats (350kg - just missed 😢) session absolutely cooked me - well just the mid and lower back.\nNo injuries just t",
-      "likes": 668,
-      "comments": 9,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/645566573_18382125787093026_6871485405401310_n.heic?stp=dst-jpg_e35_s1080x1080_sh0.08_tt6&_nc_cat=104&ig_cache_key=Mzg0NDkzMTU3OTA1MjAwMDUxNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=aN57j-F_clUQ7kNvwGQk-t5&_nc_oc=AdkrnmMXJhpoFAh7KKvwz6GzeoXFevTWDxCdWxipFYh9lYR_6yryHdqc46UCzkIJVxQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=_ZifFzLYq9NQ0Jw2iO0Mjg&_nc_ss=1a&oh=00_AfwAUISKyionEukuIUTyfhnouSI5I2qey2INh9EuEIzK1Q&oe=69ADE1CF",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVb85XJE3Xm/",
-      "whyViral": "Laird Ross's post, with 668 likes and 9 comments, shares a personal setback, creating authenticity and relatability.",
-      "trend": "#powerlifting",
-      "postedAgo": "1d",
-      "hookUsed": "Personal challenge",
-      "audioUsed": null,
-      "takeaway": "Share personal challenges to build authenticity and relatability with your audience."
-    },
-    {
-      "id": "3845267828970953639",
-      "platform": "instagram",
-      "username": "swati_gade_official",
-      "caption": "🌶️महाराष्ट्रची.. .\n.\n\n.\n.\n.\n#powerlifting #bodybuilding #zeemarathi #marathimulgi #maharashtra",
-      "likes": 5535,
-      "comments": 85,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/645882771_18149558089458103_176274184055369061_n.jpg?stp=dst-jpg_e35_p1080x1080_sh0.08_tt6&_nc_cat=105&ig_cache_key=Mzg0NTI2NjYzMzA5MTAwMjc5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEyOTB4MTcyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=Wo5fjcArIyAQ7kNvwHvpegD&_nc_oc=AdlknDPfRk1CA2CRhfJWcCtk9IMU4wFK5OENzDY8lIOq-_xO1BeUT7UAy4J_sB__tJQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=dDZ5ZtMxsBfyXQ-vQVGITA&_nc_ss=1a&oh=00_AfxqeZtnRAT6pmoPnnmMEIu_WMR6s4KoNvHsPomnlawcBQ&oe=69ADE9B4",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVdIrekDRun/",
-      "whyViral": "Swati Gade's post, with 5,523 likes and 85 comments, highlights regional pride and identity, resonating with a specific audience.",
-      "trend": "#powerlifting",
-      "postedAgo": "1d",
-      "hookUsed": "Cultural identity",
-      "audioUsed": null,
-      "takeaway": "Embrace and highlight regional and cultural identity to connect with niche audiences."
-    },
-    {
-      "id": "3844738135184515458",
-      "platform": "instagram",
-      "username": "rajaesthetics.kannada",
-      "caption": "A fictional character\n\n#physique #fitness #body #fyp #explorer",
-      "likes": 2326,
-      "comments": 11,
-      "shares": 0,
-      "saves": 0,
-      "format": "carousel",
-      "thumbnailURL": "https://scontent-prg1-1.cdninstagram.com/v/t51.82787-15/640455223_18401926864183951_5180679876155994487_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=103&ig_cache_key=Mzg0NDczNjQ0NjczMzkyMDc1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTkyMC5zZHIuQzMifQ%3D%3D&_nc_ohc=T7JcKmU40noQ7kNvwFuyGBF&_nc_oc=Adl6-fQamSPNx3DdK7bibnmQxHYoHz9IbtZxi6XmTA2fdVhalZBAD-hfhVwPq_Q3dGA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-prg1-1.cdninstagram.com&_nc_gid=kI_1Bk92eiJ-tThFBRVYAA&_nc_ss=1a&oh=00_AfwE9YZZVXknC7pKoo40Oo3dTAI2AxYTyVJm_i_tX4BHXA&oe=69ADD7D3",
-      "profilePicURL": null,
-      "postURL": "https://www.instagram.com/p/DVbQPayEiGC/",
-      "whyViral": "Rajaesthetics.kannada's post, with 2,326 likes and 11 comments, uses a fictional character theme to creatively engage followers.",
-      "trend": "#physique",
-      "postedAgo": "2d",
-      "hookUsed": "Creative storytelling",
-      "audioUsed": null,
-      "takeaway": "Incorporate creative themes or storytelling to capture your audience's imagination."
-    }
-  ],
-  "weeklyTrend": {
-    "direction": "stable",
-    "summary": "Static leading format performance with +25.0% vs 7-day average. Overall stable trend across content formats. Emerging hashtags: #bodybuilding, #maharashtra - potential early trend opportunities.",
-    "formatChanges": [
-      {
-        "name": "Static",
-        "thisWeek": 60,
-        "lastWeek": 48,
-        "change": "+25.0%"
-      },
-      {
-        "name": "Reel",
-        "thisWeek": 75,
-        "lastWeek": 74.8,
-        "change": "+0.2%"
-      },
-      {
-        "name": "Carousel",
-        "thisWeek": 85,
-        "lastWeek": 88.2,
-        "change": "-3.6%"
-      },
-      {
-        "name": "Story",
-        "thisWeek": 50,
-        "lastWeek": 66.5,
-        "change": "-24.8%"
-      }
+  "gemAlert": {
+    "postId": "gem-demo-001",
+    "platform": "instagram",
+    "username": "cbaborern",
+    "caption": "POV: you finally hit 315 on bench and nobody was recording \ud83d\ude2d save this for your next PR attempt",
+    "likes": 47200,
+    "comments": 3841,
+    "shares": 1205,
+    "saves": 8920,
+    "format": "reel",
+    "thumbnailURL": null,
+    "profilePicURL": null,
+    "postURL": "https://instagram.com/p/demo",
+    "hookUsed": "POV hook",
+    "audioUsed": "original audio",
+    "takeaway": "POV + relatable gym moment + 'save this' CTA = triple threat. the raw phone footage style makes it feel authentic \u2014 no fancy editing needed",
+    "whyGem": [
+      "47.2K likes",
+      "8.1% comment ratio",
+      "POV hook",
+      "reel format"
     ],
-    "engagementVelocity": "-0.8%"
+    "gemScore": 62723,
+    "postedAgo": "3h"
   }
 }
